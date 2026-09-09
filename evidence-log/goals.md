@@ -1,11 +1,17 @@
 # Goals
 
-## Product Goal
-Build an automated schedule-matching platform for independent boutique studios that systematically fills recurring off-peak capacity with net-new attendees while protecting studio margins and brand value.
+## Product Goal (Long-Term Outcome)
 
-**Success measure:** Studio owners increase off-peak yield and overall revenue without cannibalizing full-price peak bookings or lowering standard class rates.
+- **Specific:** Deploy a schedule-matching platform for independent boutique fitness studios in Morocco that identifies recurring empty off-peak seats and matches them with flexible, non-peak users — without relying on discounting.
+- **Measurable:** Increase off-peak seat utilization at partner studios while maintaining standard class rates (no discounting) and without reducing peak-hour attendance.
+- **Achievable:** Start with a small number of pilot boutique studios (independent, 15–25 classes/week) using lightweight schedule integration rather than a full booking-system replacement.
+- **Relevant:** Directly addresses the fixed-cost pain point (rent, instructor pay) established in `opportunity.md`, without the margin/brand risk that discounting introduces.
+- **Time-bound:** [Open gap — no rollout timeline established yet; needs a real deadline once pilot studios are identified]
 
-## Sprint Goal
-Prove whether target consumers will behaviorally alter their daily routines to attend an off-peak class slot when given a non-price timing nudge or matching mechanism (validating Assumption #4).
+## Sprint Goal (This Cycle)
 
-**Success measure:** A measurable shift in booking behavior among users who previously only browsed or attended peak-hour classes.
+- **Specific:** Learn whether target consumers will shift their attendance to an off-peak slot when given a non-price timing nudge, testing Assumption #4.
+- **Measurable:** [Open gap — actual metric and threshold to be defined in `experiment-card.md`, Stages C–D]
+- **Achievable:** A small-scale manual test, not requiring software development, run within this sprint.
+- **Relevant:** Directly isolates Assumption #4 (schedule elasticity) before any engineering investment.
+- **Time-bound:** [Open gap — sprint window not yet fixed; needs a real date]
