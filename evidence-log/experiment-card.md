@@ -1,10 +1,11 @@
 # Experiment Card
 
 ## Hypothesis
-Peak-only boutique fitness users will book and attend at least one off-peak class slot within 7 days under a direct, non-monetary concierge nudge offering priority access or social accountability matching.
+Peak-only boutique fitness users will book and attend at least one off-peak class within 7 days when shown a short list of available off-peak options (not just one suggested slot), delivered via a non-monetary nudge.
+
 
 ## Method
-Run a Concierge experiment with peak-only boutique fitness users by manually reaching out via WhatsApp/DM with personalized non-monetary nudges (priority access or social accountability matching) and manually booking their slots, to observe whether users actually book and attend at least one off-peak class within 7 days.
+Run a Concierge experiment with peak-only boutique fitness users by manually reaching out via WhatsApp/DM with a short, personalized list of available off-peak options (e.g., 2-3 classes across different times/studios), framed as a non-monetary nudge (priority access or social accountability matching), and manually coordinating their booking, to observe whether users actually book and attend at least one off-peak class within 7 days.
 
 ## Metric
 Measure booking rate as the count of users who book an off-peak class slot within 7 days of receiving the nudge, out of total users contacted.
@@ -29,5 +30,6 @@ To keep this test minimal and code-free, the following were deliberately exclude
 - Dynamic pricing or automated discounting logic
 - A custom mobile or web app — outreach and booking are done manually via WhatsApp
 - Automated matching algorithms — nudges (priority access, social matching) are manually selected and sent per user
+- Real-time availability tracking — the "available" options listed are manually curated by us for each message, not pulled from any live schedule or system
 
 Ready to add this as a new section at the end of experiment-card.md. Want to move on to
