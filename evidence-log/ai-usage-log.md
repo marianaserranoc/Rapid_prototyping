@@ -41,7 +41,6 @@ Narrowed USER to: independent boutique studio owner/manager, 15–25 classes/wee
 ### What I drafted, then AI challenged
 - Two early assumptions ("studios need free spots," "studios want to pay for another platform") were flagged as too vague/unfinished to test — pushed to identify the actual underlying claim
 - "Digital booking gets adopted" was flagged as bundling two separate claims (studio-side and student-side adoption) that could fail independently — not yet split, kept as an open gap
-- Accidentally pasted in a set of Nova-related (consumer-side/subscription) assumptions mid-brainstorm — caught before clustering, discarded to keep the file consistent with the studio-side `opportunity.md`
 - "Studios keep availability updated in real time" was flagged as sitting ambiguously between Area 2 (trust/adoption) and Area 3 (technical feasibility) — placed in Area 3 as a judgment call
 
 ### What I accepted vs. revised
@@ -75,7 +74,7 @@ Selected "target consumers have elastic routines and will shift given a nudge/in
 **Purpose:** Draft and sharpen the Product Goal and Sprint Goal, building on the confirmed Opportunity Frame and riskiest assumption (#4: elastic routines/nudges).
 
 ### What I drafted first, then AI challenged
-- Product Goal (v1) included "high-margin revenue" and "price-conscious students... affordable, flexible access" — AI flagged that margin wasn't established anywhere in PAIN POINT/NEED (attendance/utilization was), and that the student-pricing language reintroduced consumer-side framing (echoing the earlier Nova mix-up) despite the USER being the studio owner throughout
+- Product Goal (v1) included "high-margin revenue" and "price-conscious students... affordable, flexible access" — AI flagged that margin wasn't established anywhere in PAIN POINT/NEED (attendance/utilization was), and that the student-pricing language reintroduced consumer-side framing despite the USER being the studio owner throughout
 - Revised Product Goal dropped the student-pricing angle and reframed around "net-new attendees" and "protecting margins/brand value" — consistent with the studio-side USER and the demand-composition argument already established in `opportunity.md`
 
 ### What I accepted vs. flagged as minor
@@ -143,7 +142,7 @@ Selected "target consumers have elastic routines and will shift given a nudge/in
 ### What I drafted first, then AI challenged
 - Hypothesis (v1): confirmed as testing two nudge mechanisms (priority access + social matching) at once — AI flagged this as a bundled claim, meaning a positive result wouldn't reveal which mechanism worked; kept deliberately as a conscious trade-off rather than narrowed
 - Method: initial confusion over whether "the platform" meant building a browsing/reservation app now — AI clarified that Concierge experiments intentionally substitute manual human effort for the automated product, which is the entire point of this experiment type at this stage
-- A tangent arose around pivoting the test toward a ClassPass-style multi-studio model — AI flagged this as a different USER/business model (echoing the earlier Nova mix-up) and confirmed it was only a description of the eventual product's UI, not a change to tonight's test
+- A tangent arose around pivoting the test toward a ClassPass-style multi-studio model — AI flagged this as a different USER/business model (echoing the earlier  mix-up) and confirmed it was only a description of the eventual product's UI, not a change to tonight's test
 - Threshold and sample size: AI flagged that a 3-of-5 threshold assumes exactly 5 contacted users, which conflicts with the stated reality of having only 1 confirmed Moroccan contact at drafting time — resolved by assuming a hypothetical full sample of 5 for the card, with actual recruitment logged as an open gap
 
 ### What I accepted vs. revised
@@ -188,3 +187,19 @@ Selected "target consumers have elastic routines and will shift given a nudge/in
 ### Still open
 - "By when" (recruitment deadline) not yet filled in — no real date provided
 - Actual recruitment execution (reaching 7–8 real contacts via the one confirmed Moroccan contact) not yet done
+
+## Pass 1 — Prototype v0 artifact (Claude, this conversation)
+
+**Tool used:** Claude (code execution — built with reportlab, rendered as PDF)
+**Purpose:** Build the `prototype-v0` artifact — a visual mockup of the Concierge test's WhatsApp nudge script, since Slide 3/5 of the Session 5 deck required a `prototype/` folder with an inspectable artifact, which wasn't yet created.
+
+### What I drafted first, then revised
+- First version showed a single suggested off-peak slot per nudge — after reconsidering whether a single-slot offer matched the intended product, the Hypothesis and Method in `experiment-card.md` were revised to test a short curated list of options instead of one slot; the prototype was rebuilt to match (each nudge now shows 2–3 off-peak options, and the booking confirmation reflects the option the user picked)
+- Initial example dialogue was flagged as feeling too scripted/generic — rewritten with a specific studio name and more natural back-and-forth phrasing
+
+### What was added beyond the original ask
+- A dedicated "Why WhatsApp first, not an app" page, explaining the reasoning for testing manually before building any software — added after a question about why the sequencing goes WhatsApp-then-app rather than building an app directly
+- An additional intentional exclusion ("real-time availability tracking — options are manually curated per message, not pulled from a live system"), added once the nudge shifted from single-slot to list-based, since a list of "available" options implies some notion of availability that needed to be explicitly flagged as manual, not automated
+
+### Output
+6-page PDF (`prototype-v0.pdf`): cover, WhatsApp-first justification, Nudge A (priority access, list-based), Nudge B (social accountability matching), manual booking confirmation, and intentional exclusions — kept consistent with the Method and exclusions already documented in `experiment-card.md`.
