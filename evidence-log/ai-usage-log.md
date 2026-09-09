@@ -68,3 +68,31 @@ Selected "target consumers have elastic routines and will shift given a nudge/in
   * **Locked:** Stage C locked with Assumption #4 as the core pillar.
 * **Riskiest assumption and reasoning:**
   * **Assumption #4 selected:** *"Target consumers have elastic routines and will shift given the right nudge/incentive."* Reasoning: If student routines are behaviorally locked to peak hours, no amount of dynamic pricing or software polish can create off-peak demand (the core idea dies). In contrast, if studio payment willingness (#2) fails, the business model can simply pivot from a SaaS fee to a commission-on-booking model.
+
+## Pass 1 — Goal setting (Claude, this conversation)
+
+**Tool used:** Claude
+**Purpose:** Draft and sharpen the Product Goal and Sprint Goal, building on the confirmed Opportunity Frame and riskiest assumption (#4: elastic routines/nudges).
+
+### What I drafted first, then AI challenged
+- Product Goal (v1) included "high-margin revenue" and "price-conscious students... affordable, flexible access" — AI flagged that margin wasn't established anywhere in PAIN POINT/NEED (attendance/utilization was), and that the student-pricing language reintroduced consumer-side framing (echoing the earlier Nova mix-up) despite the USER being the studio owner throughout
+- Revised Product Goal dropped the student-pricing angle and reframed around "net-new attendees" and "protecting margins/brand value" — consistent with the studio-side USER and the demand-composition argument already established in `opportunity.md`
+
+### What I accepted vs. flagged as minor
+- Accepted: Sprint Goal's explicit "non-price timing nudge" phrasing, which correctly operationalizes Assumption #4 and keeps it distinct from a discount-based test (avoids contaminating the "timing, not pricing" INSIGHT)
+- Flagged, not resolved: "brand value" in the Product Goal is a new concept not previously validated anywhere in `opportunity.md` or `assumptions.md` — noted as a minor addition, not blocking
+
+## Pass 1.1 — Goals Definition & Load-Bearing Sprint Alignment (Gemini, this conversation)
+
+* **Tool used:** Gemini (working off previous context and critique from Claude)
+* **Purpose:** Sharpen the long-term Product Goal and Stage D Sprint Goal, ensuring tight alignment with the locked riskiest assumption (#4) and the updated Opportunity Frame.
+* **What we discussed, challenged & stress-tested:**
+  * **The Discounting Trap:** When Gemini initially drafted a product goal mentioning "dynamic discounts" and "affordable access," we challenged this against the core Pain Point in the Opportunity Frame. Discounting cannibalizes full-price regulars rather than shifting schedules. We debated whether the venture is a "discount marketplace" or a "schedule-matching engine."
+  * **Aligning with Claude’s earlier flags:** Gemini raised Claude’s previous point that timing mismatches and total absence of demand require two completely different solutions. If the core problem is timing, the goal must prove users shift schedules due to non-price nudges (e.g., priority access, accountability mechanisms) rather than just cheap tickets.
+  * **Isolating the Sprint Goal:** We pushed to ensure the Sprint Goal wasn't a vague product milestone, but a direct, binary test of Assumption #4—measuring actual student routine elasticity before building any real software.
+* **What was accepted vs. revised:**
+  * **Revised:** Stripped all references to price-slashing from the Product Goal, refocusing it entirely on margin-protected yield management and schedule matching for studio owners.
+  * **Accepted:** Defined the Sprint Goal around behavioral schedule shifts, explicitly isolating whether non-price incentives can move users into off-peak slots.
+* **Locked Deliverables:**
+  * **Product Goal:** Build an automated schedule-matching platform for independent boutique studios that systematically fills recurring off-peak capacity with net-new attendees while protecting studio margins and brand value.
+  * **Sprint Goal:** Prove whether target consumers will behaviorally alter their daily routines to attend an off-peak class slot when given a non-price timing nudge or matching mechanism (validating Assumption #4).
