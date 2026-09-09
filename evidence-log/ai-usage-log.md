@@ -53,3 +53,18 @@ Narrowed USER to: independent boutique studio owner/manager, 15–25 classes/wee
 Selected "target consumers have elastic routines and will shift given a nudge/incentive" over "studios will pay for a platform fee," because the pricing-model risk has a viable pivot (subscription → transaction commission) while the behavior-elasticity risk has no fallback — if false, the core value proposition doesn't exist.
 
 **Note:** quick mode was run first; a full-mode re-run was planned for deeper coverage before moving to `experiment-card.md`.
+
+Pass 1.1 — Assumption Mapping & Load-Bearing Stress Test (Gemini, this conversation)
+
+* **Tool used:** Gemini
+* **Purpose:** Expand, simplify, and stress-test assumptions across Demand, Studio Adoption, and Feasibility, then isolate the single load-bearing (riskiest) assumption to lock Stage C.
+* **What I drafted/requested, then AI challenged & refined:**
+  * **Operational Gap Evaluation:** AI proposed adding an instructor-alignment assumption (#8) regarding pay and room-density pushback. I challenged this as an over-engineered stretch for an early-stage MVP where instructors follow owner directives, dropping it from the core list.
+  * **Feasibility Gap Isolation (#7):** Identified real-time schedule management (studios keeping availability updated to prevent double-bookings) as the second core technical assumption under Area 3.
+  * **Forced-Choice Load-Bearing Test:** AI forced a direct call between Assumption #4 (student routine elasticity) and Assumption #2 (studios paying platform fees) to determine which failure kills the venture vs. forces a minor pivot.
+* **What I accepted vs. revised:**
+  * **Accepted:** Plain-language framings for Area 2 and Area 3, and the inclusion of real-time availability updating as #7.
+  * **Rejected:** Adding Assumption #8 (instructor compliance), keeping the scope focused strictly on student behavior and owner switching friction.
+  * **Locked:** Stage C locked with Assumption #4 as the core pillar.
+* **Riskiest assumption and reasoning:**
+  * **Assumption #4 selected:** *"Target consumers have elastic routines and will shift given the right nudge/incentive."* Reasoning: If student routines are behaviorally locked to peak hours, no amount of dynamic pricing or software polish can create off-peak demand (the core idea dies). In contrast, if studio payment willingness (#2) fails, the business model can simply pivot from a SaaS fee to a commission-on-booking model.
