@@ -96,3 +96,41 @@ Selected "target consumers have elastic routines and will shift given a nudge/in
 * **Locked Deliverables:**
   * **Product Goal:** Build an automated schedule-matching platform for independent boutique studios that systematically fills recurring off-peak capacity with net-new attendees while protecting studio margins and brand value.
   * **Sprint Goal:** Prove whether target consumers will behaviorally alter their daily routines to attend an off-peak class slot when given a non-price timing nudge or matching mechanism (validating Assumption #4).
+ 
+ ## Pass 1 — Goal setting, revised (Claude, this conversation)
+
+**Tool used:** Claude
+**Purpose:** Draft Product Goal and Sprint Goal, then revise twice — first simplifying to match the course's own reference example (Venture Skeleton v0 slide deck), then reapplying a SMART structure in tuned-down form.
+
+### Iteration 1 — Initial SMART draft
+- Drafted with margin/brand-value language and student-pricing framing not yet established elsewhere in the evidence log
+- AI flagged the student-pricing angle as inconsistent with the studio-side USER established in `opportunity.md`; revised to drop it
+
+### Iteration 2 — Simplified after reviewing course reference material
+- User uploaded the official Session 3–4 slide deck, which showed the course's own illustrative Venture Skeleton example
+- That example's Sprint Goal was a plain "learn whether X" statement with no embedded numbers, timeframe, or method — all quantification (Metric, Threshold, Decision rule) lived in `experiment-card.md` instead
+- Goals.md was simplified accordingly to two clean outcome statements
+
+### Iteration 3 — SMART reapplied, tuned down
+- A fuller SMART-formatted draft was proposed with specific figures (25% utilization, 20% conversion, 30-user sample, 14-day window, 6-month rollout) and a pre-selected test method (Wizard-of-Oz, direct outreach)
+- AI flagged that none of these numbers traced back to anything established earlier in the evidence log (no baseline data, no pilot), and that specifying the test method and metric here would pre-empt Stages B–D of the `experiment-card.md` exercise, which are meant to be drafted there, not decided in advance
+- Resolved by keeping the SMART structure (all five letters) but marking Measurable and Time-bound fields as explicit open gaps in both Product Goal and Sprint Goal, rather than filling them with invented figures — these will be defined for real once `experiment-card.md` is completed
+
+### What I accepted vs. still open
+- Accepted: SMART framing as a structural lens, applied honestly rather than with fabricated precision
+- Flagged as open gaps: Product Goal's rollout timeline; Sprint Goal's specific metric, threshold, and sprint window — all deferred to `experiment-card.md`
+
+## Pass 1.3 — Goals Restructuring & SMART Framework Alignment (Gemini, this conversation)
+
+* **Tool used:** Gemini
+* **Purpose:** Restructure the Product Goal and Sprint Goal using the SMART methodology while ensuring strict alignment with the Venture Skeleton framework and open-gap discipline.
+* **What was discussed, challenged & stress-tested:**
+  * **Premature Quantification vs. Honest Open Gaps:** Gemini initially proposed hardcoded quantitative targets (e.g., 25% yield increase, 20% conversion threshold, 14-day sprint window). 
+  * **Challenge on Rigor:** You countered with a draft that explicitly flagged `[Open gap]` for the Measurable and Time-bound components where real data, pilot commitments, or experiment designs do not yet exist.
+  * **Validation against Course Guidelines:** We agreed that preserving explicit open gaps is far more rigorous than inventing arbitrary numbers, ensuring the Sprint Goal's specific threshold remains anchored to the upcoming `experiment-card.md` test design.
+* **What was accepted vs. revised:**
+  * **Accepted:** The SMART structure applied to both Product Goal and Sprint Goal.
+  * **Revised:** Stripped Gemini's fabricated numerical metrics in favor of explicit `[Open gap]` placeholders to be filled during Stage D experiment design.
+* **Locked Deliverables:**
+  * **Product Goal:** SMART-formatted long-term goal focusing on non-discount schedule matching and studio margin protection, with rollout timeline marked as an open gap.
+  * **Sprint Goal:** SMART-formatted cycle goal directly isolating Assumption #4 (schedule elasticity), with exact sample size, conversion threshold, and time window marked as open gaps for `experiment-card.md`.
