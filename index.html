@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venture Skeleton v0 — Off-Peak Capacity Platform</title>
+<style>
+  :root{
+    --bg: #0F172A;
+    --surface: #1E293B;
+    --surface-raised: #253449;
+    --border: #334155;
+    --lime: #88D600;
+    --lime-dim: rgba(136,214,0,0.14);
+    --gray: #94A3B8;
+    --text: #F8FAFC;
+    --text-muted: #CBD5E1;
+    --red: #F87171;
+    --red-dim: rgba(248,113,113,0.14);
+    --amber: #FBBF24;
+    --amber-dim: rgba(251,191,36,0.14);
+  }
+
+  *{ box-sizing: border-box; }
+  html{ scroll-behavior: smooth; }
+
+  body{
+    margin:0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a{ color: inherit; }
+
+  .wrap{ max-width: 1180px; margin: 0 auto; padding: 0 28px; }
+
+  .topbar{
+    position: sticky; top: 0; z-index: 40;
+    background: rgba(15,23,42,0.92);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+  }
+  .topbar-inner{
+    display:flex; align-items:center; justify-content:space-between;
+    padding: 16px 28px; max-width: 1180px; margin: 0 auto;
+  }
+  .brand{ display:flex; align-items:center; gap:10px; font-weight:600; font-size:15px; }
+  .brand-mark{
+    width:26px;height:26px; border-radius:6px; background: var(--lime);
+    display:flex;align-items:center;justify-content:center; color:#0F172A;
+    font-weight:800; font-size:13px;
+  }
+  .brand-sub{ color: var(--gray); font-weight:400; font-size:13px; }
+  .status-chip{
+    display:flex; align-items:center; gap:8px; font-size:13px; color: var(--text-muted);
+    border:1px solid var(--border); padding:6px 12px; border-radius:999px;
+  }
+  .dot{ width:7px; height:7px; border-radius:50%; background:var(--amber); }
+
+  header.hero{ padding: 56px 0 40px; border-bottom: 1px solid var(--border); }
+  .eyebrow-row{ display:flex; align-items:center; gap:10px; color: var(--gray); font-size: 13px; margin-bottom: 14px; }
+  h1{ font-size: 34px; letter-spacing: -0.02em; margin: 0 0 12px; max-width: 720px; }
+  h1 span{ color: var(--lime); }
+  .hero-desc{ color: var(--text-muted); max-width: 620px; font-size: 15px; margin: 0 0 40px; }
+
+  .chain{ display:flex; align-items: stretch; gap: 0; overflow-x: auto; padding-bottom: 6px; }
+  .chain-node{
+    flex: 1 0 150px; position: relative; padding: 16px 18px 16px 20px;
+    background: var(--surface); border: 1px solid var(--border);
+    cursor: pointer; transition: background 0.18s ease, border-color 0.18s ease;
+  }
+  .chain-node:first-child{ border-radius: 10px 0 0 10px; }
+  .chain-node:last-child{ border-radius: 0 10px 10px 0; }
+  .chain-node + .chain-node{ border-left: none; }
+  .chain-node:hover{ background: var(--surface-raised); }
+  .chain-node.active{ background: var(--lime-dim); border-color: var(--lime); }
+  .chain-num{ font-size: 11px; color: var(--gray); margin-bottom: 6px; font-variant-numeric: tabular-nums; }
+  .chain-label{ font-size: 13.5px; font-weight: 600; line-height:1.3; }
+  .chain-node.active .chain-label{ color: var(--lime); }
+  .chain-arrow{ display:flex; align-items:center; color: var(--gray); padding: 0 6px; flex: 0 0 auto; }
+
+  section{ padding: 56px 0; border-bottom: 1px solid var(--border); }
+  section:last-of-type{ border-bottom: none; }
+  .section-head{ margin-bottom: 28px; display:flex; align-items:baseline; justify-content:space-between; gap:20px; flex-wrap:wrap; }
+  .section-title{ font-size: 22px; margin:0 0 6px; letter-spacing:-0.01em; }
+  .section-sub{ color: var(--gray); font-size: 13.5px; margin:0; max-width: 560px; }
+
+  .badge{
+    display:inline-flex; align-items:center; gap:6px; font-size: 11.5px; font-weight: 600;
+    padding: 4px 10px; border-radius: 999px; white-space:nowrap;
+  }
+  .badge-validated{ background: var(--lime-dim); color: var(--lime); }
+  .badge-gap{ background: var(--red-dim); color: var(--red); }
+  .badge-pending{ background: var(--amber-dim); color: var(--amber); }
+  .badge-dot{ width:6px; height:6px; border-radius:50%; background: currentColor; }
+
+  .card-grid{ display:grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  .card{
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 20px; transition: border-color 0.18s ease;
+  }
+  .card:hover{ border-color: #475569; }
+  .card-label{ font-size: 12px; color: var(--gray); margin-bottom: 10px; }
+  .card-body{ font-size: 14px; color: var(--text-muted); line-height:1.55; }
+  .card-body strong{ color: var(--text); font-weight: 600; }
+  .card-foot{ margin-top: 14px; }
+
+  .table-scroll{ overflow-x: auto; border-radius: 10px; border: 1px solid var(--border); }
+  table.smart{ width: 100%; border-collapse: collapse; font-size: 13.5px; min-width: 760px; }
+  table.smart th{
+    text-align: left; background: var(--surface-raised); color: var(--gray);
+    font-weight: 600; font-size: 12px; padding: 12px 16px;
+    border-bottom: 1px solid var(--border); white-space: nowrap;
+  }
+  table.smart td{
+    padding: 14px 16px; border-bottom: 1px solid var(--border);
+    color: var(--text-muted); vertical-align: top; line-height: 1.5;
+  }
+  table.smart tr:last-child td{ border-bottom: none; }
+  table.smart td.cat{ color: var(--text); font-weight: 600; white-space: nowrap; }
+  .pill-gap{
+    display:inline-block; font-size: 11px; font-weight: 600; color: var(--red);
+    background: var(--red-dim); padding: 3px 9px; border-radius: 999px; white-space: nowrap;
+  }
+
+  .tree{ display:flex; flex-direction: column; align-items:center; padding: 20px 0 8px; }
+  .tree-root{
+    background: var(--surface-raised); border: 1px solid var(--lime); border-radius: 10px;
+    padding: 14px 26px; font-weight: 700; font-size: 14.5px;
+  }
+  .tree-stem{ width:1px; height:28px; background: var(--border); }
+  .tree-branches{ display:flex; width: 100%; justify-content: center; gap: 0; position: relative; }
+  .tree-branch-col{
+    flex: 1; max-width: 340px; display:flex; flex-direction:column; align-items:center;
+    padding: 0 12px; position: relative;
+  }
+  .tree-branch-col::before{
+    content:""; position:absolute; top:0; left:50%; width:1px; height:24px; background: var(--border);
+  }
+  .branch-head{
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 12px 16px; font-weight: 600; font-size: 13.5px; text-align:center;
+    margin-top: 24px; width: 100%;
+  }
+  .branch-leaf-wrap{ width:100%; margin-top:14px; display:flex; flex-direction:column; gap:10px; }
+  .branch-leaf{
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gray);
+    border-radius: 6px; padding: 10px 12px; font-size: 12.5px; color: var(--text-muted); line-height: 1.5;
+  }
+  .branch-leaf.risk{ border-left-color: var(--lime); }
+  .isolate-badge{
+    display:inline-block; margin-top:8px; font-size: 10.5px; font-weight: 700;
+    color: #0F172A; background: var(--lime); padding: 3px 8px; border-radius: 5px; letter-spacing: 0.02em;
+  }
+
+  @media (max-width: 860px){
+    .tree-branches{ flex-direction: column; align-items: stretch; }
+    .tree-branch-col{ max-width: none; }
+    .tree-branch-col::before{ display:none; }
+    .branch-head{ margin-top: 12px; }
+  }
+
+  .exp-grid{ display:grid; grid-template-columns: 1.1fr 1fr; gap: 20px; align-items: start; }
+  .stage-list{ display:flex; flex-direction:column; gap: 10px; }
+  .stage-row{
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 14px 16px; display:flex; gap:14px;
+  }
+  .stage-tag{
+    flex: 0 0 30px; height: 30px; border-radius: 7px; background: var(--surface-raised);
+    color: var(--lime); font-weight: 700; font-size: 12.5px; display:flex; align-items:center; justify-content:center;
+  }
+  .stage-name{ font-size: 12px; color: var(--gray); margin-bottom: 3px; }
+  .stage-val{ font-size: 13.5px; color: var(--text); line-height:1.5; }
+  .stage-val em{ color: var(--text-muted); font-style: normal; }
+
+  .sim-box{
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 20px; position: sticky; top: 100px;
+  }
+  .sim-title{ font-size: 13px; color: var(--gray); margin-bottom: 14px; }
+  .sim-buttons{ display:flex; flex-direction:column; gap:8px; margin-bottom: 18px; }
+  .sim-btn{
+    background: var(--surface-raised); border: 1px solid var(--border); color: var(--text);
+    padding: 11px 14px; border-radius: 8px; font-size: 13px; font-weight: 600;
+    text-align: left; cursor: pointer; transition: all 0.15s ease;
+  }
+  .sim-btn:hover{ border-color: var(--gray); }
+  .sim-btn.selected{ background: var(--lime-dim); border-color: var(--lime); color: var(--lime); }
+  .sim-result{ border-top: 1px solid var(--border); padding-top: 16px; min-height: 110px; }
+  .sim-result-label{ font-size: 11px; color: var(--gray); margin-bottom: 8px; }
+  .sim-result-action{ font-size: 13.5px; color: var(--text); line-height:1.6; }
+  .verdict{ display:inline-block; font-weight:700; font-size: 11.5px; padding: 3px 9px; border-radius: 6px; margin-bottom: 8px; }
+  .verdict.continue{ background: var(--lime-dim); color: var(--lime); }
+  .verdict.change{ background: var(--amber-dim); color: var(--amber); }
+  .sim-placeholder{ color: var(--gray); font-size: 13px; }
+
+  .log-item{
+    border: 1px solid var(--border); border-radius: 10px; margin-bottom: 10px;
+    overflow: hidden; background: var(--surface);
+  }
+  .log-head{ padding: 16px 18px; display:flex; align-items:center; justify-content:space-between; cursor: pointer; gap: 16px; }
+  .log-head-left{ display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+  .log-pass{ font-size: 11px; font-weight: 700; color: var(--lime); background: var(--lime-dim); padding: 3px 9px; border-radius: 6px; }
+  .log-title{ font-size: 14px; font-weight: 600; }
+  .log-chevron{ color: var(--gray); transition: transform 0.2s ease; flex-shrink:0; }
+  .log-item.open .log-chevron{ transform: rotate(180deg); }
+  .log-body{ max-height: 0; overflow: hidden; transition: max-height 0.25s ease; border-top: 1px solid var(--border); }
+  .log-item.open .log-body{ max-height: 600px; }
+  .log-body-inner{ padding: 16px 18px 20px; font-size: 13.5px; color: var(--text-muted); }
+  .log-body-inner ul{ margin: 8px 0 0; padding-left: 18px; }
+  .log-body-inner li{ margin-bottom: 6px; line-height:1.55; }
+  .log-body-inner .tagline{ font-size: 12px; color: var(--gray); margin-bottom: 10px; }
+
+  footer{ padding: 40px 0 60px; color: var(--gray); font-size: 12.5px; text-align: center; }
+
+  @media (max-width: 900px){
+    .card-grid{ grid-template-columns: repeat(2,1fr); }
+    .exp-grid{ grid-template-columns: 1fr; }
+    .sim-box{ position: static; }
+    h1{ font-size: 27px; }
+  }
+  @media (max-width: 560px){
+    .card-grid{ grid-template-columns: 1fr; }
+    .wrap{ padding: 0 18px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <div class="brand-mark">V0</div>
+      Venture Skeleton <span class="brand-sub">/ Off-Peak Capacity Platform</span>
+    </div>
+    <div class="status-chip"><span class="dot"></span> 1 open gap remaining</div>
+  </div>
+</div>
+
+<div class="wrap">
+  <header class="hero">
+    <div class="eyebrow-row">Session 5 · Rapid Prototyping with AI</div>
+    <h1>A schedule-matching platform for <span>boutique studios</span> with empty off-peak seats.</h1>
+    <p class="hero-desc">This dashboard traces the full venture logic from opportunity to decision rule — what's confirmed, what's still an open gap, and what one small test is designed to settle.</p>
+
+    <div class="chain" id="chain"></div>
+  </header>
+
+  <section id="opportunity">
+    <div class="section-head">
+      <div>
+        <h2 class="section-title">Opportunity Frame</h2>
+        <p class="section-sub">The problem, the person who feels it, and why it exists — with what's confirmed kept separate from what still needs evidence.</p>
+      </div>
+    </div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-label">Pain Point</div>
+        <div class="card-body">A studio's recurring weekly off-peak class runs under capacity. Because rent and instructor pay are <strong>fixed regardless of attendance</strong>, every empty seat is money lost outright. Discounting doesn't fix this — it attracts deal-hunters rather than net-new attendees.</div>
+        <div class="card-foot"><span class="badge badge-validated"><span class="badge-dot"></span>Confirmed reasoning</span></div>
+      </div>
+      <div class="card">
+        <div class="card-label">Target User</div>
+        <div class="card-body">Owner/manager of a <strong>small, independent boutique studio</strong> — 15–25 classes/week, sets their own schedule, watches attendance class-by-class.</div>
+        <div class="card-foot"><span class="badge badge-gap"><span class="badge-dot"></span>Gap: modality &amp; geography</span></div>
+      </div>
+      <div class="card">
+        <div class="card-label">Need</div>
+        <div class="card-body">A way to convert underfilled off-peak seats into predictable attendance <strong>without discounting</strong>, since discounting changes who shows up for a deal, not when people are willing to attend.</div>
+        <div class="card-foot"><span class="badge badge-gap"><span class="badge-dot"></span>Gap: restates the HMW</span></div>
+      </div>
+      <div class="card">
+        <div class="card-label">Insight</div>
+        <div class="card-body">Demand for off-peak classes isn't absent — it may be a <strong>timing mismatch</strong>, not a pricing problem. Competing explanation, not yet ruled out: demand for that slot is simply absent.</div>
+        <div class="card-foot"><span class="badge badge-pending"><span class="badge-dot"></span>Riskiest assumption</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="goals">
+    <div class="section-head">
+      <div>
+        <h2 class="section-title">Product &amp; Sprint Goals</h2>
+        <p class="section-sub">Both goals held to the same SMART framework — with fields left as open gaps where nothing supports a real number yet, rather than an invented one.</p>
+      </div>
+    </div>
+    <div class="table-scroll">
+      <table class="smart">
+        <thead>
+          <tr><th>Goal Category</th><th>Specific</th><th>Measurable</th><th>Achievable</th><th>Relevant</th><th>Time-bound</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="cat">Product Goal<br><span style="font-weight:400;color:var(--gray);font-size:11.5px;">Long-term outcome</span></td>
+            <td>Schedule-matching platform for boutique studios that fills recurring off-peak seats with net-new attendees, without discounting.</td>
+            <td>Increase off-peak utilization while holding standard rates and peak attendance steady.</td>
+            <td>Start with a small number of pilot studios, lightweight schedule integration only.</td>
+            <td>Directly addresses the fixed-cost pain point without the margin risk discounting introduces.</td>
+            <td><span class="pill-gap">Open Gap — Pending Experiment</span></td>
+          </tr>
+          <tr>
+            <td class="cat">Sprint Goal<br><span style="font-weight:400;color:var(--gray);font-size:11.5px;">This cycle's test</span></td>
+            <td>Learn whether target consumers shift attendance to an off-peak slot given a non-price timing nudge.</td>
+            <td><span class="pill-gap">Open Gap — Pending Experiment</span></td>
+            <td>Small-scale manual test, no software required, runnable within this sprint.</td>
+            <td>Isolates the riskiest assumption before any engineering investment.</td>
+            <td><span class="pill-gap">Open Gap — Pending Experiment</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="assumptions">
+    <div class="section-head">
+      <div>
+        <h2 class="section-title">Assumption Map</h2>
+        <p class="section-sub">Three mutually exclusive, collectively exhaustive areas — clustered from a raw brainstorm, not invented top-down.</p>
+      </div>
+    </div>
+
+    <div class="tree">
+      <div class="tree-root">Venture Success Assumptions</div>
+      <div class="tree-stem"></div>
+      <div class="tree-branches">
+        <div class="tree-branch-col">
+          <div class="branch-head">Area 1<br>Demand-Side Behavior</div>
+          <div class="branch-leaf-wrap">
+            <div class="branch-leaf">Off-peak under-capacity is common and measurable enough to matter.</div>
+            <div class="branch-leaf risk">
+              Assumption #4 — target consumers have elastic routines and will shift given a non-price nudge.
+              <div><span class="isolate-badge">Isolate &amp; Test</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="tree-branch-col">
+          <div class="branch-head">Area 2<br>Studio Adoption &amp; Trust</div>
+          <div class="branch-leaf-wrap">
+            <div class="branch-leaf">Studios will pay for another platform — fee vs. switching-friction trade-off.</div>
+            <div class="branch-leaf">Current workaround pain (manual booking, tracking, no-shows) outweighs switching cost.</div>
+            <div class="branch-leaf">Studios aren't locked into rigid contracts, so adoption doesn't break commitments.</div>
+          </div>
+        </div>
+        <div class="tree-branch-col">
+          <div class="branch-head">Area 3<br>Feasibility &amp; Operations</div>
+          <div class="branch-leaf-wrap">
+            <div class="branch-leaf">Both sides adopt digital booking over existing manual channels.</div>
+            <div class="branch-leaf">Studios keep availability updated in real time, avoiding double-bookings.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experiment">
+    <div class="section-head">
+      <div>
+        <h2 class="section-title">Experiment Card</h2>
+        <p class="section-sub">The smallest test designed against the riskiest assumption — plus a live decision-rule simulator for each possible outcome.</p>
+      </div>
+    </div>
+
+    <div class="exp-grid">
+      <div class="stage-list">
+        <div class="stage-row">
+          <div class="stage-tag">A</div>
+          <div>
+            <div class="stage-name">Hypothesis</div>
+            <div class="stage-val">Peak-only users will book and attend at least one off-peak class within 7 days when shown a short list of off-peak options, delivered via a non-monetary nudge.</div>
+          </div>
+        </div>
+        <div class="stage-row">
+          <div class="stage-tag">B</div>
+          <div>
+            <div class="stage-name">Method — Concierge</div>
+            <div class="stage-val">Manual outreach with a curated list of 2–3 off-peak options, framed as priority access or social accountability matching, booked by hand — <em>no code, no live system</em>.</div>
+          </div>
+        </div>
+        <div class="stage-row">
+          <div class="stage-tag">C</div>
+          <div>
+            <div class="stage-name">Metric</div>
+            <div class="stage-val">Booking rate — count of users who book within 7 days, out of total contacted.</div>
+          </div>
+        </div>
+        <div class="stage-row">
+          <div class="stage-tag">D</div>
+          <div>
+            <div class="stage-name">Threshold</div>
+            <div class="stage-val">Clears at <strong>≥ 3 of 5</strong> contacted users (60%) booking within 7 days.</div>
+          </div>
+        </div>
+        <div class="stage-row">
+          <div class="stage-tag">E</div>
+          <div>
+            <div class="stage-name">Evidence Strength</div>
+            <div class="stage-val"><span class="badge badge-pending" style="margin-right:6px;">MEDIUM</span>Real behavior observed, but partly proxy users and a small sample limit generalizability.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sim-box">
+        <div class="sim-title">Stage F — Decision Rule Simulator</div>
+        <div class="sim-buttons">
+          <button class="sim-btn" data-outcome="met">Threshold Met (≥ 3 of 5)</button>
+          <button class="sim-btn" data-outcome="missed">Threshold Missed (&lt; 3 of 5)</button>
+          <button class="sim-btn" data-outcome="ambiguous">Ambiguous Result</button>
+        </div>
+        <div class="sim-result">
+          <div class="sim-result-label">Next-step action</div>
+          <div id="sim-output" class="sim-placeholder">Select an outcome to see the pre-committed next step.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="log">
+    <div class="section-head">
+      <div>
+        <h2 class="section-title">Process &amp; Iteration Log</h2>
+        <p class="section-sub">What changed between drafting and independent review, and why — kept as a record, not a highlight reel.</p>
+      </div>
+    </div>
+    <div id="log-list"></div>
+  </section>
+
+  <footer>evidence-log/opportunity.md · goals.md · assumptions.md · experiment-card.md · ai-usage-log.md</footer>
+</div>
+
+<script>
+  const chainSteps = [
+    { label: "Opportunity Frame", target: "opportunity" },
+    { label: "Product Goal", target: "goals" },
+    { label: "Riskiest Assumption", target: "assumptions" },
+    { label: "Sprint Goal", target: "goals" },
+    { label: "Experiment Card", target: "experiment" },
+    { label: "Decision Rule", target: "experiment" },
+  ];
+
+  const chainEl = document.getElementById('chain');
+  chainSteps.forEach((step, i) => {
+    const node = document.createElement('div');
+    node.className = 'chain-node';
+    node.dataset.index = i;
+    node.innerHTML = `<div class="chain-num">0${i+1}</div><div class="chain-label">${step.label}</div>`;
+    node.addEventListener('click', () => {
+      document.getElementById(step.target).scrollIntoView({behavior:'smooth', block:'start'});
+      setActiveChain(i);
+    });
+    chainEl.appendChild(node);
+
+    if(i < chainSteps.length - 1){
+      const arrow = document.createElement('div');
+      arrow.className = 'chain-arrow';
+      arrow.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+      chainEl.appendChild(arrow);
+    }
+  });
+
+  function setActiveChain(i){
+    document.querySelectorAll('.chain-node').forEach(n => n.classList.remove('active'));
+    const el = document.querySelector(`.chain-node[data-index="${i}"]`);
+    if(el) el.classList.add('active');
+  }
+  setActiveChain(0);
+
+  const outcomes = {
+    met: {
+      verdict: 'CONTINUE',
+      verdictClass: 'continue',
+      text: 'Run a 10-user version of this test using a real studio\'s actual schedule, to check whether the effect holds at scale and whether the studio can keep pace with real bookings — before writing any code.'
+    },
+    missed: {
+      verdict: 'CHANGE',
+      verdictClass: 'change',
+      text: 'Re-run the test with a small group, offering a discount instead of a non-price nudge, to determine whether demand is purely price-sensitive rather than schedule-elastic — or structurally absent regardless of offer.'
+    },
+    ambiguous: {
+      verdict: 'CHANGE',
+      verdictClass: 'change',
+      text: 'Run one more 5-user round that isolates priority access from social accountability matching, to evaluate whether either nudge works independently.'
+    }
+  };
+
+  document.querySelectorAll('.sim-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.sim-btn').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      const key = btn.dataset.outcome;
+      const o = outcomes[key];
+      document.getElementById('sim-output').innerHTML =
+        `<span class="verdict ${o.verdictClass}">${o.verdict}</span><div class="sim-result-action">${o.text}</div>`;
+    });
+  });
+
+  const logData = [
+    {
+      pass: 'Pass 1',
+      title: 'Collaborative drafting — Opportunity Frame',
+      tag: 'Draft & sharpen Pain Point, User, Need, Insight, HMW',
+      items: [
+        'Pain Point (v1) conflated who/what was under capacity and diagnosed the wrong root cause — revised to name the specific cost driver (fixed rent + instructor pay).',
+        'User (v1) was too broad ("fitness studios") — narrowed to independent boutique studio, 15–25 classes/week, owner sets their own schedule.',
+        'Need received minor wording fixes only.'
+      ]
+    },
+    {
+      pass: 'Pass 2',
+      title: 'Independent critical review — fresh AI chat',
+      tag: 'Cross-review of confirmed fields, without context on how they were built',
+      items: [
+        'User flagged as specific on operational size but silent on modality and geography — both likely shape why a slot is off-peak.',
+        'Need flagged as restating the How Might We rather than describing owners\' actual attempted workarounds.',
+        'Insight identified as the riskiest, least-supported claim — a competing explanation (absent demand, not mistimed) hadn\'t been ruled out.',
+        'Internal inconsistency found: the fixed-cost argument actually supports discounting, not against it — split into a separate cost-structure fact and a demand-composition claim.'
+      ]
+    },
+    {
+      pass: 'Pass 1',
+      title: 'Assumption mapping — quick mode',
+      tag: 'Brainstorm, cluster into 3 MECE areas, select riskiest assumption',
+      items: [
+        'Two early assumptions were flagged as too vague to test and sharpened into specific, falsifiable claims.',
+        'A set of assumptions for a different, consumer-subscription concept was mixed in by mistake mid-brainstorm — caught and discarded before clustering.',
+        'Riskiest assumption selected by comparing fallback paths: a platform-fee rejection has a pivot (commission model), a lack of routine elasticity does not.'
+      ]
+    },
+    {
+      pass: 'Pass 1',
+      title: 'Experiment Card — Hypothesis revised from single-slot to list-based',
+      tag: 'Stage A through F, then reworked after reconsidering the nudge format',
+      items: [
+        'Original Hypothesis and Method offered a single suggested off-peak slot per nudge.',
+        'Reconsidered whether a single-slot offer matched the intended product — revised Hypothesis and Method to test a short, curated list of 2–3 options instead.',
+        'Threshold set at ≥3 of 5 to guard against a single lucky response counting as a signal.',
+        'Evidence Strength rated MEDIUM — real behavior observed, but sample includes proxy users and is small.'
+      ]
+    }
+  ];
+
+  const logList = document.getElementById('log-list');
+  logData.forEach((entry) => {
+    const item = document.createElement('div');
+    item.className = 'log-item';
+    item.innerHTML = `
+      <div class="log-head">
+        <div class="log-head-left">
+          <span class="log-pass">${entry.pass}</span>
+          <span class="log-title">${entry.title}</span>
+        </div>
+        <svg class="log-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="log-body">
+        <div class="log-body-inner">
+          <div class="tagline">${entry.tag}</div>
+          <ul>${entry.items.map(it => `<li>${it}</li>`).join('')}</ul>
+        </div>
+      </div>
+    `;
+    item.querySelector('.log-head').addEventListener('click', () => {
+      item.classList.toggle('open');
+    });
+    logList.appendChild(item);
+  });
+  logList.firstElementChild.classList.add('open');
+
+  const sectionMap = { opportunity: 0, goals: 1, assumptions: 2, experiment: 4 };
+  const sections = Object.keys(sectionMap).map(id => document.getElementById(id));
+  const spy = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if(e.isIntersecting){ setActiveChain(sectionMap[e.target.id]); }
+    });
+  }, { rootMargin: '-40% 0px -50% 0px', threshold: 0 });
+  sections.forEach(s => spy.observe(s));
+</script>
+
+</body>
+</html>
