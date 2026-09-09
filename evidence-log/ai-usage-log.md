@@ -54,7 +54,7 @@ Selected "target consumers have elastic routines and will shift given a nudge/in
 
 **Note:** quick mode was run first; a full-mode re-run was planned for deeper coverage before moving to `experiment-card.md`.
 
-Pass 1.1 — Assumption Mapping & Load-Bearing Stress Test (Gemini, this conversation)
+## Pass 1.1 — Assumption Mapping & Load-Bearing Stress Test (Gemini, this conversation)
 
 * **Tool used:** Gemini
 * **Purpose:** Expand, simplify, and stress-test assumptions across Demand, Studio Adoption, and Feasibility, then isolate the single load-bearing (riskiest) assumption to lock Stage C.
