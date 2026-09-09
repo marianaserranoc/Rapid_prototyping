@@ -32,3 +32,24 @@ Narrowed USER to: independent boutique studio owner/manager, 15–25 classes/wee
 - **Accepted and fixed:** split the PAIN POINT into its two separate claims (cost-structure fact vs. demand-composition claim)
 - **Accepted, reframed rather than fixed:** INSIGHT is now explicitly marked as an unvalidated, riskiest assumption (not a conclusion) — becomes the target for the Session 5 riskiest-assumption test in `experiment-card.md`
 - **Flagged as open gaps** (not resolved, since no real owner interview exists yet): USER's modality/geography narrowness, NEED restating the HMW, HOW MIGHT WE's attendance-vs-margin assumption
+
+## Pass 1 — Assumption mapping (Claude, this conversation, quick mode)
+
+**Tool used:** Claude
+**Purpose:** Brainstorm and cluster assumptions underlying the studio off-peak opportunity, and identify the riskiest one, using the venture-assumption thinking partner exercise (quick mode).
+
+### What I drafted, then AI challenged
+- Two early assumptions ("studios need free spots," "studios want to pay for another platform") were flagged as too vague/unfinished to test — pushed to identify the actual underlying claim
+- "Digital booking gets adopted" was flagged as bundling two separate claims (studio-side and student-side adoption) that could fail independently — not yet split, kept as an open gap
+- Accidentally pasted in a set of Nova-related (consumer-side/subscription) assumptions mid-brainstorm — caught before clustering, discarded to keep the file consistent with the studio-side `opportunity.md`
+- "Studios keep availability updated in real time" was flagged as sitting ambiguously between Area 2 (trust/adoption) and Area 3 (technical feasibility) — placed in Area 3 as a judgment call
+
+### What I accepted vs. revised
+- Sharpened the elastic-routines assumption to name specific mechanisms (incentives, dynamic pricing, algorithmic nudges) rather than leaving it generic
+- Considered adding an instructor-alignment area during the exhaustive check, decided it was a stretch, and set it aside rather than forcing a fourth area
+- Confirmed 3 areas as mutually exclusive and collectively exhaustive after both checks
+
+### Riskiest assumption and reasoning
+Selected "target consumers have elastic routines and will shift given a nudge/incentive" over "studios will pay for a platform fee," because the pricing-model risk has a viable pivot (subscription → transaction commission) while the behavior-elasticity risk has no fallback — if false, the core value proposition doesn't exist.
+
+**Note:** quick mode was run first; a full-mode re-run was planned for deeper coverage before moving to `experiment-card.md`.
