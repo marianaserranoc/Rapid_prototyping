@@ -134,3 +134,40 @@ Selected "target consumers have elastic routines and will shift given a nudge/in
 * **Locked Deliverables:**
   * **Product Goal:** SMART-formatted long-term goal focusing on non-discount schedule matching and studio margin protection, with rollout timeline marked as an open gap.
   * **Sprint Goal:** SMART-formatted cycle goal directly isolating Assumption #4 (schedule elasticity), with exact sample size, conversion threshold, and time window marked as open gaps for `experiment-card.md`.
+ 
+ ## Pass 1 — Experiment Card (Claude, this conversation, quick mode, first card)
+
+**Tool used:** Claude
+**Purpose:** Design a falsifiable Experiment Card to test the riskiest assumption (#4: target consumers have elastic routines and will shift given a non-price nudge), using the experiment-design thinking partner exercise.
+
+### What I drafted first, then AI challenged
+- Hypothesis (v1): confirmed as testing two nudge mechanisms (priority access + social matching) at once — AI flagged this as a bundled claim, meaning a positive result wouldn't reveal which mechanism worked; kept deliberately as a conscious trade-off rather than narrowed
+- Method: initial confusion over whether "the platform" meant building a browsing/reservation app now — AI clarified that Concierge experiments intentionally substitute manual human effort for the automated product, which is the entire point of this experiment type at this stage
+- A tangent arose around pivoting the test toward a ClassPass-style multi-studio model — AI flagged this as a different USER/business model (echoing the earlier Nova mix-up) and confirmed it was only a description of the eventual product's UI, not a change to tonight's test
+- Threshold and sample size: AI flagged that a 3-of-5 threshold assumes exactly 5 contacted users, which conflicts with the stated reality of having only 1 confirmed Moroccan contact at drafting time — resolved by assuming a hypothetical full sample of 5 for the card, with actual recruitment logged as an open gap
+
+### What I accepted vs. revised
+- Accepted Concierge as the Method (see justification below)
+- Revised Decision Rule language from technical/jargon-heavy phrasing to plain language, preserving the same three branches (CONTINUE, CHANGE, CHANGE)
+- Evidence Strength self-assessed as MEDIUM, accepted as-is — real behavior observed, but proxy users and small sample limit generalizability
+
+### Still open
+- Actual test execution: recruiting a full sample (currently 1 of 5 confirmed), running outreach, and recording real results — not yet done
+- Whether the deliverable requires completed test results or only a ready-to-run card is unconfirmed; flagged as a question for the professor
+
+## Pass 1.2 — Experiment Card Design & Stage A–F Mapping (Gemini, this conversation)
+
+* **Tool used:** Gemini (synthesizing live discussion and Claude's parallel critiques)
+* **Purpose:** Populate all six fields of `experiment-card.md` (Stage A through F) with operational metrics, thresholds, and pre-committed decision rules for testing Assumption #4.
+* **What was discussed, challenged & stress-tested:**
+  * **Bundled Nudge Mechanism:** We acknowledged a explicit trade-off in Stage A/B by bundling "priority access" and "social accountability." If successful, the test proves demand elasticity exists but won't isolate which specific nudge drove it.
+  * **Method Calibration (Concierge):** Evaluated fake doors vs. concierge outreach. Selected direct concierge (WhatsApp/DM) as the cheapest way to observe physical booking and attendance without engineering.
+  * **Sample Size & Threshold Rigor:** Set Stage D at ≥3 out of 5 users (60%). Evaluated setting 2/5, but raised the bar to 3/5 to prevent false positives from single-user flukes.
+  * **Evidence Strength Honesty:** Rated Stage E as MEDIUM due to using proxy/convenience users outside Morocco and a tiny sample size, despite observing actual behavior.
+  * **Decision Rule Branching:** Structured Stage F to handle all three outcomes cleanly: continuing to a 10-user Wizard-of-Oz test (incorporating Assumption #7), pivoting to a discount test if missed, or splitting the bundled nudges if ambiguous.
+* **What was accepted vs. revised:**
+  * **Accepted:** Concierge test format, 3/5 threshold, and explicit 3-way decision branching.
+  * **Noted:** Flagged that the CONTINUE branch intentionally introduces Assumption #7 (studio live-updating) alongside the sample scale-up.
+* **Locked Deliverables:**
+  * Complete `experiment-card.md` written and validated across Stages A–F.
+  * Venture Skeleton v0 table synced across all five markdown evidence files.
