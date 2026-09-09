@@ -171,3 +171,20 @@ Selected "target consumers have elastic routines and will shift given a nudge/in
 * **Locked Deliverables:**
   * Complete `experiment-card.md` written and validated across Stages A–F.
   * Venture Skeleton v0 table synced across all five markdown evidence files.
+ 
+  ## Pass 1 — Recruitment plan (Claude, this conversation)
+
+**Tool used:** Claude
+**Purpose:** Draft `recruitment.md`, an extra file we decided to include after noticing every course slide footer references "Test access: recruitment.md," even though it wasn't listed in the Session 5 folder tree.
+
+### What this resolved
+- Confirmed the Experiment Card's test needs to actually be run and completed with a full sample, not just designed and left ready-to-run — no decision on a partial sample
+- Recruitment should over-sample relative to the Threshold to cover no-shows — recruit 7–8 to guarantee 5 tested against the 3-of-5 threshold
+
+### What I drafted first, then AI challenged
+- Initial "who we test with" definition was narrowed to "peak-only" attendees only, mirroring the Hypothesis's exact wording — flagged as likely too strict to actually screen for via a WhatsApp referral chain; loosened to "regular attendees," with peak/off-peak status noted during outreach rather than pre-filtered
+- A mention of reaching studio-side contacts was clarified as wanting to opportunistically reach an owner/staff/instructor if the Moroccan contact happens to know any — added as a secondary, non-required channel, kept distinct from the core consumer-side recruitment plan
+
+### Still open
+- "By when" (recruitment deadline) not yet filled in — no real date provided
+- Actual recruitment execution (reaching 7–8 real contacts via the one confirmed Moroccan contact) not yet done
