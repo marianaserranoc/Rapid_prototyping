@@ -220,3 +220,20 @@ Selected "target consumers have elastic routines and will shift given a nudge/in
 
 ### Output
 `assumptions.md`: three confirmed areas (Goer demand behavior, Owner adoption, Mechanism design & economics) with three must-be-true assumptions and evidence-needed items each, plus a confirmed riskiest assumption — goer regret-aversion is the actual driver of off-peak avoidance — to be tested via studio-goer interviews before any prototype build.
+
+## Pass 3 — Opportunity two-sided restructuring (Claude, this conversation)
+
+**Tool used:** Claude (chat, no code execution)
+**Purpose:** Revise the `opportunity.md` deliverable to resolve a single-actor framing gap — the PAIN POINT and USER were written entirely from the owner's perspective, while the INSIGHT (regret-aversion) was entirely about the goer's psychology, with no explicit link between the two.
+
+### What I drafted first, then revised
+- First raised the gap as a question rather than a fix, offering two options: (A) keep a single USER/NEED pair and add a short note naming both actors, or (B) split into separate Owner-side and Goer-side USER/NEED pairs within the same document
+- Option B was selected; restructured the document into paired Owner-side and Goer-side USER/NEED sections, with INSIGHT rewritten as the explicit connective hypothesis between them rather than a goer-only statement
+
+### What was added beyond the original ask
+- A third competing hypothesis was added to INSIGHT — owner-side adoption risk (owners may see the mechanism as indistinguishable from discounting even if the goer-side hypothesis is correct) — since Option B's structure surfaced that owner adoption and goer behavior are independent risks that could each independently break the venture
+- HOW MIGHT WE was revised to explicitly fold in the owner-adoption risk, since the original wording addressed only the goer's half of the problem
+- A new open gap was flagged under Goer-side USER: whether "goer" refers to a prospective, lapsed, or existing-but-non-off-peak-using member, since these are likely distinct segments with different barriers that the current draft treats as one
+
+### Output
+Revised `opportunity.md`: PAIN POINT unchanged, USER/NEED split into Owner-side and Goer-side pairs, INSIGHT rewritten to connect both sides and name three competing hypotheses (goer regret-aversion, goer timing/awareness, owner adoption risk), HOW MIGHT WE and ONE SENTENCE updated to reflect the two-actor dependency — flagged as still requiring interviews on both sides before any hypothesis is treated as validated.
