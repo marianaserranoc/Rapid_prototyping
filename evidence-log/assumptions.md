@@ -1,20 +1,32 @@
 # Assumptions
 
-## Area 1: Demand-side behavior
-- Must be true: Off-peak under-capacity is common and measurable enough across studios to matter
-- Must be true: Target consumers have elastic routines and will actively shift their schedules to fill off-peak slots when motivated by targeted incentives, dynamic pricing, or algorithmic nudges
-- Evidence needed: Studio attendance data showing recurring off-peak under-capacity; user interviews or behavioral tests showing willingness to shift schedule given a nudge/incentive
+## Area 1: Goer demand behavior
+- Must be true:
+  - Goers avoid committing to an off-peak slot/studio mainly out of regret-aversion (fear of paying for something unproven), not lack of time or awareness
+  - A goer who tries a low-commitment entry will actually convert into regular trier, not just sample once and disappear
+  - Goers genuinely have flexible-but-non-habitual time available that a low-commitment option could occupy
+- Evidence needed:
+  - Goer interviews probing actual reasons for not booking off-peak
+  - Trial-to-retention conversion data from any pilot
+  - Goer schedule/availability check against actual off-peak slot times
 
-## Area 2: Studio adoption & trust
-- Must be true: Studios will pay for another platform on top of what they already use
-- Must be true: The pain of current workarounds (WhatsApp booking, cash tracking, no-shows) outweighs the friction/trust cost of switching to a new tool
-- Must be true: Studios aren't locked into rigid contracts, so they can adopt without breaking existing commitments
-- Evidence needed: Studio owner interviews on current pain points and willingness to pay; a quick check on whether target studios use existing booking software or contracts
+## Area 2: Owner adoption
+- Must be true:
+  - Owners will see a low-commitment mechanism as genuinely different from the discount codes they're already burned out on, not discounting with extra steps
+  - Owners are willing to unbundle their existing pricing without feeling it undercuts their membership/package model
+  - Owners can adopt this within their existing manual, low-ops-capacity workflow with no added admin burden they can't absorb
+- Evidence needed:
+  - Owner interviews reacting to a concrete trial-mechanism concept vs. a discount concept side by side
+  - A walkthrough of how it would fit into their current booking/scheduling process
 
-## Area 3: Product/technical feasibility
-- Must be true: Both studios and students will adopt digital booking over existing channels (DMs, calls, walk-ins)
-- Must be true: Studios will keep their availability updated in real time, avoiding double-bookings or outdated slots
-- Evidence needed: A small pilot or Wizard-of-Oz test observing whether studios and students actually use a digital booking flow instead of defaulting to old habits
+## Area 3: Mechanism design & economics
+- Must be true:
+  - The mechanism can distinguish a hesitant-but-genuine goer from someone gaming a cheap entry point
+  - This drives incremental revenue (new bodies filling seats) rather than cannibalized revenue (existing members downgrading to the cheap option)
+  - The cost of the regret-proofing mechanism itself doesn't erode the incremental revenue it's meant to generate
+- Evidence needed:
+  - Usage-pattern analysis distinguishing trial-then-convert vs. trial-then-vanish
+  - Unit economics modeling of the mechanism's cost against incremental class revenue
 
 ## Riskiest assumption
-Target consumers have elastic routines and will actively shift their schedules given the right nudge or incentive (Area 1). If false, there's no fallback — the core value proposition depends entirely on this behavior existing. By contrast, if studios refuse to pay a platform fee (a competing candidate), the business can pivot to a transaction commission model instead — so that risk has a mitigation path and this one doesn't.
+Goer regret-aversion is the actual driver of off-peak avoidance (Area 1, assumption 1). Everything else — conversion, owner adoption, mechanism economics — only matters if this is true; if the real reason is something else, the whole mechanism solves the wrong problem.
