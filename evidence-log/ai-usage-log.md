@@ -238,4 +238,20 @@ Selected "target consumers have elastic routines and will shift given a nudge/in
 ### Output
 Revised `opportunity.md`: PAIN POINT unchanged, USER/NEED split into Owner-side and Goer-side pairs, INSIGHT rewritten to connect both sides and name three competing hypotheses (goer regret-aversion, goer timing/awareness, owner adoption risk), HOW MIGHT WE and ONE SENTENCE updated to reflect the two-actor dependency — flagged as still requiring interviews on both sides before any hypothesis is treated as validated.
 
+## Pass 4 — Experiment Card redesign for Area 1, plus supporting layers (Claude, this conversation)
+
+**Tool used:** Claude (chat, no code execution)
+**Purpose:** Redesign the `experiment-card.md` deliverable's primary test after recognizing the original single-arm Wizard of Oz draft couldn't distinguish the regret-aversion hypothesis from the competing timing/awareness hypothesis, then add supporting layers to cover risks the primary test structurally cannot answer.
+
+### What I drafted first, then revised
+- Initial experiment card design used a single-arm Concierge test (manual WhatsApp outreach offering a non-monetary nudge) to test regret-aversion — flagged, after a direct question about why this method over interviews, as testing the right kind of claim (behavior over stated intent) but only ruling out absence-of-demand, not distinguishing regret-aversion from timing/awareness
+- Method was changed from Concierge to Wizard of Oz at request, then further revised from a single-arm to a two-arm comparison design (low-commitment framing vs. normal-commitment framing, same visibility) after recognizing a single arm couldn't isolate which hypothesis was actually responsible for a positive result
+- Metric, threshold, and decision rule were rewritten to center on the gap between arms rather than either arm's raw booking rate, since the arm-to-arm gap is what actually tests the hypothesis
+
+### What was added beyond the original ask
+- Three supporting layers (owner-side interviews, goer-side proxy-sample sanity check, market research) were added after a direct question about whether the test alone was sufficient to "know it will work" — Claude's position was that it isn't, and that owner adoption (Area 2), sample validity, and market generalization each require a different method than the behavioral test can provide
+- A closing "how the layers relate" section was added to make explicit that none of the four pieces individually validates the venture, and each covers a distinct, non-substitutable risk
+
+### Output
+Combined `experiment-card.md`: primary Wizard of Oz two-arm test (Area 1, regret-aversion) plus three supporting layers (owner-adoption interviews, goer-side sanity-check interviews, market-research plausibility check) — flagged throughout that this remains a Session 5–stage validation effort, not proof, and that real Moroccan studios/goers still need to be sourced for anything beyond the proxy-sample stage.
 
