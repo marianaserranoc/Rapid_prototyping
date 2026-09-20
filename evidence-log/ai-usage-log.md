@@ -255,3 +255,20 @@ Revised `opportunity.md`: PAIN POINT unchanged, USER/NEED split into Owner-side 
 ### Output
 Combined `experiment-card.md`: primary Wizard of Oz two-arm test (Area 1, regret-aversion) plus three supporting layers (owner-adoption interviews, goer-side sanity-check interviews, market-research plausibility check) — flagged throughout that this remains a Session 5–stage validation effort, not proof, and that real Moroccan studios/goers still need to be sourced for anything beyond the proxy-sample stage.
 
+## Pass 5 — Recruitment and Goals realignment (Claude, this conversation)
+
+**Tool used:** Claude (chat, no code execution)
+**Purpose:** Update the `experiment-card.md` Recruitment section and the `goals.md` Product/Sprint Goals to match the current experiment design (two-arm Wizard of Oz test on regret-aversion) after both documents were found to still reflect earlier, superseded versions of the plan.
+
+### What I drafted first, then revised
+- Recruitment was originally written for a single-arm test (5 tested, threshold 3 of 5, one non-monetary nudge) — flagged as out of sync with the two-arm design, then rewritten for 10 testers total (5 per arm), a recruitment buffer scaled accordingly (14–16), and arm assignment tracked per contact so the comparison stays clean
+- Goals' Product Goal was originally framed around a "schedule-matching platform" — flagged as reflecting the earlier, abandoned timing-mismatch insight rather than the current regret-aversion/low-commitment pivot — rewritten around a low-commitment trial mechanism, tied explicitly back to Areas 1 and 2 in `assumptions.md`
+- Sprint Goal referenced "Assumption #4" and "schedule elasticity," neither of which exist in the current `assumptions.md` (which has no numbered assumptions and is centered on regret-aversion, not scheduling) — rewritten to name the actual current hypothesis and cite the real threshold (≥40pp gap) from `experiment-card.md`
+
+### What was added beyond the original ask
+- Two recruitment risks were flagged after the rewrite: sourcing all testers from one contact's personal network risks cross-contamination between the two arms (testers comparing notes), and arm assignment left to convenience (rather than randomized/blind) could introduce bias if people notice they received a different offer than others in the same network
+- Sprint Goal's Achievable field was updated to note the owner-interview layer (Layer 1) running in parallel within the same sprint, since it wasn't previously connected to the sprint timeline at all
+
+### Output
+Revised `experiment-card.md` Recruitment section (10 testers across two arms, September 15 contact deadline) and revised `goals.md` (Product Goal reframed around low-commitment trial mechanism, Sprint Goal reframed around the regret-aversion vs. timing/awareness test) — both now consistent with the current `opportunity.md`, `assumptions.md`, and `experiment-card.md` versions built earlier in this thread.
+
