@@ -8,7 +8,7 @@ A studio's recurring weekly off-peak class runs under capacity. Because rent and
 ## USER (Owner-side)
 The owner/manager of a small, independent boutique studio running around 15–25 classes a week with a few instructors, where they personally set the schedule and watch attendance numbers class-by-class.
 
-*Open gap: specific on operational size, but not yet on modality (yoga/pilates off-peak dynamics likely differ from CrossFit/HIIT) or city/geography, both of which probably shape why a given slot goes empty in the first place. Needs narrowing once interviews start.*
+*Open gap: specific on operational size, but not yet on modality (yoga/pilates off-peak dynamics likely differ from CrossFit/HIIT) or city/geography, both of which probably shape why a given slot goes empty in the first place. Needs narrowing once interviews start.* As a proxy, a platform called NOVA is understood to operate a comparable credit-based booking model with independent studios in Egypt — a market structurally closer to Morocco than Spain — though this is based on a reference deck rather than independently verified current operation, and no usage or performance figures are available. This suggests the owner profile and pain point aren't unique to this venture's assumptions, but doesn't confirm this specific mechanism works for that owner.
 
 ### NEED (Owner-side)
 Owners need a way to convert underfilled off-peak seats into predictable, steady attendance without resorting to discounting.
@@ -25,12 +25,14 @@ A studio-goer with flexible but non-habitual time who could plausibly attend an 
 ### NEED (Goer-side)
 Goers need a way to try an off-peak slot or studio without bearing the full financial and psychological risk of committing before they know it's worth it.
 
-*Open gap: same restatement problem as the owner-side NEED — needs real goer interviews describing what they've actually done instead (skipped the slot entirely, stuck to their usual class, gone to a competitor with lower commitment) and why.*
+*Open gap: same restatement problem as the owner-side NEED — needs real goer interviews describing what they've actually done instead (skipped the slot entirely, stuck to their usual class, gone to a competitor with lower commitment) and why.* As a proxy, class-pass models (e.g. ClassPass in Spain) exist because goers demonstrably prefer paying per-class/credit over single-studio commitment — though this is closer evidence for the competing discovery/variety-seeking hypothesis than for regret-aversion specifically, since ClassPass's appeal may be about browsing many studios rather than de-risking one booking. No conversion or retention figures are cited here to support the comparison's strength.
 
 ---
 
 ## INSIGHT (riskiest assumption — not yet validated)
 Working hypothesis, connecting both sides: the barrier isn't timing or awareness — it's regret-aversion on the goer's side, which owners currently have no tool to address short of discounting (which backfires, per the PAIN POINT). Goers who could plausibly use an off-peak slot avoid committing because committing feels like an irreversible bet before they know the studio or slot is worth it. If this holds, the owner's NEED and the goer's NEED are two sides of the same unmet need: a way to let goers prove value before paying full commitment, which in turn lets owners fill seats without cheapening the brand.
+
+As proxies (not validation, and not independently verified beyond the authors' prior exposure to these products/decks): ClassPass's model in Spain shows goers will pay to avoid single-studio commitment, and NOVA is understood, from a reference deck, to operate a comparable model in Egypt. Neither is confirmed with usage data here, and neither isolates regret-aversion as the specific mechanism — ClassPass plausibly reflects variety-seeking, and NOVA's existence (if current) shows the booking model works generally, not that regret-aversion versus timing/awareness is what it solves. Both are weak, directional support at best, not evidence of the underlying psychological driver in this market.
 
 Competing hypotheses, not yet ruled out:
 - **Timing/awareness** (goer-side): demand exists but goers simply don't know or think to consider the off-peak slot at the moment they have a schedule gap.
