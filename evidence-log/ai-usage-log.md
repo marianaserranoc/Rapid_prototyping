@@ -203,3 +203,20 @@ Selected "target consumers have elastic routines and will shift given a nudge/in
 
 ### Output
 6-page PDF (`prototype-v0.pdf`): cover, WhatsApp-first justification, Nudge A (priority access, list-based), Nudge B (social accountability matching), manual booking confirmation, and intentional exclusions — kept consistent with the Method and exclusions already documented in `experiment-card.md`.
+
+## Pass 2 — Assumption mapping & MECE check (Claude, this conversation)
+
+**Tool used:** Claude (chat, no code execution)
+**Purpose:** Complete the `assumptions.md` deliverable for Venture Skeleton v0 — run the structured Stage A (brainstorm) → Stage B (MECE clustering) → Stage C (riskiest assumption) exercise using a fixed venture-assumption thinking-partner prompt, and identify the single riskiest assumption to carry into `experiment-card.md`.
+
+### What I drafted first, then revised
+- Initial pass at the core insight was owner-side: off-peak underfill framed as a timing mismatch, not a pricing problem — reviewed critically and flagged as unfalsifiable and unsupported by any interview evidence
+- Insight was reworked through several JTBD passes from the studio-goer's perspective — first as a timing/awareness problem, then as a follow-through/no-show problem — before being revised again into the final working hypothesis: reluctance to commit stems from regret-aversion (fear of paying for an unproven studio/slot), not timing or awareness
+- First assumption clustering mixed goer-side and owner-side assumptions inside the same desirability/feasibility/viability buckets, and filed one assumption twice under different category labels (trial-abuse detection appeared under both feasibility and viability) — reclustered into three cleaner areas split by actor and function (goer demand behavior, owner adoption, mechanism design & economics) after the MECE check surfaced the overlap
+
+### What was added beyond the original ask
+- A distinction between "trial-then-convert" and "trial-then-vanish" behavior was added to the mechanism-design assumption after recognizing the pivot could otherwise collapse back into a repackaged discount — the exact failure mode the original pain point had already ruled out
+- An explicit flag that Area 1's core assumption (regret-aversion) gates every other assumption in the map, since Areas 2 and 3 only matter if Area 1 holds — added to justify the riskiest-assumption selection rather than asserting it outright
+
+### Output
+`assumptions.md`: three confirmed areas (Goer demand behavior, Owner adoption, Mechanism design & economics) with three must-be-true assumptions and evidence-needed items each, plus a confirmed riskiest assumption — goer regret-aversion is the actual driver of off-peak avoidance — to be tested via studio-goer interviews before any prototype build.
