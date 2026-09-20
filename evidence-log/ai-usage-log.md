@@ -272,3 +272,20 @@ Combined `experiment-card.md`: primary Wizard of Oz two-arm test (Area 1, regret
 ### Output
 Revised `experiment-card.md` Recruitment section (10 testers across two arms, September 15 contact deadline) and revised `goals.md` (Product Goal reframed around low-commitment trial mechanism, Sprint Goal reframed around the regret-aversion vs. timing/awareness test) — both now consistent with the current `opportunity.md`, `assumptions.md`, and `experiment-card.md` versions built earlier in this thread.
 
+## Pass 6 — Proxy evidence added to opportunity.md, plus consistency review (Claude, this conversation)
+
+**Tool used:** Claude (chat, no code execution)
+**Purpose:** Add proxy market evidence (ClassPass in Spain, NOVA in Egypt) to `opportunity.md`'s open-gap notes to support the still-unvalidated regret-aversion INSIGHT, then review the full doc set (`opportunity.md`, `assumptions.md`, `experiment-card.md`, `recruitment.md`, `goals.md`) for outstanding inconsistencies.
+
+### What I drafted first, then revised
+- First draft of the proxy additions stated NOVA's Egypt operation and ClassPass's success as asserted fact — flagged, after a direct question, as unverified: NOVA's status is drawn from a reference deck rather than confirmed current operation, and neither proxy has an attached usage/conversion figure
+- Revised both proxy statements to explicitly hedge: NOVA framed as "understood to operate," ClassPass reframed as weaker evidence for the discovery/variety-seeking hypothesis rather than regret-aversion specifically, since a monthly multi-studio credit model doesn't cleanly map to a single-booking no-obligation guarantee
+- Clarified placement: rather than adding a new "limitations" section, the hedged proxy language was placed directly inside the existing open-gap notes under USER (Owner-side), NEED (Goer-side), and INSIGHT, so each caveat stays attached to the specific claim it qualifies
+
+### What was added beyond the original ask
+- A full cross-document punch list was compiled covering unresolved items beyond the proxy edit: unresolved recruitment-contamination risk (single-contact network, non-blind arm assignment), missing Recruitment sections for Layers 1–3, an unfilled Sprint Goal end date (distinct from the Sept 15 contact-sourcing deadline), and the still-unresolved goer segmentation question (prospective vs. lapsed vs. current-non-off-peak-user) not reflected in Recruitment's "who we test with" language
+- Exact line-number placement was given for a GitHub web-editor screenshot the user shared, to locate where each proxy sentence should be inserted into `opportunity.md` directly
+
+### Output
+Three hedged proxy-evidence insertions for `opportunity.md` (Owner-side USER open gap, Goer-side NEED open gap, and a new paragraph within INSIGHT), each caveated as directional support only — not verified data, not confirmation of the regret-aversion mechanism specifically — plus a standing punch list of unresolved cross-document gaps still open across the Venture Skeleton v0 deliverables.
+
