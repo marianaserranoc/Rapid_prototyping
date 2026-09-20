@@ -237,3 +237,5 @@ Selected "target consumers have elastic routines and will shift given a nudge/in
 
 ### Output
 Revised `opportunity.md`: PAIN POINT unchanged, USER/NEED split into Owner-side and Goer-side pairs, INSIGHT rewritten to connect both sides and name three competing hypotheses (goer regret-aversion, goer timing/awareness, owner adoption risk), HOW MIGHT WE and ONE SENTENCE updated to reflect the two-actor dependency — flagged as still requiring interviews on both sides before any hypothesis is treated as validated.
+
+
