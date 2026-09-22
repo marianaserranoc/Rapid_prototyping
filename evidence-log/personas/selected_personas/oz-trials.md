@@ -9,7 +9,7 @@ Off-peak slot, one single-class price set to match what the person already pays 
 ### How it ran
 One team member showed the card to 8 people they knew who already have a gym membership (recruited the same way G1 was — friends of friends), one at a time, over a couple of days. Asked "would you book this?" then "why / why not?"
 
-### Results (fictional)
+### Results 
 
 | Shown the card | Said "I'd book it" | Said "I'd skip it" |
 |---|---|---|
@@ -41,7 +41,7 @@ Whether commitment risk or booking friction drives the decision.
 ### How it ran
 One team member showed Card A to 5 people and Card B to a different 5 people (same recruiting pool as G2 — people with unpredictable schedules who sample classes occasionally), asked "would you book this?", noted the answer and why.
 
-### Results (fictional)
+### Results 
 
 | Card | Said "I'd book it" | Said "I'd skip it" |
 |---|---|---|
@@ -73,7 +73,7 @@ The off-peak slot, price, plus "full refund if you don't come back within 2 week
 ### How it ran
 Shown to 7 people who fit the profile (no fixed studio, tries different places), one at a time. Asked "would you book this?" and, if yes, "would you actually come back, or is this a one-time thing?"
 
-### Results (fictional)
+### Results
 
 | Shown the card | Said "I'd book it" | Of those, said "I'd probably come back" |
 |---|---|---|
