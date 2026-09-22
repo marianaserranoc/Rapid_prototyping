@@ -1,6 +1,6 @@
 ## Persona 1: The Package-Wary Tryer
 
-**Grounding status:** Grounded — interview G1, gap closed with WoZ trial (example)
+**Grounding status:** Grounded — interview G1, gap closed with WoZ trial 
 
 ### Behavioural archetype
 A person who already pays for a default way to train (a gym membership) and occasionally tries boutique classes when a free window appears, but will not prepay a package before knowing a studio, weighing a single class against their already-paid default.
@@ -27,7 +27,7 @@ A person who already pays for a default way to train (a gym membership) and occa
 
 ## Persona 2: The Uncommitted Last-Minute Booker
 
-**Grounding status:** Grounded — interview G2, gap closed with WoZ trial (example)
+**Grounding status:** Grounded — interview G2, gap closed with WoZ trial 
 
 ### Behavioural archetype
 A young professional with an unpredictable schedule who discovers boutique fitness at short notice but hasn't committed to a studio, and — per the closed trial below — is driven more by booking friction than by regret-aversion.
@@ -50,7 +50,7 @@ A young professional with an unpredictable schedule who discovers boutique fitne
 
 ## Persona 3: The Unanchored Sampler
 
-**Grounding status:** Grounded — interview Example-G3, corroborated by WoZ trial (example). Previously hypothesis-only.
+**Grounding status:** Grounded — interview Example-G3, corroborated by WoZ trial. Previously hypothesis-only.
 
 ### Behavioural archetype
 A studio-goer with flexible, non-habitual time and no fixed studio commitment. Hesitation centers specifically on package-vs-drop-in pricing at the booking step, not general distrust — and a low-commitment offer measurably increases both booking and short-term return rate.
