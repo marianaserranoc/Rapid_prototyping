@@ -36,12 +36,12 @@ A young professional with an unpredictable schedule who discovers boutique fitne
 
 | Claim | Evidence status | Basis |
 |---|---|---|
-| Unpredictable schedule; discovers free time at short notice | REPORTED | G2, direct quote |
-| Uses Instagram to discover, DM/WhatsApp to book | REPORTED | G2, direct quote |
-| Cancelled meeting → IG story → DM → no quick reply → abandoned | REPORTED | G2, recalled episode |
-| Booking friction contributed to abandonment | SUPPORTED | Demonstrated by the episode itself |
-| Stated main concern is wasting money, not price | REPORTED | G2, stated framing |
-| Booking friction/certainty leans as the bigger factor, more than regret-aversion | SUPPORTED (stated preference) | oz-trials.md, Persona 2 — Card A (instant confirm) 4 of 5 said they'd book vs. Card B (refund guarantee) 2 of 5; those who declined Card B mostly said they wanted certainty the booking existed, not that they feared losing money |
+| Unpredictable schedule; discovers free time at short notice | REPORTED | G2, Q2,Q10 |
+| Uses Instagram to discover, DM/WhatsApp to book | REPORTED | G2, Q2,Q3 |
+| Cancelled meeting → IG story → DM → no quick reply → abandoned | REPORTED | G2, recalled episode, Q2, Q3, Q4, Q5 |
+| Booking friction contributed to abandonment | SUPPORTED | Demonstrated by the episode itself, Q5, Q6 |
+| Stated main concern is wasting money, not price | REPORTED | G2, stated framing, Q6 |
+| Booking friction/certainty leans as the bigger factor, more than regret-aversion | SUPPORTED (stated preference), Q7, Q8, Q9 | oz-trials.md, Persona 2 — Card A (instant confirm) 4 of 5 said they'd book vs. Card B (refund guarantee) 2 of 5; those who declined Card B mostly said they wanted certainty the booking existed, not that they feared losing money |
 | Combining instant confirmation + refund guarantee outperforms either alone | UNKNOWN | Not tested — natural next round |
 
 **Gap-closing summary:** original HYPOTHESIS ("regret/uncertainty-aversion is the dominant driver") is **downgraded, not disproven** — a 4/5-vs-2/5 result on stated intent, with reasons pointing to certainty over financial risk. Worth flagging as the file's most useful finding: the cheapest fix (a visibly confirmed booking) may matter more than the mechanism the team originally set out to build (a refund guarantee) — though this is what people *said* they'd do, not what they actually did, and needs a bigger round before betting engineering time on it.
