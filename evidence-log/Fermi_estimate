@@ -1,0 +1,33 @@
+# Fermi Estimate — Underfilled Off-Peak Seats per Week (Casablanca & Rabat)
+
+**What this answers:** roughly how many off-peak class seats go unfilled per week across boutique fitness studios in Casablanca and Rabat.
+
+**Format:** one known anchor, several assumptions, one derived number you can challenge — same structure as the course's piano-tuner example.
+
+---
+
+## Assumption chain
+
+| Step | Category | Status | Value used |
+|---|---|---|---|
+| 1 | Casablanca population | KNOWN | 3.7M |
+| 1 | Rabat population | KNOWN | 0.6M |
+| 2 | Boutique studios per capita | ASSUME | 1 per 50,000 |
+| 3 | Classes per studio per week | ASSUME | 20 |
+| 4 | Off-peak share of classes | ASSUME | 35% |
+| 5 | Empty seats per off-peak class | ASSUME | 4 |
+| 6 | **Result (Casablanca)** | DERIVED | 74 studios × 20 × 0.35 × 4 = **≈ 2,070 seats/week** |
+| 6 | **Result (Rabat)** | DERIVED | 12 studios × 20 × 0.35 × 4 = **≈ 340 seats/week** |
+
+## How each number was reached
+
+- **Population** — standard figures for each city, the one known anchor in the chain.
+- **Studios per capita (1 per 50,000)** — lowered from an initial 1 per 20,000, then 1 per 30,000, to bring the studio count down to something closer to a plausible number of *boutique* (yoga/pilates/reformer-style) studios rather than commercial gyms broadly. Still an assumption, not a counted figure — the single most uncertain step in the chain.
+- **Classes per studio per week (20)** — a mid-range guess for a small independent studio's weekly schedule.
+- **Off-peak share (35%)** — the portion of a studio's weekly classes that fall in low-demand time slots.
+- **Empty seats per off-peak class (4)** — an estimate of how many seats typically go unfilled in an off-peak class.
+- **Result** — population ÷ per-capita ratio gives studio count; studio count × classes/week × off-peak share × empty seats/class gives the weekly total.
+
+## The number you can challenge
+
+Studios-per-capita is the lever doing the most work here — moving it up or down shifts both cities' results proportionally. It's currently a judgment call, not a counted figure, so it's the first place to push back if this number needs to hold up under scrutiny.
