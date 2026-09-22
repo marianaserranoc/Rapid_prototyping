@@ -36,8 +36,8 @@ A young professional with an unpredictable schedule who discovers boutique fitne
 
 | Claim | Evidence status | Basis |
 |---|---|---|
-| Unpredictable schedule; discovers free time at short notice | REPORTED | G2, Q2,Q10 |
-| Uses Instagram to discover, DM/WhatsApp to book | REPORTED | G2, Q2,Q3 |
+| Unpredictable schedule; discovers free time at short notice | REPORTED | G2, Q2, Q10 |
+| Uses Instagram to discover, DM/WhatsApp to book | REPORTED | G2, Q2, Q3 |
 | Cancelled meeting → IG story → DM → no quick reply → abandoned | REPORTED | G2, recalled episode, Q2, Q3, Q4, Q5 |
 | Booking friction contributed to abandonment | SUPPORTED | Demonstrated by the episode itself, Q5, Q6 |
 | Stated main concern is wasting money, not price | REPORTED | G2, stated framing, Q6 |
