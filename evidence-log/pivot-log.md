@@ -17,6 +17,7 @@
 | 6 | The job starts when someone's usual class is full or cancelled | G1 and G2 both describe an unexpected free window instead | JTBD trigger changed to "unexpected free window" | Real goer interviews (`jtbd.md`) |
 | 7 | One boutique class is a cheap way to try a studio | Desk research: one class (250–400 MAD) costs about a month of gym (~314 MAD) | Price added as a rival explanation; test uses full price in both groups so price can't explain a gap | Desk research (`market-alternatives.md`) |
 | 8 | The test would measure attendance | The team can't verify who shows up at a studio this week | Test measures reservations through a booking page; attendance moves to the Phase 2 pilot | Practical constraint (`experiment-card.md`) |
+| 9 | 5 people per group would be enough | One person changes the result by 20 pp, so even a 40 pp gap could be chance | 20 per group (minimum 15); threshold lowered to 30 pp with a significance check | Team reasoning, Fisher's exact test (`experiment-card.md`) |
 
 ---
 
@@ -40,18 +41,19 @@ Written before results come in, so the evidence picks the direction, not us. Ful
 
 | If the result is… | And the decline reasons say… | We will… |
 |---|---|---|
-| A reserves ≥40 pp more than B | — | **Continue:** pilot with 2–3 real studios and measure attendance and return |
-| Gap under 20 pp | Mostly price or "prefer my gym" | **Pivot on price:** explore a new-clients-only first-visit price with owners |
-| Gap under 20 pp | Mostly "not sure I'd get a spot" | **Pivot to certainty:** instant booking for studios' existing classes |
-| Gap under 20 pp | Mostly "don't know the coach" | **Pivot to trust:** coach profiles, class videos, reviews |
+| A reserves ≥30 pp more than B (p < 0.05) | — | **Continue:** pilot with 2–3 real studios and measure attendance and return |
+| Gap under 15 pp | Mostly price or "prefer my gym" | **Pivot on price:** explore a new-clients-only first-visit price with owners |
+| Gap under 15 pp | Mostly "not sure I'd get a spot" | **Pivot to certainty:** instant booking for studios' existing classes |
+| Gap under 15 pp | Mostly "don't know the coach" | **Pivot to trust:** coach profiles, class videos, reviews |
 | Almost no one reserves in either group | — | **Change the slot** and rerun before concluding |
-| Gap of 20–39 pp | — | **Rerun** with 5 more people per group |
+| Gap of 15–29 pp, or ≥30 pp without p < 0.05 | — | **Extend** with 10 more people per group, then decide |
 
 ## 4. Result and decision
+*Fill in on 13 Oct.*
 
 | | |
 |---|---|
-| Result | Arm A: _ of _ reserved · Arm B: _ of _ reserved · Gap: _ pp |
+| Result | Arm A: _ of _ reserved · Arm B: _ of _ reserved · Gap: _ pp · Fisher's p: _ |
 | Top decline reasons | |
 | Branch triggered | |
 | Decision | |
