@@ -1,36 +1,60 @@
 # Experiment Card
 
+## How this card evolved
+Earlier versions were replaced, not deleted from our thinking. Each change was triggered by something specific. Details of each step are in `ai-usage-log.md` and `pivot-log.md`; earlier file versions are in the repository's commit history.
+
+| Version | What we planned to test | Method and threshold | Why we changed it |
+|---|---|---|---|
+| v1 | Goers have elastic routines and will move to off-peak slots given a non-price nudge (priority access + social matching) | Concierge: manual WhatsApp nudges to 5 people; ≥3 of 5 book and attend | The insight moved from timing to regret-aversion; a single group also couldn't tell which explanation caused a positive result |
+| v2 | Goers avoid off-peak classes out of regret-aversion | Single-group Wizard of Oz with a low-commitment offer | One group can't separate regret-aversion from timing or awareness |
+| v3 | Same, with a control | Two groups (low-commitment vs. normal terms, same visibility), 5 each; book-and-attend gap ≥40 pp; plus three supporting layers | Persona 2 card trial: instant confirmation beat a refund guarantee (4 of 5 vs. 2 of 5), so certainty could explain any gap |
+| v4 | Same, controlling for certainty | Instant confirmation promised in both groups | The team can't verify who attends a class this week |
+| v5 | Same | Two-version booking page (`booking-test/`), 5 per arm; reservation-rate gap ≥40 pp; decline reasons pick the pivot | With 5 per arm, one person moves the result by 20 pp, so even a 40 pp gap could be chance |
+| **v6 (current)** | **Same** | **Same page, 20 per arm (minimum 15); gap ≥30 pp with Fisher's exact p < 0.05** | — |
+
 ## Primary Test: Wizard of Oz (Area 1 — goer regret-aversion)
 
 ### Hypothesis
-Among studio-goers who have not committed to a studio or off-peak slot, removing commitment risk (no package required, explicit no-obligation guarantee) will produce a meaningfully higher booking-and-attendance rate for an off-peak slot than the identical slot with normal commitment terms. Both arms get the same visibility and the same instant booking confirmation, so the only difference is commitment risk.
+Among studio-goers who have not committed to a studio or off-peak slot, removing commitment risk (one class, no package required) will produce a meaningfully higher **reservation rate** for an off-peak class than the identical class offered through the studio's usual 3-class pack. Both arms see the same class, studio, coach, price per class (300 MAD), seats left and promise of instant confirmation, so the only difference is commitment.
 
 ### Method
-Run a Wizard of Oz test with 10 regular boutique class attendees in Casablanca and Rabat (5 per arm), recruited through our Moroccan contact's WhatsApp network (`recruitment.md`), by sending each person the same message about the same real off-peak class at the same price. Arm A adds one sentence: no package required and a full refund if they don't like the class. Arm B states standard booking and payment terms. Bookings are confirmed instantly by a team member in both arms, and attendance is confirmed with the studio after the class.
+Run a fake-door Wizard of Oz test with **40 regular boutique class-goers in Casablanca and Rabat (20 per arm, minimum 15)**, recruited through our Moroccan contacts' WhatsApp networks (`recruitment.md`). Each person receives a link to a booking page (`booking-test/`, live at https://marianaserranoc.github.io/Rapid_prototyping/booking-test/) for a Reformer Pilates class at a fictional studio, Atelier Sable (Maârif, Tue 11:00).
+
+- **Arm A (`#a`):** 300 MAD for 1 class, no pack or membership, pay at the studio.
+- **Arm B (`#b`):** the same class through the studio's usual 3-class discovery pack, 900 MAD (300 MAD per class), valid 1 month.
+
+A reservation means the person entered their first name and sent the pre-filled WhatsApp message ("I'M RESERVING … ref. S1/S2"). Declining sends "NOT FOR ME … reason: …" with the reasons they ticked. Immediately after each message, the team explains it was a student test, no class was booked and nothing will be charged, and asks for a 1-minute voice note on why. **Attendance is not measured in this round**; it moves to the Phase 2 pilot (`specs/roadmap.md`).
 
 Controls written before running:
 - **Assignment:** alternate A/B in the order contacts are received, logged in the results table before the message is sent.
-- **Script:** identical wording except the single commitment sentence. Both scripts are saved in `experiment-scripts.md`.
-- **Confirmation:** instant reply in both arms, so booking certainty cannot explain a difference (see pre-test signals below).
-- **Consent:** participants are told afterwards that the booking was coordinated by students for a course project; no payment is taken without their knowledge.
+- **Page:** both arms use the same page (`booking-test/index.html`); only the offer block differs. The reference code (S1 = A, S2 = B) is hidden in the message so participants don't see their arm.
+- **Confirmation:** the same "spot confirmed within minutes" promise in both arms, so booking certainty cannot explain a difference (see pre-test signals below).
+- **Transparency:** the page footer says it is a student test prototype with no online payment. Each participant is debriefed right after sending their message; no payment is ever taken.
+- **Denominator:** the team logs who received link A and who received link B before sending, because the page cannot record visits.
 
 ### Metric
-Booking rate and attendance rate per arm, recorded separately, plus the gap between arms (Arm A minus Arm B) on book-and-attend.
+**Reservation rate per arm** = reservation messages received ÷ people sent that arm's link, plus the gap between arms (Arm A minus Arm B). Secondary: the reasons ticked in "Not for me" messages and stated in voice notes, counted by category (price, commitment/pack, certainty of a spot, coach, timing, prefers gym).
 
 ### Threshold
 Set before testing:
-- **Supports the assumption:** Arm A's book-and-attend rate is at least 40 percentage points higher than Arm B's (e.g. Arm A ≥3 of 5, Arm B ≤1 of 5).
-- **Counts against it:** gap under 20 points.
-- **Inconclusive:** gap of 20–39 points, or high booking with low attendance in Arm A.
+- **Supports the assumption:** with 20 people per arm, Arm A's reservation rate is at least **30 percentage points** higher than Arm B's (e.g. Arm A ≥9 of 20, Arm B ≤3 of 20) **and** a one-sided Fisher's exact test gives p < 0.05. If only 15–19 per arm are reached, the same test applies, which means a gap of about 40 pp (e.g. ≥9 of 15 vs. ≤3 of 15).
+- **Counts against it:** gap under **15 points**.
+- **Inconclusive:** gap of 15–29 points, or ≥30 points without p < 0.05.
+
+*Why these numbers:* with 5 per arm, one person changed the result by 20 pp, so a 40 pp gap could happen by chance. With 20 per arm, a 30 pp gap is unlikely to be chance (Fisher's exact test, one-sided, p < 0.05), so the threshold can be lower and still mean something.
 
 ### Evidence strength
-MEDIUM — real target users in Morocco and real booking behaviour, with a same-visibility, same-confirmation control isolating commitment risk. Limited by 5 per arm and a single recruiting network.
+MEDIUM-LOW — real target users in Morocco taking a real action (reserving and sending a message), with a same-page control isolating commitment. Weaker than attendance: a reservation costs nothing, and the studio is fictional. 20 per arm is enough to detect a large gap (about 30 pp), not a small one; recruiting through personal networks limits how far it generalises.
 
 ### Decision rule
-- **Supports (≥40 pp):** CONTINUE. Recruit 2–3 pilot studios from the owner interviews and run a 10-per-arm version on their real off-peak classes before Session 22.
-- **Against, both arms book well (<20 pp):** CHANGE. Commitment risk isn't the barrier; pivot towards a discovery or instant-booking mechanism.
-- **Against, both arms book poorly (<20 pp):** CHANGE. Treat absence of demand for that slot as more likely; test a different slot or time before concluding.
-- **Inconclusive (20–39 pp):** CHANGE. Run one more round of 5 per arm, varying only the strength of the guarantee.
+Written before the test. The "Not for me" reasons and voice notes decide **which** pivot, so each branch names the evidence that picks it.
+
+- **Supports (≥30 pp, p < 0.05):** CONTINUE. Keep the no-package single class as the core offer. Next: 2–3 pilot studios from the owner interviews, real off-peak classes, and measure **attendance and return at full price** (Phase 2, before Session 22).
+- **Against (<15 pp), most decliners tick "price" or "prefer my gym":** PIVOT ON PRICE. Commitment isn't the barrier; the 300 MAD class is. Next: owner interviews on whether a lower first-visit price can avoid looking like a discount to regulars (new clients only).
+- **Against (<15 pp), most decliners tick "not sure I'd get a spot":** PIVOT TO CERTAINTY. Build an instant-booking tool for studios' existing classes instead of a no-commitment offer.
+- **Against (<15 pp), most decliners tick "I don't know the coach":** PIVOT TO TRUST. Test instructor profiles, short class videos or reviews before booking.
+- **Against (<15 pp), almost nobody reserves in either arm:** CHANGE THE SLOT. Treat absence of demand for that time as likely; rerun with a different time before concluding.
+- **Inconclusive (15–29 pp, or ≥30 pp without p < 0.05):** EXTEND. Send the links to 10 more people per arm, recompute once, then decide.
 
 ---
 
@@ -130,13 +154,16 @@ LOW — secondary aggregate data, a rough plausibility check only.
 - **No data:** mark as an open gap and flag generalisation confidence as unresolved.
 
 ### Results so far
-Not started.
+Partly done (`Fermi_estimate.md`, `market-alternatives.md`):
+- **Found:** prices (250–400 MAD per reformer class; about 314 MAD for a month of gym in Casablanca), studio counts (43 in Casablanca, 11 in Rabat, likely undercounted), and that no multi-studio pass such as ClassPass appears to operate in Morocco.
+- **Not found:** any Moroccan figure for trial-to-membership conversion. The only benchmark is unattributed US industry data (paid intro offers converting at 50–60%, free trials under 20%), so it is indicative only.
+- **Status:** open gap for conversion; the reservation result will be compared against the US benchmark with that caveat.
 
 ---
 
 ## Results and decision (primary test)
 
-| # | Arm | Contacted (date) | Booked | Attended | Notes |
+| # | Arm | Link sent (date) | Reserved (Y/N) | Reasons if not | Voice note (Y/N) |
 |---|---|---|---|---|---|
 | 1 | A | | | | |
 | 2 | B | | | | |
@@ -148,10 +175,43 @@ Not started.
 | 8 | B | | | | |
 | 9 | A | | | | |
 | 10 | B | | | | |
+| 11 | A | | | | |
+| 12 | B | | | | |
+| 13 | A | | | | |
+| 14 | B | | | | |
+| 15 | A | | | | |
+| 16 | B | | | | |
+| 17 | A | | | | |
+| 18 | B | | | | |
+| 19 | A | | | | |
+| 20 | B | | | | |
+| 21 | A | | | | |
+| 22 | B | | | | |
+| 23 | A | | | | |
+| 24 | B | | | | |
+| 25 | A | | | | |
+| 26 | B | | | | |
+| 27 | A | | | | |
+| 28 | B | | | | |
+| 29 | A | | | | |
+| 30 | B | | | | |
+| 31 | A | | | | |
+| 32 | B | | | | |
+| 33 | A | | | | |
+| 34 | B | | | | |
+| 35 | A | | | | |
+| 36 | B | | | | |
+| 37 | A | | | | |
+| 38 | B | | | | |
+| 39 | A | | | | |
+| 40 | B | | | | |
 
 | | Arm A | Arm B | Gap |
 |---|---|---|---|
-| Book-and-attend rate | | | |
+| Links sent | | | |
+| Reserved | | | |
+| Reservation rate | | | |
+| Fisher's exact p (one-sided) | | | |
 
 **Outcome against threshold:** [Supports / Against / Inconclusive]
 **Decision:** [Continue / Change / Stop], following the decision rule above
