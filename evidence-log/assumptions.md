@@ -4,7 +4,7 @@
 *Will goers actually book an off-peak class and come back?*
 
 - Must be true: Goers who could attend an off-peak class avoid booking mainly because paying before they know a studio is worth it feels like an irreversible bet (regret-aversion), not because of timing or awareness
-  - Evidence needed: We would need to observe a reservation rate at least 40 percentage points higher for a no-commitment offer (one class, no pack) than for the identical class offered through a 3-class pack, from 10 regular boutique class attendees in Casablanca and Rabat (5 per arm), under a two-arm reservation test with the same class, studio and price per class (`booking-test/`). Attendance is checked later, in the Phase 2 pilot
+  - Evidence needed: We would need to observe a reservation rate at least 30 percentage points higher (Fisher's exact p < 0.05) for a no-commitment offer (one class, no pack) than for the identical class offered through a 3-class pack, from 40 regular boutique class-goers in Casablanca and Rabat (20 per arm, minimum 15), under a two-arm reservation test with the same class, studio and price per class (`booking-test/`). Attendance is checked later, in the Phase 2 pilot
 - Must be true: Goers who try a class through a no-commitment entry come back at full price, rather than trying once and disappearing
   - Evidence needed: We would need to observe first-time trial attendees booking a second class at full price or buying a standard package within 4–6 weeks, from pilot studio booking records, under no discount
 - Must be true: Goers have free time that actually overlaps with studios' off-peak slots
