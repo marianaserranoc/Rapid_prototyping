@@ -18,7 +18,7 @@ This document gathers the business-model contradictions, experimental limitation
 | 4 | **Booking certainty vs. commitment risk** | High | **New, partly addressed** | Instant confirmation held constant in both arms of the primary test | `oz-trials.md` Persona 2 |
 | 5 | Financial risk vs. instructor and quality trust | High | Open | Add an instructor-familiarity question to the post-test debrief | `oz-trials.md` Persona 1 |
 | 6 | Undifferentiated goer segment | Medium | Open | Record segment (new, lapsed, current) for every test participant | `opportunity.md` |
-| 7 | Modality and geography baseline | Medium | Open | Count real studios on Google Maps; record modality and capacity of each pilot studio in Phase 2 | `Fermi_estimate` |
+| 7 | Modality and geography baseline | Medium | Open | Note modality and capacity of the host studio; count real studios on Google Maps | `Fermi_estimate` |
 | 8 | Acute push vs. learned resignation (owners) | Medium | Partly addressed | 3 real owners all rejected discounting but said yes to trying; check for resignation in 2–5 more interviews | `JTBD.md`, `gym_owners.md` |
 | 9 | Owner operational bandwidth and control | High | Open | Seat-release walk-through with a real owner using their current tools | `assumptions.md` 2.3 |
 | 10 | Owner sample below threshold | Medium | **New** | 3 of the 5–8 owners needed; 2–5 more interviews | `experiment-card.md` Layer 1 |
@@ -79,7 +79,7 @@ There is an unresolved tension between what motivates the goer and what the owne
 - **Open questions:**
   - Low-capacity, high-touch formats (reformer pilates, 6–10 beds) have very different margins from high-capacity ones (HIIT or spin, 25+ spots).
   - The market size in [Fermi_estimate](Fermi_estimate) relies on an unverified 1 boutique studio per 50,000 residents in Casablanca and Rabat.
-- **Next action:** anchor the Fermi estimate with a real count of boutique studios from Google Maps; record each pilot studio's modality and capacity in Phase 2. The reservation test uses reformer pilates (8 reformers), so its result speaks to that modality only.
+- **Next action:** record the host studio's modality and capacity; anchor the Fermi estimate with a real count of boutique studios from Google Maps.
 
 ### Gap 8: acute push vs. learned resignation (owners)
 - **Context:** [JTBD.md](JTBD.md) frames the owner's pain as an urgent push.
