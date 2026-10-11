@@ -60,10 +60,10 @@
 
 | Hypothesis | Method | Metric | Threshold | Decision rule |
 |---|---|---|---|---|
-| **Removing commitment risk beats normal terms** (priority test) | Two-arm reservation test (`experiment-card.md`, `booking-test/`) | Reservation-rate gap between arms | ≥40 pp | Met: keep. Under 20 pp: decline reasons pick the pivot (`pivot-log.md`) |
+| **Removing commitment risk beats normal terms** (priority test) | Two-arm reservation test (`experiment-card.md`, `booking-test/`) | Reservation-rate gap between arms (20 per arm) | ≥30 pp, p < 0.05 | Met: keep. Under 15 pp: decline reasons pick the pivot (`pivot-log.md`) |
 | Certainty of a spot matters more than commitment | Both arms promise confirmation within minutes; decliners tick their reasons | Decliners ticking "not sure I'd get a spot" | PROPOSED: the most-ticked reason | If met: pivot to an instant-booking tool for studios' existing classes |
 | Owners prefer our offer to their own discovery pack for off-peak slots | Next owner interviews: show both side by side | Owners who would use ours for off-peak | PROPOSED ≥3 of 5 | Missed: help owners promote their own discovery packs instead |
-| Goers will reserve at full studio price | Reservation test shows 300 MAD per class in both arms | Reservations at full price; decliners ticking "price" or "prefer my gym" | PROPOSED ≥3 of 10 reserve | Missed, with price the top reason: price, not commitment, is the barrier; rethink with owners |
+| Goers will reserve at full studio price | Reservation test shows 300 MAD per class in both arms | Reservations at full price; decliners ticking "price" or "prefer my gym" | PROPOSED ≥10 of 40 reserve across both arms (25%) | Missed, with price the top reason: price, not commitment, is the barrier; rethink with owners |
 
 ---
 
