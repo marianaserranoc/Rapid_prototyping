@@ -1,64 +1,100 @@
 # Open Gaps and Experimental Limitations Log
 
-> **Status:** Critical synthesis and methodological risk control document.  
-> **Project:** Off-peak capacity optimization for independent boutique fitness studios in Morocco.
+> **Status:** Critical synthesis and methodological risk control document.
+> **Project:** Off-peak capacity for independent boutique fitness studios in Casablanca and Rabat, Morocco.
+> **Last reviewed:** 11 Oct 2026, before the Phase 1 gate.
 
-This document compiles the core business model contradictions, experimental limitations, and unvalidated empirical gaps (*Open Gaps*) identified throughout the project that must be resolved prior to committing to product development or software engineering.
+This document gathers the business-model contradictions, experimental limitations and unvalidated gaps found so far. Each must be resolved, or consciously accepted, before committing to product development.
 
 ---
 
-## 1. Central Contradiction: The One-Off "Sampler" vs. Owner Retention Needs
+## Gap tracker
 
-There is an unresolved structural tension between what motivates the studio-goer and what the studio owner requires for viable business economics:
+| # | Gap | Severity | Status | Next action | Linked to |
+|---|---|---|---|---|---|
+| 1 | Trial-then-vanish vs. trial-then-convert | High | Open | 4–6 week follow-up of pilot trial goers | `assumptions.md` 1.2, 3.1 |
+| 2 | No result yet for the two-arm primary test | Critical | Scheduled 11–13 Oct | Run test, log results in `experiment-card.md` | `experiment-card.md`, `recruitment.md` |
+| 3 | No concurrent control in the card trials | Medium | Addressed by design | Primary test is two-arm; card trials kept as pre-test signals only | `oz-trials.md` |
+| 4 | **Booking certainty vs. commitment risk** | High | **New, partly addressed** | Instant confirmation held constant in both arms of the primary test | `oz-trials.md` Persona 2 |
+| 5 | Financial risk vs. instructor and quality trust | High | Open | Add an instructor-familiarity question to the post-test debrief | `oz-trials.md` Persona 1 |
+| 6 | Undifferentiated goer segment | Medium | Open | Record segment (new, lapsed, current) for every test participant | `opportunity.md` |
+| 7 | Modality and geography baseline | Medium | Open | Note modality and capacity of the host studio; count real studios on Google Maps | `Fermi_estimate` |
+| 8 | Acute push vs. learned resignation (owners) | Medium | Partly addressed | 3 real owners all rejected discounting but said yes to trying; check for resignation in 2–5 more interviews | `JTBD.md`, `gym_owners.md` |
+| 9 | Owner operational bandwidth and control | High | Open | Seat-release walk-through with a real owner using their current tools | `assumptions.md` 2.3 |
+| 10 | Owner sample below threshold | Medium | **New** | 3 of the 5–8 owners needed; 2–5 more interviews | `experiment-card.md` Layer 1 |
+| 11 | AI-simulated responses in evidence files | Medium | **New, addressed** | Kept labelled and excluded from all counts | `gym_owners.md`, `ai-usage-log.md` |
 
-| Lens | Goer Perspective (*Student*) | Owner Perspective (*Studio Owner*) |
+---
+
+## 1. Central contradiction: the one-off "sampler" vs. owner retention needs
+
+There is an unresolved tension between what motivates the goer and what the owner needs to stay viable.
+
+| Lens | Goer perspective | Owner perspective |
 | :--- | :--- | :--- |
-| **Primary Motivation** | **A one-off patch:** Attends another studio purely because their usual class was full or cancelled. Seeks to preserve their workout routine today without making any ongoing commitment. | **Predictability & retention:** Needs recurring attendance to reliably cover fixed monthly overhead (studio lease and instructor wages). |
-| **Behavioral Outcome** | Has no organic intent to return weekly unless the exact same schedule mismatch reoccurs in their calendar. | Wants to avoid "class tourists" taking advantage of cheap drop-in slots without ever converting into full-price members. |
+| **Primary motivation** | **A one-off patch:** attends another studio because their usual class was full or cancelled, to keep today's routine without committing. | **Predictability and retention:** needs recurring attendance to cover fixed monthly costs (rent and instructor pay). |
+| **Behavioural outcome** | No reason to return weekly unless the same schedule clash happens again. | Wants to avoid "class tourists" who take cheap drop-in slots and never become full-price members. |
 
-### Business Model Risk: *Trial-then-Vanish* vs. *Trial-then-Convert*
-* **The Vulnerability:** If the low-commitment mechanism merely attracts users who attend once and disappear (*trial-then-vanish*), the model degenerates into a discounter or ClassPass-style aggregator. Studio owners actively resist aggregators because they devalue the studio brand, frustrate full-paying regulars, and erode margins without building local community.
-* **Evidence Grounding Status:** **Unvalidated.** Current Wizard of Oz trials ([oz-trials.md](file:///Users/sofia/Desktop/Rapid%20Prototyping/evidence-log:/PERSONAS/oz-trials.md)) measured only single-instance booking intent. They did **not track repeat attendance or conversion rates over time**.
-* **Required Next Test:** Run a 4–6 week longitudinal follow-up tracking whether first-time trial attendees subsequently purchase a standard package, book a second class at full price, or vanish permanently.
-
----
-
-## 2. Experimental Design Limitations in Prior Testing
-
-### A. Absence of a Direct A/B Test (10-Class Pack vs. Single Drop-in)
-* **Limitation Identified:** In the price-vs-commitment test documented in [oz-trials.md](file:///Users/sofia/Desktop/Rapid%20Prototyping/evidence-log:/PERSONAS/oz-trials.md) (Persona 1), **no simultaneous A/B control arm was executed**.
-* **Evidence Source:** The assumption that studio-goers reject 10-class packages was drawn solely from past qualitative interview recollections (G1 recalled buying a 10-pack, utilizing only 5–6 classes, and resolving never to prepay again). The actual card test presented only a single gym-equivalent price point (5 of 8 agreed to book).
-* **Required Action:** Run a true concurrent two-arm test on matched cohorts (Arm A: Single class with zero commitment; Arm B: Standard 10-class package) to quantify the exact booking rate delta under identical visibility conditions.
-
-### B. Unexecuted Primary Test in Morocco ([recruitment.md](file:///Users/sofia/Desktop/Rapid%20Prototyping/evidence-log:/recruitment.md))
-* **Limitation Identified:** The primary behavioral experiment defined in [experiment-card.md](file:///Users/sofia/Desktop/Rapid%20Prototyping/evidence-log:/experiment-card.md) (10 real target attendees in Casablanca and Rabat testing for a $\ge 40$ percentage-point booking gap) **has no completed empirical results logged in this repository**.
-* **Current Status:** [recruitment.md](file:///Users/sofia/Desktop/Rapid%20Prototyping/evidence-log:/recruitment.md) defines only the recruitment criteria and outreach timeline targeting September 23. Existing WoZ trial data reflects preliminary proxy tester runs, not the target Moroccan cohort.
+### Business model risk: trial-then-vanish vs. trial-then-convert
+- **The vulnerability:** if the no-commitment offer only attracts people who come once and disappear, the model becomes a discounter or ClassPass-style aggregator. Owners resist aggregators because they devalue the brand, frustrate full-paying regulars and erode margins without building community.
+- **Evidence status:** **unvalidated.** The card trials ([oz-trials.md](personas/selected_personas/oz-trials.md)) measured single-booking intent only. In the Persona 3 trial, 3 of 5 who would book said they'd "probably come back", but that is stated intent, not behaviour.
+- **Required next test:** a 4–6 week follow-up of pilot trial goers, tracking whether each one books a second class at full price, buys a package, or vanishes. This is now the Measurable target in [goals.md](goals.md): at least 30% rebook at full price within 6 weeks.
 
 ---
 
-## 3. Additional Open Validation Gaps
+## 2. Experimental design limitations
 
-### Gap 1: Financial Risk vs. Instructor & Quality Trust
-* **Context:** In [oz-trials.md](file:///Users/sofia/Desktop/Rapid%20Prototyping/evidence-log:/PERSONAS/oz-trials.md), among respondents who declined the gym-equivalent single-class card, one explicitly cited **not knowing the instructor** as the primary blocker.
-* **Open Question:** Is the dominant booking barrier financial commitment (package cost), or is it quality uncertainty regarding the instructor and class environment? These point to fundamentally different product interventions (payment mechanics vs. instructor discovery and social proof).
+### A. No concurrent control in the card trials
+- **Limitation:** the Persona 1 price test in [oz-trials.md](personas/selected_personas/oz-trials.md) had no control arm. The belief that goers reject 10-class packs came from one interview (G1 bought a 10-pack, used 5–6 classes and resolved never to prepay again). The card itself showed one gym-equivalent price, and 5 of 8 said they would book.
+- **Resolution:** the primary test in [experiment-card.md](experiment-card.md) is now two-arm (no commitment vs. normal commitment) on the same class, price and visibility. The card trials are reported as pre-test signals, not evidence for the hypothesis.
 
-### Gap 2: Undifferentiated Goer Segmentation
-* **Context:** In [opportunity.md](file:///Users/sofia/Desktop/Rapid%20Prototyping/evidence-log:/opportunity.md), the "goer" is treated as a monolithic segment.
-* **Open Question:** The dynamics differ dramatically across three distinct groups:
-  1. *Net-new prospective goers:* Have never visited the studio before (high trust barrier).
-  2. *Lapsed members:* Previously attended but churned (past experience, specific dropout reason).
-  3. *Current peak-hour regulars:* Active members who currently avoid off-peak slots (schedule rigidity vs. habit).
+### B. Primary test not yet run
+- **Limitation:** the two-arm test (10 real attendees in Casablanca and Rabat, ≥40 pp gap) had no results logged, and the original recruitment deadline of 23 Sep passed with no contacts recorded.
+- **Current status:** rescheduled for 11–13 Oct 2026 with a host studio from the owner interviews ([recruitment.md](recruitment.md)). If fewer than 5 per arm complete it, the result is reported as partial with the real n.
 
-### Gap 3: Modality Variance and Geographic Baseline
-* **Context:** The opportunity assumes uniform boutique studio economics across disciplines and locations.
-* **Open Question:**
-  * Low-capacity, high-touch modalities (e.g., Reformer Pilates with 6–10 beds) operate under completely different margin structures than high-capacity disciplines (e.g., HIIT or spin with 25+ spots).
-  * The market size calculation ([Fermi_estimate.txt](file:///Users/sofia/Desktop/Rapid%20Prototyping/evidence-log:/Fermi_estimate.txt)) relies on an unverified ratio of 1 boutique studio per 50,000 residents in Casablanca and Rabat.
+---
 
-### Gap 4: Acute Push vs. Learned Resignation on the Owner Side
-* **Context:** In [JTBD.md](file:///Users/sofia/Desktop/Rapid%20Prototyping/evidence-log:/JTBD.md), the owner's pain is framed as an active, urgent push.
-* **Open Question:** Following repeated past failures with discounting, have owners normalized empty off-peak classes into learned helplessness? If so, the hurdle to adoption is not just showing a better tool, but overcoming deep skepticism that off-peak slots can be filled at all without brand damage.
+## 3. Open validation gaps
 
-### Gap 5: Operational Bandwidth and Owner Control
-* **Context:** Real owner interviews in [gym_owners.md](file:///Users/sofia/Desktop/Rapid%20Prototyping/evidence-log:/PERSONAS/gym_owners.md) emphasize that owners insist on absolute discretion over which slots/seats are opened and reject administrative overhead.
-* **Open Question:** The exact operational workflow has not yet been designed: how can solo operators release surplus inventory in real-time without managing manual WhatsApp exchanges or disrupting their existing scheduling tools?
+### Gap 4 (new): booking certainty vs. commitment risk
+- **Context:** in the Persona 2 trial ([oz-trials.md](personas/selected_personas/oz-trials.md)), instant confirmation got 4 of 5 "I'd book it", while a refund guarantee got 2 of 5. Those who skipped the refund card said they worried about not knowing whether they had a place, not about losing money.
+- **Why it matters:** this partly contradicts the riskiest assumption. If certainty matters more than risk removal, the product is an instant-booking tool, not a no-commitment trial.
+- **What we did:** the primary test now holds instant confirmation constant in both arms, so only commitment risk differs. This rival hypothesis is logged in [assumptions.md](assumptions.md).
+
+### Gap 5: financial risk vs. instructor and quality trust
+- **Context:** in the Persona 1 card trial, one of the three who declined cited not knowing the instructor.
+- **Open question:** is the main barrier financial commitment or quality uncertainty? These lead to different products: payment mechanics vs. instructor discovery and social proof.
+- **Next action:** ask every primary-test participant in the debrief whether knowing the instructor would have changed their decision.
+
+### Gap 6: undifferentiated goer segment
+- **Context:** [opportunity.md](opportunity.md) still treats the goer as one segment.
+- **Open question:** barriers likely differ across:
+  1. *Net-new prospects:* never visited the studio (high trust barrier).
+  2. *Lapsed members:* attended before but stopped (a specific dropout reason).
+  3. *Current peak-hour regulars:* active members who avoid off-peak slots (schedule rigidity or habit).
+- **Next action:** record each participant's segment in the [recruitment.md](recruitment.md) log so results can be split later, even if the sample is too small to compare now.
+
+### Gap 7: modality and geography baseline
+- **Context:** the opportunity assumes the same studio economics across disciplines and cities.
+- **Open questions:**
+  - Low-capacity, high-touch formats (reformer pilates, 6–10 beds) have very different margins from high-capacity ones (HIIT or spin, 25+ spots).
+  - The market size in [Fermi_estimate](Fermi_estimate) relies on an unverified 1 boutique studio per 50,000 residents in Casablanca and Rabat.
+- **Next action:** record the host studio's modality and capacity; anchor the Fermi estimate with a real count of boutique studios from Google Maps.
+
+### Gap 8: acute push vs. learned resignation (owners)
+- **Context:** [JTBD.md](JTBD.md) frames the owner's pain as an urgent push.
+- **Open question:** after repeated failures with discounting, have owners accepted empty off-peak classes as normal? If so, adoption means overcoming deep scepticism, not just offering a better tool.
+- **Evidence so far:** all 3 real owners ([gym_owners.md](personas/selected_personas/gym_owners.md)) rejected discounting but said they would try the concept. That suggests interest rather than resignation, but n=3 and stated intent only.
+
+### Gap 9: operational bandwidth and owner control
+- **Context:** real owner interviews ([gym_owners.md](personas/selected_personas/gym_owners.md)) stress full control over which seats open and no extra admin. Owner B made seat control a condition of saying yes.
+- **Open question:** how can a solo operator release spare seats in real time without manual WhatsApp exchanges or disrupting their current scheduling tools?
+- **Next action:** a seat-release walk-through with one real owner using the tools they use today. This is also the first input for the Stage 2 feature specification.
+
+### Gap 10 (new): owner sample below threshold
+- **Context:** Layer 1 in [experiment-card.md](experiment-card.md) needs 5–8 owners; 3 have been interviewed.
+- **Next action:** 2–5 more owner interviews before Session 16. Until then, owner adoption is reported as directional only.
+
+### Gap 11 (new): AI-simulated responses in evidence files
+- **Context:** [gym_owners.md](personas/selected_personas/gym_owners.md) adds 2 AI-simulated responses per owner persona to 1 real response each.
+- **Resolution:** simulated responses stay clearly labelled, are excluded from every count in [assumptions.md](assumptions.md) and [experiment-card.md](experiment-card.md), and are logged in [ai-usage-log.md](ai-usage-log.md).
