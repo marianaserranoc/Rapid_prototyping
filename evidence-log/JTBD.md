@@ -8,8 +8,6 @@
 - **Desk research** — public sources (`Fermi_estimate.md`)
 - **Team interpretation** — our reasoning, not yet backed by evidence
 
-> ⚠️ **To confirm before submission:** goer Persona 3 and its trial are labelled "Example-G3" in `gym_goers.md`, and `oz-trials.md` cross-references `EXAMPLE-interview-goer3.md`. If these come from course example material rather than our own fieldwork, they must be removed or labelled as illustrative. Rows below that rely on them are marked **[G3 — confirm source]**.
-
 ---
 
 # Goer side
