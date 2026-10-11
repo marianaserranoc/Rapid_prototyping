@@ -1,76 +1,42 @@
-# ERRC — Eliminate, Reduce, Raise, Create
+# Eliminate-Reduce-Raise-Create Grid
 
-**Status:** working value innovation hypothesis, pending validation. Updated 11 Oct 2026.
-**Framework:** Blue Ocean Strategy Four Actions. **Supporting market map:** `market-alternatives.md`.
+**Status:** Confirmed value innovation hypothesis requiring evidence *(team to confirm each row; see Evidence boundaries)*
 
----
+**Target user:** Owners and managers of independent boutique fitness studios in Casablanca and Rabat (about 15–25 classes a week, owner sets the schedule) with a recurring off-peak class running well below capacity. Bookers: active people with an unexpected free window and no commitment to the studio.
 
-## 1. Current target user, Job and strongest alternative
+**Job to Be Done:** When a recurring off-peak class keeps running with a few people in it, fill those seats with new people at the normal price, choosing which seats are offered, without regulars learning to expect discounts (`jtbd.md`).
 
-| Decision | Current one-liner | Source of truth |
-|---|---|---|
-| Target user (pays) | Owners of independent boutique studios in Casablanca and Rabat (15–25 classes a week) with a recurring off-peak class running well below capacity | `opportunity.md`, `gym_owners.md` |
-| Target user (books) | Active people with an unexpected free window and no commitment to the studio | `opportunity.md`, `jtbd.md` |
-| Job to Be Done (owner) | Fill named quiet slots with new people at normal price, choosing which seats are offered, without regulars learning to expect deals | `jtbd.md` |
-| Job to Be Done (goer) | Turn a free window into a class worth its price, without prepaying for a studio not yet tried | `jtbd.md` |
-| Strongest alternative | Owners: run the class near-empty or cut it, after discounting failed. Goers: the gym already paid for (one boutique class ≈ one month of gym) | `market-alternatives.md` |
+**Strongest current alternative:** Doing nothing: running the class near-empty or cutting it, after discounting has failed.
 
----
+**Evidence basis for the baseline:** Real-user evidence, n=3. Owner B ran a 2-person class rather than cancel; Owner A cut a class after months of low attendance; Owners A and C tried discounts and stopped (`user-feedback.md`). Limitation: three owners, stated in interviews, not observed. On the booker side, the strongest alternative is the gym membership already paid for (G1, reported; desk research shows one boutique class costs about a month of gym), recorded in `market-alternatives.md`.
 
-## 2. Factors the market competes on today (value curve)
+## ERRC Grid
 
-Scores 1 (low) to 5 (high) are **team judgement** from the sources in `market-alternatives.md`, not measured data.
-
-| Factor | Discount codes | Studio discovery pack | Gym membership | DM booking via Instagram | **Our offer** |
-|---|---|---|---|---|---|
-| Price per class to goer | 2 | 3 | 1 | 4 | 4 |
-| Upfront commitment for goer | 2 | 3 | 5 | 2 | **1** |
-| Booking certainty and speed | 3 | 3 | 5 | 1 | **5** |
-| Price integrity for owner | **1** | 4 | — | 5 | **5** |
-| Owner control over which seats are offered | 2 | 3 | — | 4 | **5** |
-| Reach to net-new goers | 3 | 2 | — | 2 | **4** |
-| Knowing new vs. regular attendees | 1 | 2 | — | 1 | **5** |
-| Variety of studios | 1 | 1 | 1 | 2 | 2 |
-
-**Reading it:** our offer gives up variety (we are not an aggregator) and keeps full price, but scores highest on low commitment, certainty and owner control. That shape is the hypothesis to test, not a result.
-
----
-
-## 3. Four Actions grid
-
-| Action | Strategic move | Assumption challenged | Cost effect | Buyer value | Evidence status | What must be validated |
+| Action | Strategic move | Assumption challenged | Cost effect | Buyer value effect | Evidence status | What must be verified |
 |---|---|---|---|---|---|---|
-| **Eliminate** | Discounting as the way to fill off-peak seats | Empty off-peak seats can only be filled by lowering the price | - No margin given away on filled seats<br>- Seats are sold at the studio's normal price | Owners keep price integrity; regulars never see a cheaper deal | **Supported, n=3:** all three real owners rejected discounting after trying it or seeing regulars object | That new goers book at full price (primary test uses full price in both arms) |
-| **Reduce** | Upfront commitment for a first visit: from a 3–10-class pack or membership to one off-peak class, with no package required | Studios must lock in new clients with packs to justify serving them | - Lower revenue per new client upfront<br>- No refund handling for unused packs | Goers can try one class without risking money on unused classes (G1 used 5–6 of a 10-pack) | **Contested:** G1 supports it; the Persona 2 trial found certainty mattered more than removing financial risk | **Riskiest assumption.** Two-arm reservation test, 20 per arm: does no-commitment beat the 3-class pack by ≥30 pp? |
-| **Raise** | Booking certainty: instant confirmation of the place, instead of waiting for a DM reply | Booking by Instagram and WhatsApp DM is good enough | - Needs someone (manual first, then software) to confirm within minutes | Goers act on a free window immediately; no lost bookings from slow replies (G2) | **Supported, stated intent:** G2's real episode; Persona 2 trial 4 of 5 vs. 2 of 5 | Share of decliners in the reservation test who tick "not sure I'd get a spot" |
-| **Create** | Owner-controlled release of chosen off-peak seats **to new clients only**, with a weekly report of new vs. regular attendees | A third party filling seats means losing control and looking like a discount | - Owner spends minutes, not hours (one message to release seats)<br>- We carry matching and tracking | Owners choose seats (B, C's condition), regulars don't see the offer (C), and owners see whether it brings new people (C wants this but won't build it) | **Supported as a requirement, n=2–3:** stated conditions from Owners B and C | Seat-release walk-through with a real owner; whether owners use it instead of their own discovery pack |
+| Eliminate | Discounting as the way to fill off-peak seats: price goes to zero discount, always the studio's normal price | Empty off-peak seats can only be filled by lowering the price | **Lower cost to owners:** no margin given away on filled seats. **Transferred:** if full price doesn't attract newcomers, seats stay empty | Owners keep price integrity; regulars never see a cheaper deal to wait for | **Evidence-supported** (n=3): all three real owners rejected discounting after trying it or seeing regulars object | That newcomers reserve at full price (reservation test shows 300 MAD per class in both arms) |
+| Reduce | Upfront commitment for a first visit: from a 3–10-class pack or membership down to one off-peak class with no pack | Studios must lock new clients into packs to make serving them worthwhile | **Lower upfront revenue per newcomer** for the studio; no unused-pack refunds to manage. **Transferred:** the studio carries the risk that a newcomer comes once and never returns | Newcomers can try a studio without risking money on classes they won't use (G1 used 5–6 of a 10-pack) | **Plausible hypothesis**, contested: G1 supports it; the Persona 2 card trial found certainty of a spot mattered more than removing financial risk | **Riskiest assumption.** Reservation test, 20 per arm: does no-pack beat the 3-class pack by ≥30 pp (p < 0.05)? Later: do trial goers return at full price? |
+| Raise | Booking certainty: a confirmed place within minutes, instead of waiting for an Instagram or WhatsApp DM reply | Booking by DM is good enough for boutique studios | **Higher operating cost:** someone (manual first, then software) must confirm within minutes, including off-hours | Goers can act on a free window immediately; fewer bookings lost to slow replies (G2) | **Plausible hypothesis:** one real episode (G2) and stated intent (Persona 2 trial, 4 of 5 vs. 2 of 5) | Share of reservation-test decliners who tick "not sure I'd get a spot"; whether certainty, not commitment, drives the result |
+| Create | Owner-controlled release of chosen off-peak seats **to new clients only**, with a weekly count of new vs. regular attendees | A third party filling seats means losing control and looking like a discount | **Low owner effort** (one message to release seats); **new cost to us:** matching, member-list checks and tracking. **New exposure:** storing goers' first names and phone numbers | Owners choose the seats (Owners B, C), regulars never see the offer (Owner C), and owners can see whether it brings new people (Owner C wants this but won't build it) | **Plausible hypothesis:** conditions stated by real owners; the mechanism itself is untested | Seat-release walk-through with a real owner; whether owners use it instead of their own discovery packs; privacy handling of member lists |
 
-**In one line:** eliminate discounting, reduce first-visit commitment to one class, raise booking certainty, and create owner-controlled seat release for new clients only.
+## Value innovation hypothesis
 
----
+Studios stop paying for empty seats with discounts (Eliminate) and stop asking newcomers to prepay a pack (Reduce), which lowers the cost and risk of a first visit for both sides. In exchange, newcomers get a confirmed place in minutes (Raise), and owners get something no current alternative offers: control over which seats go to new clients only, plus proof of whether those clients are new (Create). If it holds, off-peak classes fill with net-new people at full price, without regulars expecting deals.
 
-## 4. Value innovation hypothesis
+This remains a hypothesis, not a validated blue ocean or confirmed business model.
 
-**If** independent boutique studios in Casablanca and Rabat release chosen off-peak seats at full price, to new clients only, with instant confirmation and no package required, **then** at least 2 of the empty seats per off-peak class will be filled by net-new attendees, and at least 30% of them will book again at full price within 6 weeks, **without** a drop in regulars' package purchases.
+## Critical outstanding validation points
 
-It **fails** if any of these happen:
-- the no-commitment arm does not beat normal terms by at least 15 pp (commitment is not the barrier)
-- goers will not book one class at full studio price (price, not commitment, is the barrier)
-- fewer than 3 of 5 owners would use it instead of discounts or their own discovery pack
-- trial goers do not come back (trial-then-vanish), which would make us a discounter in disguise
+1. Does removing the pack raise reservations by ≥30 pp over the 3-class pack, at 20 people per arm? (`experiment-card.md`)
+2. Do newcomers accept full studio price (300 MAD) for one class, given that it costs about a month of gym?
+3. Is certainty of a spot, rather than commitment, the real barrier? (decline reasons in the reservation test)
+4. Would owners release seats this way instead of using their own discovery packs, and can they do it in minutes with their current tools?
+5. Do trial goers come back at full price, or come once and vanish? (Phase 2 pilot)
 
----
+## Evidence boundaries
 
-## 5. Evidence status and critical validation points
-
-| Claim | Status | Evidence boundary |
-|---|---|---|
-| Owners reject discounting and want control | Supported, n=3 real owners | Stated, not observed; may be the 3 most motivated owners |
-| Booking certainty is a real barrier | Supported by one real episode (G2) and stated intent | Card trial, friends-of-friends, not the Moroccan target cohort |
-| Commitment risk is the main barrier | **Contested** | Two-arm reservation test running 11–13 Oct (`booking-test/`); measures reservations, not attendance |
-| Goers will pay full price for one class | Unknown | Persona 1 trial tested gym-equivalent price, not full studio price |
-| Trial goers come back | Unknown, stated intent only | Needs a 4–6 week pilot |
-| No Moroccan aggregator competes | Desk research only | A local pass may exist that we didn't find |
-| This is a blue ocean | **Not claimed** | A plausible hypothesis, not a validated market or business model |
-
-**Next evidence move:** finish the two-arm reservation test (`experiment-card.md`, `booking-test/`). Owner: whole team, with the Moroccan contact recruiting. Sample: 20 per arm. Threshold: ≥30 pp with p < 0.05. Stop condition: under 15 pp → drop the no-commitment mechanism, and let the decline reasons choose the pivot (price, certainty of a spot, or trust in the coach; see `pivot-log.md`). Attendance is tested next, in the Phase 2 pilot.
+- **Real evidence:** 3 owner interviews (discount rejection, quiet slots, seat-control conditions); 2 goer interviews (G1's unused pack and gym fallback; G2's abandoned DM booking).
+- **Stated intent only:** three card trials with friends-of-friends, not the Moroccan target cohort; Persona 3's trial is labelled "Example-G3" in its source file and must be confirmed as the team's own.
+- **Desk research:** class prices (250–400 MAD), gym membership (~314 MAD/month), studio counts, Core Studio's 3-class discovery pack, no ClassPass presence found in Morocco. This shows what exists, not what our users choose.
+- **Team and AI inference:** that the Create move is genuinely new for owners in Casablanca and Rabat; the cost effects are directional, not measured. This grid was drafted with AI from the evidence log and must be checked row by row by the team (`ai-usage-log.md`).
+- **Contradictions:** the Persona 2 trial favoured certainty over risk removal, and one class costs about a month of gym. Either could mean commitment is not the main barrier.
