@@ -18,7 +18,7 @@ This document gathers the business-model contradictions, experimental limitation
 | 4 | **Booking certainty vs. commitment risk** | High | **New, partly addressed** | Instant confirmation held constant in both arms of the primary test | `oz-trials.md` Persona 2 |
 | 5 | Financial risk vs. instructor and quality trust | High | Open | Add an instructor-familiarity question to the post-test debrief | `oz-trials.md` Persona 1 |
 | 6 | Undifferentiated goer segment | Medium | Open | Record segment (new, lapsed, current) for every test participant | `opportunity.md` |
-| 7 | Modality and geography baseline | Medium | Open | Note modality and capacity of the host studio; count real studios on Google Maps | `Fermi_estimate` |
+| 7 | Modality and geography baseline | Medium | Open | Count real studios on Google Maps; record modality and capacity of each pilot studio in Phase 2 | `Fermi_estimate` |
 | 8 | Acute push vs. learned resignation (owners) | Medium | Partly addressed | 3 real owners all rejected discounting but said yes to trying; check for resignation in 2–5 more interviews | `JTBD.md`, `gym_owners.md` |
 | 9 | Owner operational bandwidth and control | High | Open | Seat-release walk-through with a real owner using their current tools | `assumptions.md` 2.3 |
 | 10 | Owner sample below threshold | Medium | **New** | 3 of the 5–8 owners needed; 2–5 more interviews | `experiment-card.md` Layer 1 |
@@ -49,8 +49,8 @@ There is an unresolved tension between what motivates the goer and what the owne
 - **Resolution:** the primary test in [experiment-card.md](experiment-card.md) is now two-arm (no commitment vs. normal commitment) on the same class, price and visibility. The card trials are reported as pre-test signals, not evidence for the hypothesis.
 
 ### B. Primary test not yet run
-- **Limitation:** the two-arm test (10 real attendees in Casablanca and Rabat, ≥40 pp gap) had no results logged, and the original recruitment deadline of 23 Sep passed with no contacts recorded.
-- **Current status:** running 11–13 Oct 2026 as a reservation test through a two-version booking page (`booking-test/`). It measures reservations, not attendance, because the team cannot verify who shows up; attendance moves to the Phase 2 pilot with a real studio. If fewer than 5 per arm respond, the result is reported as partial with the real n.
+- **Limitation:** the two-arm test (real class-goers in Casablanca and Rabat, large gap between arms) had no results logged, and the original recruitment deadline of 23 Sep passed with no contacts recorded.
+- **Current status:** running 11–13 Oct 2026 as a reservation test through a two-version booking page (`booking-test/`). It measures reservations, not attendance, because the team cannot verify who shows up; attendance moves to the Phase 2 pilot with a real studio. Sample raised to 20 per arm (minimum 15) so a 30 pp gap is meaningful; if fewer than 15 per arm are reached, the result is reported as partial with the real n.
 
 ---
 
@@ -79,7 +79,7 @@ There is an unresolved tension between what motivates the goer and what the owne
 - **Open questions:**
   - Low-capacity, high-touch formats (reformer pilates, 6–10 beds) have very different margins from high-capacity ones (HIIT or spin, 25+ spots).
   - The market size in [Fermi_estimate](Fermi_estimate) relies on an unverified 1 boutique studio per 50,000 residents in Casablanca and Rabat.
-- **Next action:** record the host studio's modality and capacity; anchor the Fermi estimate with a real count of boutique studios from Google Maps.
+- **Next action:** anchor the Fermi estimate with a real count of boutique studios from Google Maps; record each pilot studio's modality and capacity in Phase 2. The reservation test uses reformer pilates (8 reformers), so its result speaks to that modality only.
 
 ### Gap 8: acute push vs. learned resignation (owners)
 - **Context:** [JTBD.md](JTBD.md) frames the owner's pain as an urgent push.
