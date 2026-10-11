@@ -24,20 +24,22 @@ The reservation test uses a fictional studio (Atelier Sable) and measures reserv
 
 | Group | Target | Recruit | Why |
 |---|---|---|---|
-| Goers, Arm A | 5 | 7–8 | Covers people who never open the link |
-| Goers, Arm B | 5 | 7–8 | Same |
+| Goers, Arm A | 20 (minimum 15) | 25 | Covers people excluded (e.g. saw both versions) or unreachable |
+| Goers, Arm B | 20 (minimum 15) | 25 | Same |
 | Owners, Layer 1 | 5–8 total | 2–5 more | 3 real owners already interviewed |
 | Host studio (Phase 2) | 1 | 1 | From the owners already interviewed |
 
-If fewer than 5 people per arm complete the test, the result is reported as partial with the actual n, not extrapolated.
+A person counts once their link is sent: no reply counts as "did not reserve". If fewer than 15 people per arm receive a link, the result is reported as partial with the actual n, not extrapolated.
+
+**Why 20 per arm:** with 5 per arm one person moves the result by 20 pp; with 20 per arm a 30 pp gap is unlikely to be chance (`experiment-card.md`, Threshold).
 
 ## How we reach them
-- **Goers:** our Moroccan IE classmate sends regular class attendees from his personal network one WhatsApp message with a link: `https://marianaserranoc.github.io/Rapid_prototyping/booking-test/#a` or `https://marianaserranoc.github.io/Rapid_prototyping/booking-test/#b`. Reservations and "not for me" replies arrive by WhatsApp with a hidden code (S1 = A, S2 = B). The team debriefs each person straight after and asks for a 1-minute voice note.
+- **Goers:** 40 people is more than one network can supply, so we use three channels: (1) our Moroccan IE classmate's personal network; (2) other Moroccan students at IE and their contacts in Casablanca and Rabat; (3) referrals from the first participants ("know someone who takes classes?"). Each person gets one WhatsApp message with a link: `https://marianaserranoc.github.io/Rapid_prototyping/booking-test/#a` or `https://marianaserranoc.github.io/Rapid_prototyping/booking-test/#b`. Reservations and "not for me" replies arrive by WhatsApp with a hidden code (S1 = A, S2 = B). The team debriefs each person straight after and asks for a 1-minute voice note.
 - **Owners:** the same contact, plus referrals from the three owners already interviewed, plus studios found on Google Maps and Instagram in Casablanca and Rabat contacted directly.
 - **Host studio (Phase 2):** asked directly by the team member who interviewed them in person.
 
 **Bias risks we accept and record:**
-- All goers come from one person's network, so they may share habits and income level.
+- Goers come from a few personal networks, so they may share habits and income level. We record which channel each person came from.
 - Referred people may say yes to please the referrer. We count reservations sent through the page, not stated intent, to reduce this; it remains a weaker signal than attendance.
 - **Cross-contamination between arms:** people in the same network may compare links. All links go out within the same 24 hours, and anyone who saw both versions is excluded.
 - **Assignment is not truly random or blind.** We log each person's arm before sending so it can't be adjusted afterwards.
@@ -47,8 +49,9 @@ If fewer than 5 people per arm complete the test, the result is reported as part
 | Step | Date |
 |---|---|
 | Booking page live and tested | 11 Oct 2026 |
-| Links sent, both arms | 11–12 Oct 2026 |
-| Reservations, reasons and voice notes collected | by 13 Oct 2026 (morning) |
+| Links sent, both arms (alternating A/B, logged first) | 11–13 Oct 2026 |
+| Reservations, reasons and voice notes collected; interim result for Group Project I | 13 Oct 2026 (morning) |
+| Final count if 15–20 per arm not yet reached | by 15 Oct 2026 |
 | Results logged in `experiment-card.md` | 13 Oct 2026, before Group Project I |
 | Additional owner interviews | before Session 16 |
 
