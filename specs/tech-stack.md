@@ -1,16 +1,39 @@
-# Mission — version 0.1
+# Tech Stack — version 0.1
 
-*Read by every agent session. Signed off by the team: [names, date]. Each line is marked with its claim status: EVIDENCE (traced to a source file), DECISION (recorded team choice), MISSING (not yet known).*
+*Evidence backs each need; the team chooses each tool. Not knowing yet is a decision to record, not hide.*
 
-| | Statement | Status | Source |
+## Choices
+
+| Layer | Current choice | Why (evidence or decision) | Status |
 |---|---|---|---|
-| **Purpose** | Help independent boutique studios in Casablanca and Rabat fill recurring off-peak seats with new people at full price. | EVIDENCE | `opportunity.md`, `user-feedback.md` (Owners A, C name their quiet slots) |
-| **For whom** | Owners who set their own schedule (payer); goers with an unexpected free window and no studio commitment (booker). | EVIDENCE | `jtbd.md` |
-| **Promise** | Owners never discount and always choose which seats go out; goers get a confirmed place in minutes with no package required. | DECISION | `ERRC.md` |
-| **Core flow** | Owner releases chosen seats → goer sees the class and books → place confirmed instantly → studio marks attendance → owner sees new vs. regular attendees. | DECISION | `ERRC.md` Create move |
-| **Non-goals** | No discounts or price setting by us. No payments in the prototype (goers pay at the studio). No studio management software. No multi-studio subscription or credits. No offers shown to existing members. | DECISION | `ERRC.md`, Owners B and C |
-| **Success signal** | At least 2 extra attendees per off-peak class; at least 30% of trial goers rebook at full price within 6 weeks. | DECISION (proposed targets) | `goals.md` |
-| **Open** | Whether commitment risk, price or certainty is the real goer barrier; whether trial goers return; whether owners prefer this to their own discovery packs. | MISSING | `experiment-card.md`, `open-gaps.md` |
+| Phase 0 test (now) | A static two-version booking page on GitHub Pages (`booking-test/`), sending reservations to WhatsApp; one shared spreadsheet (Microsoft 365) to count them | Test the riskiest assumption before building anything (`experiment-card.md`) | **Decided, live** |
+| Goer surface | Mobile web page opened from a WhatsApp or Instagram link; no app to install | Goers discover on Instagram and book by DM (G2); friction ceiling is a phone number and one tap (G3) | **Decided** |
+| Owner surface | Owner releases seats by WhatsApp message or a one-screen web form | Owners are solo operators who won't take on new admin; they check bookings on their phone (Owner A) | Decided: WhatsApp first. **TBD:** web form in Phase 1 |
+| Build tool for the First Working Skeleton | One of Lovable, Bolt, v0, or VS Code with a coding agent | Course tools; pick by which produces a working booking flow fastest that the team can still read and change | **TBD** — decide at Session 16 |
+| Data storage | A hosted database with row-level access (Supabase is the course default) | Need bookings, released seats and attendance in one place | **TBD** — decide with the build tool |
+| Hosting | The build tool's hosting or GitHub Pages | Free; enough for a pilot | **TBD** |
+| Payments | None. Goers pay at the studio, as they do today | Handling money adds legal and trust risk the test doesn't need | **Decided** |
+| Confirmation | Instant message to the goer (WhatsApp in Phase 0, automatic in Phase 1) | Certainty of a place is a named barrier (G2, Trial P2) | **Decided** |
+| Interface language | French first; Arabic | Not yet asked of users | **TBD** — ask in next interviews |
+| Personal data | First name and phone number only; consent at booking; deleted after the pilot | Morocco's personal-data law (Law 09-08, overseen by the CNDP) | Decided: minimise. **TBD:** confirm obligations |
 
-**Working name:** [Venture name — to decide]
+## AI Fit Decision — where AI belongs and where it does not
 
+| Step | Who does it | Why |
+|---|---|---|
+| Releasing seats, setting price and seat limit | **Owner (person)** | Owner control is a condition of adoption (Owners B, C) |
+| Showing the offer only to new clients | **Code (rule)** | Must be exact: a regular seeing the offer turns it into a visible discount (Owner C) |
+| Booking, seat count, confirmation | **Code (rule)** | Must never double-book or guess; deterministic and testable |
+| Marking attendance | **Owner or studio staff (person)** | Only the studio knows who walked in |
+| New vs. regular report | **Code (rule)** | A count, not a judgement |
+| Drafting outreach and reminder messages | **AI, reviewed by a person** | Saves team time; a person approves every message before sending |
+| Summarising interview notes and open feedback | **AI, verified against the notes** | Logged in `ai-usage-log.md` |
+| Rehearsing persona reactions | **AI (Persona Agent)** | Rehearsal only, never evidence (`agents/persona-agent.md`) |
+
+**Rule:** AI never touches price, seat release, booking, or who sees an offer. In the prototype, those are rules or people.
+
+## Run rules
+- One repository; specs in `specs/` are the source of truth for what gets built.
+- No keys, tokens or phone numbers in Git; use the build tool's secret settings and keep `.env` out of the repo.
+- Commit small, with a message saying which requirement it serves.
+- Every phase ends with the checks in that feature's `validation.md` passing.
