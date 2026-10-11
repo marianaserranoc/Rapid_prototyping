@@ -60,10 +60,10 @@
 
 | Hypothesis | Method | Metric | Threshold | Decision rule |
 |---|---|---|---|---|
-| **Removing commitment risk beats normal terms** (priority test) | Two-arm WoZ test (`experiment-card.md`) | Book-and-attend gap between arms | ≥40 pp | Met: keep. Under 20 pp: pivot to an instant-booking tool |
-| Instant confirmation beats the DM workaround | Hold constant in the primary test; measure time from message to confirmation | Abandonment before confirming | PROPOSED ≤1 of 10 abandon | Missed: simplify the booking step before anything else |
+| **Removing commitment risk beats normal terms** (priority test) | Two-arm reservation test (`experiment-card.md`, `booking-test/`) | Reservation-rate gap between arms | ≥40 pp | Met: keep. Under 20 pp: decline reasons pick the pivot (`pivot-log.md`) |
+| Certainty of a spot matters more than commitment | Both arms promise confirmation within minutes; decliners tick their reasons | Decliners ticking "not sure I'd get a spot" | PROPOSED: the most-ticked reason | If met: pivot to an instant-booking tool for studios' existing classes |
 | Owners prefer our offer to their own discovery pack for off-peak slots | Next owner interviews: show both side by side | Owners who would use ours for off-peak | PROPOSED ≥3 of 5 | Missed: help owners promote their own discovery packs instead |
-| Goers pay full studio price for one class | Primary test uses full price in both arms | Bookings at full price | PROPOSED ≥3 of 10 book | Missed: price, not commitment, is the barrier; rethink with owners |
+| Goers will reserve at full studio price | Reservation test shows 300 MAD per class in both arms | Reservations at full price; decliners ticking "price" or "prefer my gym" | PROPOSED ≥3 of 10 reserve | Missed, with price the top reason: price, not commitment, is the barrier; rethink with owners |
 
 ---
 
