@@ -8,11 +8,11 @@
 - **Time-bound:** Pilot live by Session 22 (first structured testing round) and results consolidated for the Phase 2 gate at Session 28 (1 Dec 2026).
 
 ## Sprint Goal (this cycle)
-- **Specific:** Learn whether removing commitment risk (no package required, explicit no-obligation guarantee) produces a meaningfully higher off-peak booking-and-attendance rate than an identical, equally visible offer with normal commitment terms. This tests the riskiest assumption: goer regret-aversion, not timing or awareness, keeps off-peak seats empty (Area 1, assumption 1).
-- **Measurable:** Gap in booking-and-attendance rate between Arm A (no commitment) and Arm B (normal commitment). Threshold set before testing: a gap of at least 40 percentage points supports the assumption; a gap under 20 points counts against it; anything in between is inconclusive and triggers a larger second round. See `experiment-card.md`.
-- **Achievable:** A manual two-arm Wizard of Oz test with 10 regular boutique class attendees in Casablanca and Rabat (5 per arm), recruited through our Moroccan contact's WhatsApp network as set out in `recruitment.md`, plus the owner interviews already completed (`personas/selected_personas/gym_owners.md`). No software development.
+- **Specific:** Learn whether removing commitment risk (one class, no package required) produces a meaningfully higher off-peak reservation rate than the identical class offered through the studio's usual 3-class pack. This tests the riskiest assumption: goer regret-aversion, not timing or awareness, keeps off-peak seats empty (Area 1, assumption 1).
+- **Measurable:** Gap in reservation rate between Arm A (no commitment) and Arm B (3-class pack). Attendance is not measured this cycle; it moves to the Phase 2 pilot. Threshold set before testing: a gap of at least 40 percentage points supports the assumption; a gap under 20 points counts against it; anything in between is inconclusive and triggers a larger second round. See `experiment-card.md`.
+- **Achievable:** A two-arm fake-door test with 10 regular boutique class attendees in Casablanca and Rabat (5 per arm), recruited through our Moroccan contact's WhatsApp network (`recruitment.md`), using one static booking page with two versions (`booking-test/`). Reservations arrive as WhatsApp messages. Plus the owner interviews already completed (`personas/selected_personas/gym_owners.md`).
 - **Relevant:** Separates the regret-aversion hypothesis from the competing timing/awareness, absence-of-demand and quality-uncertainty hypotheses before any engineering investment. If it fails, the product goal above is withdrawn rather than built.
-- **Time-bound:** Both arms run 11–13 Oct 2026, results logged in `experiment-card.md` before Group Project I on 13 Oct. If fewer than 5 people per arm are reached, the partial result is reported as such and the test is completed before Session 16 (First Working Skeleton kickoff).
+- **Time-bound:** Links sent 11–12 Oct 2026, results logged in `experiment-card.md` before Group Project I on 13 Oct. If fewer than 5 people per arm are reached, the partial result is reported as such and the test is completed before Session 16 (First Working Skeleton kickoff).
 
 ---
 
@@ -22,7 +22,7 @@
 |---|---|---|
 | Opportunity | `opportunity.md` | Owners lose money on empty off-peak seats; discounting backfires |
 | Riskiest assumption | `assumptions.md` | Goers avoid booking out of regret-aversion |
-| Sprint Goal | this file | Test that assumption with a two-arm WoZ test by 13 Oct |
+| Sprint Goal | this file | Test that assumption with a two-arm reservation test by 13 Oct |
 | Experiment | `experiment-card.md` | Method, metric, threshold and decision rule |
 | Decision | `experiment-card.md` results | Continue to pilot, pivot to a discovery or trust mechanism, or stop |
 | Product Goal | this file | Only pursued if the sprint result supports the assumption |
