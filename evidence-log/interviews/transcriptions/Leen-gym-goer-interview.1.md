@@ -1,12 +1,14 @@
-# Interview Report
+# Interview Report — gym-goer (G8)
 
-**Date:** 13 October 2026 · **Format:** Face-to-face interview, audio recorded (1 min 51 s) · **Participant:** Faisal, gym-goer in Casablanca training for his first Hyrox race · 
+**Date:** 13 October 2026 · **Format:** Face-to-face interview, audio recorded (1 min 51 s) · **Interviewer:** Leen · **Participant:** Faisal, gym-goer in Casablanca training for his first Hyrox race
+**Recording:** `../audio-video/Interview Gym-Goer -Leen.m4a` · **Code in the evidence log:** G8 (`user-feedback.md`)
+**Evidence status:** Real interview. Report checked against the recording on 13 Oct (automatic transcript): all four answers match.
 
 ---
 
 ## 1. Purpose
 
-To illustrate how a gym-goer in Casablanca decides whether to try a class when he has free time, what stops him from trying a new studio, and how he would react to a single class at the normal price with no pack.
+To learn how a gym-goer in Casablanca decides whether to try a class when he has free time, what stops him from trying a new studio, and how he would react to a single class at the normal price with no pack.
 
 ## 2. Participant profile
 
