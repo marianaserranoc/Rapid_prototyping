@@ -40,7 +40,9 @@ Youssef is a young professional in Rabat whose work schedule changes from week t
 | Price relative to the gym | Not mentioned |
 | Trust in an unknown instructor | Not mentioned |
 
-This interview supports the Persona 2 profile and the earlier card trial, where instant confirmation was preferred over a refund guarantee (4 of 5 vs. 2 of 5). With n = 1, it is directional only.
+This interview supports the Persona 2 profile and repeats the pattern from goer interview G2 (DM, no quick reply, gave up), so booking certainty now rests on two real people. With n = 1, it is directional only. *(Edited 12 Oct after sprint feedback: an earlier version also cited a card trial, 4 of 5 vs. 2 of 5. That trial was an illustrative example, not real data, so the reference was removed.)*
+
+**Code in the evidence log:** G4 (`user-feedback.md`).
 
 ## 6. Process notes
 
