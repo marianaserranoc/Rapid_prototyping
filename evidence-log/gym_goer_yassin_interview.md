@@ -1,7 +1,6 @@
-# Interview Report — Goer G3
+# Interview Report
 
 **Date:** 12 October 2026 · **Format:** Zoom call, audio recording (2 min 09 s)
-**Script used:** Goer Script B (phone/WhatsApp)
 **Participant:** Youssef, real gym-goer in Rabat · matches Persona 2, the Uncommitted Last-Minute Booker
 **Evidence status:** Real interview. Log in `user-feedback.md` with REPORTED tags.
 
