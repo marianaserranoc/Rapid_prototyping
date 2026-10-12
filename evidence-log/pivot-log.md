@@ -18,6 +18,8 @@
 | 7 | One boutique class is a cheap way to try a studio | Desk research: one class (250–400 MAD) costs about a month of gym (~314 MAD) | Price added as a rival explanation; test uses full price in both groups so price can't explain a gap | Desk research (`market-alternatives.md`) |
 | 8 | The test would measure attendance | The team can't verify who shows up at a studio this week | Test measures reservations through a booking page; attendance moves to the Phase 2 pilot | Practical constraint (`experiment-card.md`) |
 | 9 | 5 people per group would be enough | One person changes the result by 20 pp, so even a 40 pp gap could be chance | 20 per group (minimum 15); threshold lowered to 30 pp with a significance check | Team reasoning, Fisher's exact test (`experiment-card.md`) |
+| 10 | Owners would judge us on the offer alone | NOVA's founder: studios had seen similar ideas fail and only trusted NOVA because a co-founder is an instructor and the team was committed | Owner outreach will include a respected instructor or studio insider; team credibility added as a candidate assumption | Expert interview (`interview-nova-founder.md`) |
+| 11 | Any prepayment is the barrier for goers | NOVA's subscription failed, but credit packages sold | We now distinguish recurring commitment (subscription) from a one-off pack; the Arm B result is read with this in mind | Expert interview (`interview-nova-founder.md`) |
 
 ---
 
