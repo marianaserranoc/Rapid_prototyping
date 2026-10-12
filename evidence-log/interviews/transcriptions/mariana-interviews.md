@@ -1,7 +1,7 @@
 # Interview Report — studio owner (Owner F) and gym-goer (G6)
 
-**Interviewer:** Mariana · **Format:** audio recordings  · **Location:** proxies
-**Recordings (in this folder):** `mariana-studio-owner-interview.opus` (3 min 38 s) · `mariana-gym-goer-interview.opus` (1 min 28 s)
+**Interviewer:** Mariana · **Format:** audio recordings · **Location:** outside Morocco, so both count as **proxies**, not target users
+**Recordings:** `../audio-video/mariana-studio-owner-interview.opus` (3 min 38 s) · `../audio-video/mariana-gym-goer-interview.opus` (1 min 28 s)
 **Evidence status:** Real interviews. Logged in `user-feedback.md` as **Owner F** and **G6**.
 **How this summary was made:** both recordings were transcribed automatically on 13 Oct (Whisper speech-to-text, run locally) and summarised from that transcript. Quotes are taken from the transcript, lightly cleaned up. Mariana to check them against the audio (`ai-usage-log.md`).
 
@@ -67,7 +67,7 @@
 | `open-gaps.md` | Gap 13 (price vs. commitment) strengthened; new owner-side awareness question |
 
 ## 4. Limitations
-- **Location not stated** in either recording. If they're outside Casablanca and Rabat, both are proxies.
+- **Proxies:** both participants are outside Morocco. Their answers show how the problem looks elsewhere, but they don't count towards our Casablanca and Rabat sample.
 - **Owner F isn't the decision-maker**; the manager's view is reported second-hand.
 - Q4 for G6 is stated intent, and her price sensitivity may not match the A/B test's 16 of 25 who reserved at full price.
 - Transcribed by machine. Re-check quotes against the audio before quoting them in the presentation.
