@@ -48,9 +48,3 @@ This interview supports the Persona 2 profile and the earlier card trial, where 
 - **Timing:** 2 min 09 s, inside the 2–3 minute target.
 - **Flow:** all four questions were asked in order, along with the opening, the notes-consent line and the referral close.
 - **Recording quality:** the audio was clear. Turn on Zoom's audio transcript for future interviews so quotes can be logged word for word.
-
-## 7. Next steps
-
-1. Log this interview in `user-feedback.md` with REPORTED tags and the notes template.
-2. Follow up with Youssef's colleague as a new participant.
-3. Keep interviewing goers in Casablanca and Rabat who aren't in the booking-test arms, and compare Q3 answers to see whether certainty or commitment comes up more often.
