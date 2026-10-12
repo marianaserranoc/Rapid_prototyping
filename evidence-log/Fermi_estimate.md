@@ -31,7 +31,7 @@
   - poidata does not disclose its method, so treat this as a floor to be checked on Google Maps.
 - **Classes per week (20).** Studio websites show opening hours (e.g. Monday–Friday 8:00–21:00 or 21:30, shorter weekends) but not timetables, which load inside booking apps. Opening hours that long can fit 20 classes, so 20 is plausible but unverified.
 - **Off-peak share (35%).** Not published for Morocco. US boutique data (Mariana Tek, 236 studios) ranks 5–6 pm, 7–8 pm and 6–7 am as the busiest starts and 2 pm as the least attended, which fits a midday off-peak window. No percentage is available, so this stays an assumption.
-- **Empty seats (4).** Reformer studios describe "small groups" and a "limited number of reformers", typically 6–12 machines. At about 10 seats and 60% off-peak fill, 4 seats are empty. Industry KPI write-ups cite 70% as a profitability floor for average fill, and give one example of a 40% off-peak "ghost town", but these figures are unattributed. Still an assumption, to be replaced with one week of real attendance from the host studio.
+- **Empty seats (4).** Reformer studios describe "small groups" and a "limited number of reformers", typically 6–12 machines. At about 10 seats and 60% off-peak fill, 4 seats are empty. Industry KPI write-ups cite 70% as a profitability floor for average fill, and give one example of a 40% off-peak "ghost town", but these figures are unattributed. Still an assumption, to be replaced with one week of real attendance from a pilot studio (Phase 2).
 - **Price per seat (300 MAD).** Core Studio sells reformer classes at 260–300 MAD each in packs and mat classes at about 220 MAD. Rise Studio lists a reformer class at 350 MAD. Le360 (Jan 2026) reports 250–400 MAD per reformer session in Morocco.
 
 ---
@@ -65,7 +65,7 @@ With 2–3 pilot studios, that is about 30–40 extra bookings a week, enough to
 
 - **Studios already sell low-commitment entry.** Core Studio offers a "Discovery pack" of 3 reformer classes for 600 MAD, valid one month, alongside 10–50-class carnets and 3–12-month subscriptions. Our venture is therefore not competing with "no trial option". It competes with trial packs the studio already controls. This belongs in `opportunity.md` as an existing alternative, and is a question for the owner interviews: why don't discovery packs already fill off-peak classes?
 - **Cancellation rules are part of the commitment barrier.** Studios require cancelling 3–24 hours ahead or losing the class (10Studio: 24 hours; Core Studio: 3 hours in its FAQ, with longer windows mentioned elsewhere). This is a concrete form of the regret-aversion our riskiest assumption describes.
-- **Pilates is the growth segment.** Le360 describes reformer studios "springing up like mushrooms" across Morocco, and US data shows pilates is the most common boutique modality (about 1 in 3 studios). This supports narrowing the host studio and first pilot to reformer pilates (`open-gaps.md`, Gap 7).
+- **Pilates is the growth segment.** Le360 describes reformer studios "springing up like mushrooms" across Morocco, and US data shows pilates is the most common boutique modality (about 1 in 3 studios). This supports focusing the reservation test and the first pilot on reformer pilates (`open-gaps.md`, Gap 7).
 
 ---
 
@@ -75,11 +75,11 @@ With 2–3 pilot studios, that is about 30–40 extra bookings a week, enough to
 |---|---|---|
 | 2. Studio count | Search Google Maps for "pilates", "yoga", "reformer", "boxing", "spin" in each city; remove chain gyms and duplicates | Before Session 16 |
 | 3. Classes per week | Read 5 studios' timetables in their booking apps (e.g. Core Studio's app) | Before Session 16 |
-| 4–5. Off-peak share and empty seats | One week of class-by-class attendance from the host studio | During the primary test |
+| 4–5. Off-peak share and empty seats | One week of class-by-class attendance from a pilot studio | Phase 2 pilot (Sessions 22–23) |
 
 ## The number you can challenge
 
-The studio count is now sourced, so the weakest link is **empty seats per off-peak class**. It multiplies the result directly and comes from no Moroccan data at all. One week of attendance from the host studio replaces it.
+The studio count is now sourced, so the weakest link is **empty seats per off-peak class**. It multiplies the result directly and comes from no Moroccan data at all. One week of attendance from a pilot studio replaces it. Our three owners already give a first hint: their quiet classes run at about 3 of 10 and 2–3 of 8, so 5–7 empty seats, above our assumption of 4.
 
 ---
 
