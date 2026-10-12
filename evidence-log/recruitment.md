@@ -49,11 +49,11 @@ A person counts once their link is sent: no reply counts as "did not reserve". I
 | Step | Date |
 |---|---|
 | Booking page live and tested | 11 Oct 2026 |
-| Links sent, both arms (alternating A/B, logged first) | 11–13 Oct 2026 |
-| Reservations, reasons and voice notes collected; interim result for Group Project I | 13 Oct 2026 (morning) |
-| Final count if 15–20 per arm not yet reached | by 15 Oct 2026 |
-| Results logged in `experiment-card.md` | 13 Oct 2026, before Group Project I |
-| Additional owner interviews | before Session 16 |
+| Links sent, both arms (alternating A/B, logged first) | 11–12 Oct 2026 (done: 25 per arm) |
+| Reservations, reasons and voice notes collected | Done, 12 Oct 2026 |
+| Final count if 15–20 per arm not yet reached | Not needed: 25 per arm reached |
+| Results logged in `experiment-card.md` | Done, 12–13 Oct 2026 |
+| Additional owner interviews | Owners D, E (12 Oct) and F (13 Oct, proxy) done; 1–3 more before Session 16 |
 
 The original deadline (all contacts by 23 Sep) was missed and no contacts were logged. The dates above replace it.
 
