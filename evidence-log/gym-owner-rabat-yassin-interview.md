@@ -1,4 +1,4 @@
-# Interview Report — Owner D
+# Interview Report
 
 **Date:** 12 October 2026 · **Format:** Zoom call, audio recording (2 min 01 s) · **Interviewer:** Yassin
 **Script used:** Owner Script B (phone)
@@ -53,8 +53,3 @@ This interview matches Owner B and Owner C on seat control and keeping the offer
 - **Flow:** all three questions were asked in order, with the time check, follow-ups on price and seat control, and the follow-up request at the end.
 - **Recording quality:** the audio was clear. Turn on Zoom's audio transcript for future interviews so quotes can be logged word for word.
 
-## 7. Next steps
-
-1. Log this interview in `user-feedback.md` with REPORTED tags.
-2. Add Karim to the list of possible Phase 2 host studios, since he agreed to a follow-up.
-3. In the next owner interviews, allow the full 3–5 minutes and ask how he would want to see new-vs-regular attendance reported.
