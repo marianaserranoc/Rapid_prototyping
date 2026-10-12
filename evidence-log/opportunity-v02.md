@@ -30,7 +30,7 @@ How might we help boutique studio owners convert underfilled off-peak seats into
 | Goers avoid packages after unused past packages | Goer interview G1 (`personas/selected_personas/gym_goers.md`) | Real proxy, n=1 |
 | Single class at gym-equivalent price increases booking intent | Wizard of Oz card test, 5 of 8 agreed (`oz-trials.md`) | Proxy testers, not the Moroccan target cohort, no control arm |
 | Regret-aversion, not timing or awareness, is the main barrier | Two-arm reservation test running (`experiment-card.md`, `booking-test/`) | Unvalidated, riskiest assumption |
-| Comparable model works in nearby markets | NOVA reference deck (Egypt), ClassPass (Spain) | Desk research, no usage data, weak |
+| Comparable model works in nearby markets | **Interview with NOVA's founder (Egypt)** (`interview-nova-founder.md`); ClassPass (Spain) desk research | Expert evidence from an analogous market: NOVA operates, studios adopted it once they trusted the team, goers rejected a subscription but bought credit packages. No figures; one person's account |
 
 ## Competing hypotheses (not yet ruled out)
 - **Timing or awareness (goer):** demand exists, but goers don't think of the off-peak slot when they have a free window.
