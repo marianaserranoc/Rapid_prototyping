@@ -27,7 +27,7 @@ Rapid Prototyping with AI · IE University · Team: [names]
 
 ---
 
-## Where we are (12 Oct 2026)
+## Where we are (13 Oct 2026)
 
 | | Status |
 |---|---|
@@ -37,6 +37,9 @@ Rapid Prototyping with AI · IE University · Team: [names]
 | **Real evidence** | 6 owner interviews (5 of 6 reject discounting; most would release seats if they choose them and regulars never see it); 7 goer interviews (pack avoidance, including a Casablanca Hyrox athlete turned away by a monthly-only box; two lost bookings to slow DM replies; one friend-invitation path; one proxy for whom price is the barrier); the A/B test; 1 expert interview (NOVA, Egypt) |
 | **New riskiest assumption** | Trial goers come back at full price. Owners only value newcomers who return, and price was cited in 10 of 27 declines |
 | **What could still make us narrow, pivot or stop** | People reserve but don't turn up or pay (reservations were cheap talk); trial goers never return (we'd be a discounter in disguise); no owner commits a real class |
+| **Size of the prize** | Owners' quietest classes run about 30% full: 1,200–2,100 MAD of empty seats per class per week; ≈ 450,000–680,000 MAD a week across both cities (`evidence-log/size-of-the-prize.md`) |
+| **Blue ocean** | Stop competing on price: full price, newcomers only, owner-chosen seats. The code is easy to copy; owner trust and newcomer-return data are not (`evidence-log/blue-ocean.md`) |
+| **Ready to build?** | **GO, narrowly:** only the First Working Skeleton, because attendance and return can only be measured with something real people can book (`evidence-log/build-decision.md`) |
 | **Fixed after sprint feedback** | Illustrative card trials and "Example-G3" relabelled as examples and removed from all evidence; JTBD now has two circumstances, with Pull and Anxiety marked as hypotheses; persona selection explained (`evidence-log/personas/persona-selection.md`) |
 
 ---
@@ -45,7 +48,7 @@ Rapid Prototyping with AI · IE University · Team: [names]
 
 | Decision | Current one-liner | Source of truth |
 |---|---|---|
-| Target user | Owners of independent boutique studios in Casablanca and Rabat with a recurring underfilled off-peak class | `evidence-log/opportunity.md` |
+| Target user | Owners of independent boutique studios in Casablanca and Rabat with a recurring underfilled off-peak class | `evidence-log/opportunity-v02.md` |
 | Job to Be Done | Fill named quiet slots with new people at normal price, choosing which seats are offered | `evidence-log/JTBD.md` |
 | Strongest alternative | Run the class near-empty or cut it (owners); the gym already paid for (goers) | `evidence-log/market-alternatives.md` |
 | ERRC direction | Eliminate discounting; reduce first-visit commitment to one class; raise booking certainty; create owner-controlled seat release for new clients only | `evidence-log/ERRC.md` |
@@ -73,6 +76,7 @@ Rapid Prototyping with AI · IE University · Team: [names]
 │       └── validation.md
 ├── booking-test/              ← two-version booking page used in the reservation test
 ├── test-brief.md              ← one-page brief of the test and interviews
+├── presentation/qa-prep.md    ← 12-minute run sheet and the 12 hardest questions
 ├── downloads/                 ← AI helper prompts used
 ├── evidence-log/              ← what we know, and what supports it
 │   ├── opportunity.md   goals.md   assumptions.md   experiment-card.md
@@ -88,15 +92,18 @@ Rapid Prototyping with AI · IE University · Team: [names]
 │   ├── size-of-the-prize.md     ← what empty seats are worth, from our own owner data
 │   ├── blue-ocean.md            ← where we stop competing on price; what's hard to copy
 │   ├── build-decision.md        ← go/no-go: what we build first, what we won't, kill criteria
+│   ├── ab-test-analysis.md      ← how sure we are: intervals, fragility, threats to validity
+│   ├── experiment-card-phase2.md ← the next test, with pass marks set before it runs
+│   ├── pre-mortem.md            ← how Daba could fail, early warnings, what we'd do
 │   ├── ai-usage-log.md
 │   └── personas/
 │       ├── persona-selection.md   ← why these personas, and the fate of the other 12 candidates
 │       ├── selected_personas/     ← gym_goers, gym_owners, interview questions, oz-trials (example only)
 │       └── hypothetical/          ← candidates not selected, kept for traceability
 ├── trial_1/                   ← first versions of opportunity, assumptions and goals (kept to show the evolution)
-├── Venture_Skeleton _v0/      ← first skeleton page
+├── Venture_Skeleton _v0/      ← first skeleton page (timing hypothesis, before pivot #2)
 └── prototype/
-    └── prototype-v0.pdf
+    └── prototype-v0.pdf       ← v1 concierge nudge test (timing hypothesis; superseded, see pivot-log #2)
 ```
 
 - **Evidence** (`evidence-log/`, Sessions 3–11): what do we know, and what supports it?
