@@ -93,10 +93,10 @@ Scores 1 (low) to 5 (high) are **team judgement** from the sources in `market-al
 
 | Hypothesis | Method | Metric | Threshold | Decision rule |
 |---|---|---|---|---|
-| **Removing commitment risk beats normal terms** (priority test) | Two-arm reservation test (`experiment-card.md`, `booking-test/`) | Reservation-rate gap between arms (20 per arm) | ≥30 pp, p < 0.05 | Met: keep. Under 15 pp: decline reasons pick the pivot (`pivot-log.md`) |
-| Certainty of a spot matters more than commitment | Both arms promise confirmation within minutes; decliners tick their reasons | Decliners ticking "not sure I'd get a spot" | PROPOSED: the most-ticked reason | If met: pivot to an instant-booking tool for studios' existing classes |
-| Owners prefer our offer to their own discovery pack for off-peak slots | Next owner interviews: show both side by side | Owners who would use ours for off-peak | PROPOSED ≥3 of 5 | Missed: help owners promote their own discovery packs instead |
-| Goers will reserve at full studio price | Reservation test shows 300 MAD per class in both arms | Reservations at full price; decliners ticking "price" or "prefer my gym" | PROPOSED ≥10 of 40 reserve across both arms (25%) | Missed, with price the top reason: price, not commitment, is the barrier; rethink with owners |
+| **Removing commitment risk beats normal terms** (priority test) | Two-arm reservation test (`experiment-card.md`, `booking-test/`) | Reservation-rate gap between arms (20 per arm; 25 reached) | ≥30 pp, p < 0.05 | **Result: met** (+36 pp, p = 0.011). Keep the no-pack offer (`ab-test-results.md`) |
+| Certainty of a spot matters more than commitment | Both arms promise confirmation within minutes; decliners tick their reasons | Decliners ticking "not sure I'd get a spot" | PROPOSED: the most-ticked reason | **Result: not met** (1 of 27; confirmation was promised in both arms). Keep instant confirmation in the product (G2, G4); no pivot |
+| Owners prefer our offer to their own discovery pack for off-peak slots | Next owner interviews: show both side by side | Owners who would use ours for off-peak | PROPOSED ≥3 of 5 | **Not yet asked** side by side; ask Owners D and E before the pilot |
+| Goers will reserve at full studio price | Reservation test shows 300 MAD per class in both arms | Reservations at full price; decliners ticking "price" or "prefer my gym" | PROPOSED ≥10 of 40 reserve across both arms (25%) | **Result: met** (23 of 50, 46%). Price was not the top reason (10 of 27 with gym; commitment 10), but it's real: watch it in the pilot |
 
 ---
 
