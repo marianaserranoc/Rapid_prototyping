@@ -22,18 +22,18 @@
 |---|---|---|---|---|---|---|
 | Studio's own discovery pack (e.g. Core Studio: 3 reformer classes, 600 MAD, 1 month) | **Direct competitor** | Same user, same job? Yes: a low-commitment way to try one studio | HYPOTHESIS — no goer mentioned using one | Price per class, commitment length, booking certainty | DESK: Core Studio price list. GAP: how many studios offer one; do goers know about them? | Our offer is narrower (one class, off-peak only) and must win on certainty and no prepayment, not on price |
 | Multi-studio class passes (ClassPass-style) | **Direct competitor** | Same job, different route | HYPOTHESIS — not available | Variety, price, credits | DESK: ClassPass's coverage page doesn't list Morocco (Nov 2025); no local equivalent found. GAP: a local pass may exist that we missed | No dominant aggregator in Morocco: room for a first mover, but also no proof goers want one |
-| Gym membership already paid for | **Indirect substitute** | Same progress (a workout), different route | REPORTED: G1 has a gym membership, trains 3–4×/week, and went to the gym instead of booking the class | Sunk cost, certainty, effort | REPORTED G1; DESK: gym ≈ 314 MAD/month. 2 of 3 decliners in the Persona 1 trial said they'd rather use the already-paid gym | The real competitor for a free window. A single class must feel worth the price of a month of gym |
+| Gym membership already paid for | **Indirect substitute** | Same progress (a workout), different route | REPORTED: G1 has a gym membership, trains 3–4×/week, and went to the gym instead of booking the class | Sunk cost, certainty, effort | REPORTED G1; DESK: gym ≈ 314 MAD/month. G5 is also a gym member and likes its flexibility. In the A/B test, 5 of 27 people who didn't reserve said they preferred their gym | The real competitor for a free window. A single class must feel worth the price of a month of gym |
 | Home workout, run, or nothing | **Indirect substitute / doing nothing** | Same progress at zero cost | HYPOTHESIS — implied by G1's fallback | Cost, effort, habit | No direct evidence | Zero-cost default; only certainty and low effort can beat it |
-| Instagram discovery + WhatsApp DM to book | **Manual workaround** | User assembles it themselves | OBSERVED: G2 saw a studio's Instagram story, sent a DM, got no quick reply and gave up | Speed of confirmation, effort | REPORTED G2; Persona 2 trial: instant confirmation 4 of 5 vs. refund guarantee 2 of 5 | **The friction we can remove most cheaply:** confirm the place instantly |
+| Instagram discovery + WhatsApp DM to book | **Manual workaround** | User assembles it themselves | OBSERVED: G2 and G4 each saw a studio's Instagram story, sent a DM, got no quick reply and gave up | Speed of confirmation, effort | REPORTED G2, G4 (Rabat, ~40 min without a reply) | **The friction we can remove most cheaply:** confirm the place instantly |
 
 ### Owner side
 
 | Alternative | Category | Simple test | Target-user behaviour | Compare on | Evidence so far and gaps | So what? |
 |---|---|---|---|---|---|---|
-| Discount codes or cheaper off-peak prices | **Direct competitor** (own lever) | Same job: fill the slot | REPORTED: Owners A and C tried discounts and stopped; regulars objected or asked why. Owner B avoids discounting | Fill rate, price integrity, regular reaction | REPORTED (3 owners) | Owners have rejected it. Anything that looks like a discount fails at the gate |
+| Discount codes or cheaper off-peak prices | **Direct competitor** (own lever) | Same job: fill the slot | REPORTED: Owners A and C tried discounts and stopped; regulars objected or asked why. Owners B, D and E avoid discounting so regulars don't expect it | Fill rate, price integrity, regular reaction | REPORTED (5 owners) | Owners have rejected it. Anything that looks like a discount fails at the gate |
 | Studio booking software (e.g. studio apps, Setmore) and directories (fitness.ma: 790 clubs listed in Casablanca, 219 in Rabat; free trial sessions at partner clubs) | **Indirect substitute** | Same progress (bookings), different route | HYPOTHESIS — owners did not mention them as a fix for off-peak | Reach to new goers, cost, control | DESK: fitness.ma, Core Studio app, Rise Studio on Setmore. GAP: do they bring net-new goers to specific off-peak slots? | Don't replace their booking tool. Sit beside it and send them new people for chosen seats |
-| Asking regulars, social posts, WhatsApp blasts | **Manual workaround** | Owner assembles it | REPORTED (version 1 JTBD, team interpretation); not confirmed by the 3 owners | Effort, reach, consistency | GAP: not asked directly | Ask in the next owner interviews how much time this takes |
-| Run the class near-empty, or cut it | **Doing nothing** | Accept the pain | REPORTED: Owner B ran a 2-person class rather than disappoint a regular; Owner A cut a class after months | Lost revenue, regular loyalty | REPORTED (2 owners) | The strongest current alternative: free, familiar, fully controlled. Our offer must be almost as effortless |
+| Asking regulars, social posts, WhatsApp blasts | **Manual workaround** | Owner assembles it | REPORTED: Owners D and E post on Instagram (D also stories and schedule reminders): a few bookings, not consistent | Effort, reach, consistency | REPORTED (Owners D, E) | Confirms the workaround exists and underdelivers; time spent still not asked |
+| Run the class near-empty, or cut it | **Doing nothing** | Accept the pain | REPORTED: Owner B ran a 2-person class rather than disappoint a regular; Owner E keeps a 2-of-8 Friday class for 2 regulars and pays the teacher anyway; Owner A cut a class after months | Lost revenue, regular loyalty | REPORTED (3 owners) | The strongest current alternative: free, familiar, fully controlled. Our offer must be almost as effortless |
 
 ---
 
@@ -42,7 +42,7 @@
 
 Secondary baseline on the booker side: the already-paid gym membership, plus giving up when a DM booking stalls.
 
-**Evidence basis:** REPORTED and OBSERVED behaviour from 2 goer interviews and 3 owner interviews, plus card trials (stated intent). Small samples, directional only.
+**Evidence basis:** REPORTED and OBSERVED behaviour from 4 goer interviews and 5 owner interviews, plus the A/B reservation test (50 class-goers, real reservation messages). Small samples, directional only. *(Card trials removed: they were illustrative examples.)*
 
 ---
 
@@ -50,12 +50,12 @@ Secondary baseline on the booker side: the already-paid gym membership, plus giv
 
 | Factor | What alternatives assume or provide | Important trade-off, contradiction or gap |
 |---|---|---|
-| Price per class | 250–400 MAD for a boutique class; gym ≈ 314 MAD a month (DESK) | One class ≈ a month of gym, so goers weigh it against what they already pay (G1, REPORTED) |
-| Upfront commitment | Studios sell 3–50-class packs and 3–12-month subscriptions; discovery packs still mean 3 classes (DESK) | Newcomers must prepay before knowing the studio; G1 left half a 10-pack unused (REPORTED) |
-| Booking certainty and speed | Booking by Instagram DM or WhatsApp, or inside each studio's own app (DESK, OBSERVED G2) | A slow reply loses the booking (G2) |
-| Price integrity for the owner | Discounts are the usual lever to fill quiet classes | Regulars notice and expect the same deal (Owners A, B, C, REPORTED) |
-| Owner control over who gets which seat | Discounts and directories apply to everyone; studios' own tools don't separate newcomers from regulars for a given seat | Owners B and C will only take part if they choose seats and regulars don't see the offer (REPORTED) |
-| Knowing whether new people came | No alternative reports new vs. regular attendees for a filled slot (team judgement) | Owner C wants it but won't build it (REPORTED) |
+| Price per class | 250–400 MAD for a boutique class; gym ≈ 314 MAD a month (DESK) | One class ≈ a month of gym, so goers weigh it against what they already pay (G1, G5, REPORTED; 10 of 27 A/B declines cited price or the gym) |
+| Upfront commitment | Studios sell 3–50-class packs and 3–12-month subscriptions; discovery packs still mean 3 classes (DESK) | Newcomers must prepay before knowing the studio; G1 left half a 10-pack unused (REPORTED). In the A/B test, a 3-class pack cut reservations from 64% to 28% (OBSERVED) |
+| Booking certainty and speed | Booking by Instagram DM or WhatsApp, or inside each studio's own app (DESK, OBSERVED G2, G4) | A slow reply loses the booking (G2, G4) |
+| Price integrity for the owner | Discounts are the usual lever to fill quiet classes | Regulars notice and expect the same deal (Owners A–E, REPORTED) |
+| Owner control over who gets which seat | Discounts and directories apply to everyone; studios' own tools don't separate newcomers from regulars for a given seat | Owners B, C, D and E will only take part if they choose seats and regulars don't see the offer (REPORTED) |
+| Knowing whether new people came | No alternative reports new vs. regular attendees for a filled slot (team judgement) | Owners C, D, E want it; none track it today (REPORTED) |
 | Variety of studios | Gyms and single studios offer one venue; no multi-studio pass found in Morocco (DESK) | Not something we compete on |
 
 **Conventions taken for granted:** quiet slots are filled with discounts; newcomers commit to a pack before trying; booking a boutique class means messaging and waiting.
@@ -65,7 +65,16 @@ Secondary baseline on the booker side: the already-paid gym membership, plus giv
 Scores 1 (low) to 5 (high) are **team judgement** from the sources in `market-alternatives.md`, not measured data.
 
 | Factor | Discount codes | Studio discovery pack | Gym membership | DM booking via Instagram | **Our offer** |
-|
+|---|---|---|---|---|---|
+| Low price per class (goer) | 5 | 3 | 5 | 2 | **2** (full price, on purpose) |
+| Low upfront commitment (goer) | 3 | 2 | 1 | 4 | **5** |
+| Booking certainty and speed (goer) | 3 | 3 | 5 | 1 | **5** |
+| Price integrity (owner) | 1 | 3 | — | 4 | **5** |
+| Owner control over who gets which seat | 2 | 2 | — | 3 | **5** |
+| Knowing whether new people came (owner) | 1 | 2 | — | 1 | **5** |
+| Variety of studios (goer) | 1 | 1 | 1 | 2 | **2** |
+
+*Rows rebuilt 12 Oct 2026: the uploaded file had lost them below the header. Scores are a team-judgement draft for the team to confirm. "—" = not relevant to that alternative. The shape matches the ERRC grid: we score low on price on purpose (Eliminate discounting) and high where the A/B test (commitment) and G2/G4 (certainty) point.*
 
 ---
 
