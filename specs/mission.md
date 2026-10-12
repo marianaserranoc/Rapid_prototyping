@@ -13,5 +13,5 @@
 | **Answered (12 Oct)** | Removing the pack is a real barrier for newcomers: 16/25 reserved with no pack vs. 7/25 with a 3-class pack (+36 pp, p = 0.011). | EVIDENCE (reservations, not attendance) | `ab-test-results.md` |
 | **Open** | Whether people who reserve actually attend and pay; whether trial goers return at full price; how much price and certainty matter on top of no-pack; whether owners prefer this to their own discovery packs. | MISSING | `experiment-card.md`, `open-gaps.md` |
 
-**Working name:** [Venture name — to decide]
+**Working name:** Daba (Moroccan Darija for "now": book a class now, no pack)
 
