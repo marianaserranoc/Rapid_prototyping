@@ -28,7 +28,7 @@ Named demographic profiles (age, job, name) were not a reason to keep a persona.
 |---|---|---|---|---|
 | `ai-persona-Khaled-01.md` | Package-Wary Tryer | Yes: G1 (unused 10-pack, went to the gym instead) | **Selected → Persona 1** | Its barrier, not prepaying before knowing a studio, is our riskiest assumption itself. Since then also grounded by G5 |
 | `persona-goer-yassin-01.md` | Uncommitted Last-Minute Booker | Yes: G2 (DM, no quick reply, gave up) | **Selected → Persona 2** | Its barrier, certainty of a spot, is the strongest rival explanation. It changed the test: confirmation was held constant in both arms. Since then also grounded by G4 |
-| `Karimuser.md` | Unanchored Sampler | No grounded anchors (the file says so itself) | **Selected as Persona 3, then reverted to hypothesis (12 Oct)** | It was briefly marked "grounded" via "Example-G3" and an example card trial, neither of which is real. It stays as a hypothesis because multi-studio samplers would be a different business, but nothing rests on it |
+| `Karimuser.md` | Unanchored Sampler | No grounded anchors (the file says so itself) | **Selected as Persona 3, then reverted to hypothesis (12 Oct)**; first real anchor from G6 (13 Oct) | It was briefly marked "grounded" via "Example-G3" and an example card trial, neither of which is real. It stays as a hypothesis because multi-studio samplers would be a different business, but nothing rests on it |
 | `LeenGoer.md` | Unprompted Free-Window | Partly: 1 episode from G1 | **Merged** into Persona 1 and the JTBD trigger | Same person (G1) and same episode as Persona 1. Its insight, that the free window passes by default, became JTBD Circumstance A, so a separate persona added nothing |
 | `persona-hypothesis-goer.md` | Group-Chat Explorer (tries studios with friends via group chats) | Not at the time. **Partly revived by G5** on 12 Oct (a friend inviting her to reformer) | **Merged** into JTBD Circumstance B (friend's invitation) | G5's path in is through a friend, which this candidate predicted. But G5's barriers (pack, nerves, gym already paid) are Persona 1's, so it's a second way into Persona 1, not a new persona. We'd split it out if more friend-led bookers appear in the pilot |
 | `Mariana.md` | Gambler-Averse Regular (treats an unfamiliar class as a bet and skips) | No evidence base | **Dropped as a persona; its idea kept** as the regret-aversion hypothesis | The "booking feels like a bet" idea became the riskiest assumption we tested. But it describes **regulars** avoiding unfamiliar slots, and our offer is for **newcomers only** (owners' condition), so the profile is outside the target |
@@ -55,7 +55,7 @@ Each selected persona maps to one decision in the venture. That's what makes the
 |---|---|---|
 | Goer 1: Package-Wary Tryer | **No pack** for newcomers (ERRC Reduce), the variable tested in the A/B test | `experiment-card.md`; result 16/25 vs. 7/25 |
 | Goer 2: Last-Minute Booker | **Instant confirmation** (ERRC Raise), held constant in the test | `experiment-card.md` controls; `specs/tech-stack.md` |
-| Owner 1: Price-Integrity Protector | **Full price, no discounts** (ERRC Eliminate) | `ERRC.md`; 5 of 5 owners |
+| Owner 1: Price-Integrity Protector | **Full price, no discounts** (ERRC Eliminate) | `ERRC.md`; 5 of 6 owners |
 | Owner 2: Capacity-Protective Owner | **The owner chooses the seats** (ERRC Create) | `specs/.../requirements.md` R1 |
 | Owner 3: Manual Patcher | **New-vs-regular report**; seat release in one message | `specs/.../requirements.md`; `open-gaps.md` Gap 9 |
 | Goer 3: Unanchored Sampler (hypothesis) | None yet; would matter if we widened to multi-studio passes | `gym_goers.md` |
@@ -71,6 +71,8 @@ Each selected persona maps to one decision in the venture. That's what makes the
 | **12 Oct** | Persona 1 gains G5; Persona 2 gains G4; Owner Personas 1 and 2 gain Owners D and E | New real interviews (Khaled, Yassin) |
 | **12 Oct** | Persona 1's barrier confirmed at group level | A/B reservation test (+36 pp for no pack) |
 | **12 Oct** | The "Group-Chat Explorer" idea partly revived as JTBD Circumstance B | G5 (friend's invitation) |
+| **13 Oct** | Persona 1 gains G7 (habit) and G8 (Casablanca; turned away by a monthly-only box) | New real interviews (Sofía, Leen) |
+| **13 Oct** | Persona 3 gets its first real anchor (wants variety; finds single classes too expensive). Still a hypothesis at n=1 | G6 (Mariana's interview) |
 
 ## 5. What would make us change the selection
 - **Add a persona** if 2 or more pilot bookers arrive through a friend and behave differently from Persona 1 (a separate Group-Chat Explorer).
