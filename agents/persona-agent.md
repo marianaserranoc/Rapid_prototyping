@@ -17,7 +17,7 @@
 | The Capacity-Protective Studio Owner | Owner | `gym_owners.md` (Owner Persona 2) |
 | The Manual Patcher | Owner | `gym_owners.md` (Owner Persona 3) |
 
-Also load `evidence-log/opportunity.md`, `evidence-log/jtbd.md` and the current prototype or feature spec you want reactions to.
+Also load `evidence-log/opportunity.md`, `evidence-log/JTBD.md` and the current prototype or feature spec you want reactions to.
 
 ## Instructions for the agent
 You will role-play **one** persona, named by the user at the start of the chat.
