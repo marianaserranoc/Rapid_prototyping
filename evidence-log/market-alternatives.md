@@ -38,10 +38,34 @@
 ---
 
 ## Strongest current alternative
-- **Goer side:** the already-paid gym membership, plus giving up when a DM booking stalls.
-- **Owner side:** running the class near-empty or cutting it, after discounting failed.
+**Main strategic baseline (used in `ERRC.md`): doing nothing on the owner side** — running the class near-empty or cutting it, after discounting failed. Chosen because owners are the paying customer and this is what all three real owners described doing today.
+
+Secondary baseline on the booker side: the already-paid gym membership, plus giving up when a DM booking stalls.
 
 **Evidence basis:** REPORTED and OBSERVED behaviour from 2 goer interviews and 3 owner interviews, plus card trials (stated intent). Small samples, directional only.
+
+---
+
+## Competitive factors and trade-offs
+
+| Factor | What alternatives assume or provide | Important trade-off, contradiction or gap |
+|---|---|---|
+| Price per class | 250–400 MAD for a boutique class; gym ≈ 314 MAD a month (DESK) | One class ≈ a month of gym, so goers weigh it against what they already pay (G1, REPORTED) |
+| Upfront commitment | Studios sell 3–50-class packs and 3–12-month subscriptions; discovery packs still mean 3 classes (DESK) | Newcomers must prepay before knowing the studio; G1 left half a 10-pack unused (REPORTED) |
+| Booking certainty and speed | Booking by Instagram DM or WhatsApp, or inside each studio's own app (DESK, OBSERVED G2) | A slow reply loses the booking (G2) |
+| Price integrity for the owner | Discounts are the usual lever to fill quiet classes | Regulars notice and expect the same deal (Owners A, B, C, REPORTED) |
+| Owner control over who gets which seat | Discounts and directories apply to everyone; studios' own tools don't separate newcomers from regulars for a given seat | Owners B and C will only take part if they choose seats and regulars don't see the offer (REPORTED) |
+| Knowing whether new people came | No alternative reports new vs. regular attendees for a filled slot (team judgement) | Owner C wants it but won't build it (REPORTED) |
+| Variety of studios | Gyms and single studios offer one venue; no multi-studio pass found in Morocco (DESK) | Not something we compete on |
+
+**Conventions taken for granted:** quiet slots are filled with discounts; newcomers commit to a pack before trying; booking a boutique class means messaging and waiting.
+
+## Current value curve
+
+Scores 1 (low) to 5 (high) are **team judgement** from the sources in `market-alternatives.md`, not measured data.
+
+| Factor | Discount codes | Studio discovery pack | Gym membership | DM booking via Instagram | **Our offer** |
+|
 
 ---
 
