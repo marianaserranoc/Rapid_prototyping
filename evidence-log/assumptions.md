@@ -49,11 +49,11 @@ Area 1 asks whether goers want it, Area 2 whether owners will supply seats, and 
 
 | Assumption | What we have | Status |
 |---|---|---|
-| 1.1 Regret-aversion is the main barrier | **A/B reservation test:** 16/25 vs. 7/25, +36 pp, p = 0.011; "having to commit" the top decline reason (10 of 27) (`ab-test-results.md`). **Interviews:** G1 (unused 10-pack), G4 (unused membership), G5 ("five up front is a different story") | **Supported at reservation level** (n=50, real action, fictional studio, no payment). Rival barriers remain: price (10 of 27 declines), certainty (G2, G4; held constant in the test) |
+| 1.1 Regret-aversion is the main barrier | **A/B reservation test:** 16/25 vs. 7/25, +36 pp, p = 0.011; "having to commit" the top decline reason (10 of 27) (`ab-test-results.md`). **Interviews:** G1 (unused 10-pack), G4 (unused membership), G5 ("five up front is a different story"), G8 (Casablanca: skipped a session because the box required a 900 MAD monthly membership; "the commitment, honestly") | **Supported at reservation level** (n=50, real action, fictional studio, no payment). Rival barriers remain: price (10 of 27 declines; G6, a proxy, says full price stops her); habit and an already-paid gym (G7), certainty (G2, G4; held constant in the test) |
 | 1.2 Trial goers come back | Nothing yet | **Untested: now the riskiest assumption** |
 | 1.3 Free time overlaps off-peak | G1, G2, G4 describe unexpected free windows, not matched to schedules. 4 of 27 A/B decliners said the time (Tue 11:00) didn't work | Weak |
-| 2.1 Seen as different from discounting | **5 of 5 real owners** reject discounting (A, B, C tried or avoided it; D, E ruled it out). D: "sounds better than a discount" | Directional, n=5, stated |
-| 2.2 Willing to sell single classes | A yes, B yes if she controls seats, C yes, D yes (would test on a couple of classes), E "maybe" | **4 of 5** stated interest; **no commitment to a date yet** |
+| 2.1 Seen as different from discounting | **5 of 6 real owners** reject discounting (A, C tried it and stopped; B, D, E avoid it). D: "sounds better than a discount". **F's studio uses** cheaper early classes to break even (F is a proxy outside Morocco) | Directional, n=6, stated |
+| 2.2 Willing to sell single classes | A yes, B yes if she controls seats, C yes, D yes (would test on a couple of classes), E "maybe", F yes on the manager's behalf | **5 of 6** stated interest; **no commitment to a date yet** |
 | 2.3 Fits current workflow | Owners insist on choosing seats themselves and on low admin; D and E only use Instagram today | Requirement known, not tested |
 | 3.1 Separates genuine goers from gamers | Nothing | Untested |
 | 3.2 No cannibalisation | Owners' condition that regulars never see the offer (B, C, D, E) | Requirement known, untested |
@@ -70,7 +70,9 @@ The feedback asked us to keep examples as examples and only update grounding wit
 | Riskiest assumption moved to 1.2 (return at full price) | **Yes** | A/B test; Owner D on one-off visitors |
 | Booking certainty logged as a rival barrier; confirmation held constant in the test | **Yes** | G2, G4 |
 | Trust-type barriers (not knowing the class, beginner nerves) added as a candidate | **Yes** | G5 |
-| 2.1 and 2.2 extended from n=3 to n=5 | **Yes** | Owners D, E |
+| 2.1 and 2.2 extended from n=3 to n=6 | **Yes** | Owners D, E, F |
+| Price strengthened as a rival barrier | **Yes** | G6 (proxy) |
+| Commitment confirmed by a target-market goer in his own words | **Yes** | G8 (Casablanca) |
 | "Price, not trust, is the main blocker" (earlier persona file) | **No, it came from an example card trial** | **Withdrawn** |
 | "Instant confirmation beat a refund guarantee, 4 of 5 vs. 2 of 5" | **No, example card trial** | **Withdrawn**; certainty now rests on G2 and G4 |
 | "Quality uncertainty: one declined WoZ respondent cited the instructor" | **No, example card trial** | **Withdrawn**; replaced by G5's real answer (below) |
@@ -79,6 +81,7 @@ The feedback asked us to keep examples as examples and only update grounding wit
 ## Candidate assumptions to discuss before the next iteration
 - **Not knowing the class (new, real source):** G5 hesitates because Instagram doesn't show what a class is like and she's nervous about being the only beginner; 2 of 27 A/B decliners cited not knowing the coach. Is this a separate Area 1 assumption, or a rival to 1.1?
 - **Price on the second visit:** price and "prefer my gym" were 10 of 27 A/B declines. Must be true: newcomers who try one class accept the studio's full price for the next one. This sits inside 1.2 but may need its own test.
-- **Owner control over seats:** now a condition for 4 of 5 owners (B, C, D, E). This could become an explicit Area 2 assumption rather than sitting inside 2.3.
+- **Owner awareness, not owner reluctance (new, real source):** Owner F thinks her early classes are empty because people don't know about them, not because of price or commitment. If that's common, the value for owners is reach, and the full-price, new-clients-only rules matter less to them.
+- **Owner control over seats:** now a condition for 4 of 6 owners (B, C, D, E); F set no conditions. This could become an explicit Area 2 assumption rather than sitting inside 2.3.
 - **Team credibility (from the NOVA founder interview):** owners trust a new platform only when its team has visible credibility in the fitness world and long-term commitment. Evidence needed: owners agree to a pilot more often when an instructor or studio insider joins the outreach (`interview-nova-founder.md`).
 - **Recurring vs. one-off commitment (same source):** NOVA's subscription failed but credit packages sold, which suggested only *recurring* commitment was the barrier. **Our test points the other way for first visits:** even a one-off 3-class pack cut reservations from 64% to 28%. A likely reason is that NOVA's credits work across many studios, while our pack locks the newcomer into one studio they don't know yet. Worth asking Aly in the follow-up.
