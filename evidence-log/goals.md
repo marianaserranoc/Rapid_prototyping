@@ -14,6 +14,8 @@
 - **Relevant:** Separates the regret-aversion hypothesis from the competing timing/awareness, absence-of-demand and quality-uncertainty hypotheses before any engineering investment. If it fails, the product goal above is withdrawn rather than built.
 - **Time-bound:** Links sent 11–12 Oct 2026, results logged in `experiment-card.md` before Group Project I on 13 Oct. If fewer than 15 people per arm are reached by then, the partial result is reported with the real n and the test is completed before Session 16 (First Working Skeleton kickoff).
 
+**Sprint result (12 Oct 2026):** 25 per arm reached. Arm A 16/25 (64%) vs. Arm B 7/25 (28%), gap +36 pp, one-sided Fisher p = 0.011: the pre-set bar was met. The sprint goal is achieved at reservation level, and the product goal goes ahead to the Phase 2 pilot (`ab-test-results.md`).
+
 ---
 
 ## How these goals connect to the rest of the Venture Skeleton
