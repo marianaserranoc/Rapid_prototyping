@@ -4,7 +4,7 @@
 *Will goers actually book an off-peak class and come back?*
 
 - Must be true: Goers who could attend an off-peak class avoid booking mainly because paying before they know a studio is worth it feels like an irreversible bet (regret-aversion), not because of timing or awareness
-  - Evidence needed: We would need to observe a reservation rate at least 30 percentage points higher (Fisher's exact p < 0.05) for a no-commitment offer (one class, no pack) than for the identical class offered through a 3-class pack, from 40 regular boutique class-goers in Casablanca and Rabat (20 per arm, minimum 15), under a two-arm reservation test with the same class, studio and price per class (`booking-test/`). Attendance is checked later, in the Phase 2 pilot
+  - Evidence needed: We would need to observe a reservation rate at least 30 percentage points higher (Fisher's exact p < 0.05) for a no-commitment offer (one class, no pack) than for the identical class offered through a 3-class pack, from 40 regular boutique class-goers in Casablanca and Rabat (20 per arm, minimum 15; 25 per arm were reached), under a two-arm reservation test with the same class, studio and price per class (`booking-test/`). Attendance is checked later, in the Phase 2 pilot
 - Must be true: Goers who try a class through a no-commitment entry come back at full price, rather than trying once and disappearing
   - Evidence needed: We would need to observe first-time trial attendees booking a second class at full price or buying a standard package within 4–6 weeks, from pilot studio booking records, under no discount
 - Must be true: Goers have free time that actually overlaps with studios' off-peak slots
@@ -31,31 +31,54 @@
   - Evidence needed: We would need to observe a positive margin per filled seat in a unit economics model built from real studio prices, class sizes and pilot fill rates, under the owners' current cost structure
 
 ## Riskiest assumption
-The riskiest assumption is that goers avoid off-peak booking mainly out of regret-aversion (Area 1, assumption 1) because if it is false, a no-commitment mechanism solves the wrong problem and owner adoption and economics no longer matter, and our current evidence is weak: one goer's recollection of an unused 10-class pack and a single-arm card test with proxy testers (5 of 8 agreed to book), with the two-arm test not yet run.
+**Before the test (11 Oct):** the riskiest assumption was that goers avoid booking mainly out of regret-aversion (Area 1, assumption 1). If it were false, a no-commitment mechanism would solve the wrong problem and owner adoption and economics would no longer matter. Our real evidence was thin: one goer's unused 10-class pack (G1).
+
+**After the test (12 Oct):** the two-arm reservation test met the pre-set bar. **16 of 25 reserved one class with no pack vs. 7 of 25 for the same class as a 3-class pack (+36 pp, one-sided Fisher p = 0.011)**, and "having to commit / buy a pack" was the most common reason for not reserving (10 of 27). Assumption 1.1 is now **supported at reservation level**, though not yet at attendance level.
+
+**New riskiest assumption: 1.2, trial goers come back at full price.** Three reasons:
+1. A reservation is cheap; the pilot must show people actually turn up, pay and return.
+2. Owners value a newcomer only if they become a regular (Owner D: one-off visitors have "little value"; Owners C, D and E all want new-vs-regular tracking).
+3. Price is still a live barrier (10 of 27 declines were price or "prefer my gym"), and it bites hardest on the second, full-price visit.
 
 ---
 
 ## Why these three areas are MECE
 Area 1 asks whether goers want it, Area 2 whether owners will supply seats, and Area 3 whether the exchange between them is economically viable. Each assumption belongs to exactly one side of the marketplace or to the money flowing between them, and together they cover demand, supply and viability.
 
-## Evidence so far
+## Evidence so far (real people only)
 
 | Assumption | What we have | Status |
 |---|---|---|
-| 1.1 Regret-aversion is the main barrier | G1 interview (unused 10-pack), WoZ single card 5 of 8 (`oz-trials.md`) | Weak, proxy testers, no control arm |
-| 1.2 Trial goers come back | Nothing | Untested |
-| 1.3 Free time overlaps off-peak | Goer interviews mention free windows, not matched to schedules | Weak |
-| 2.1 Seen as different from discounting | 3 real owners, all reject discounting (`gym_owners.md`) | Directional, n=3 |
-| 2.2 Willing to sell single classes | Owner A yes, Owner B yes if they control seats, Owner C yes | Stated interest only, n=3 |
-| 2.3 Fits current workflow | Owners insist on low admin and full control | Requirement known, not tested |
+| 1.1 Regret-aversion is the main barrier | **A/B reservation test:** 16/25 vs. 7/25, +36 pp, p = 0.011; "having to commit" the top decline reason (10 of 27) (`ab-test-results.md`). **Interviews:** G1 (unused 10-pack), G4 (unused membership), G5 ("five up front is a different story") | **Supported at reservation level** (n=50, real action, fictional studio, no payment). Rival barriers remain: price (10 of 27 declines), certainty (G2, G4; held constant in the test) |
+| 1.2 Trial goers come back | Nothing yet | **Untested: now the riskiest assumption** |
+| 1.3 Free time overlaps off-peak | G1, G2, G4 describe unexpected free windows, not matched to schedules. 4 of 27 A/B decliners said the time (Tue 11:00) didn't work | Weak |
+| 2.1 Seen as different from discounting | **5 of 5 real owners** reject discounting (A, B, C tried or avoided it; D, E ruled it out). D: "sounds better than a discount" | Directional, n=5, stated |
+| 2.2 Willing to sell single classes | A yes, B yes if she controls seats, C yes, D yes (would test on a couple of classes), E "maybe" | **4 of 5** stated interest; **no commitment to a date yet** |
+| 2.3 Fits current workflow | Owners insist on choosing seats themselves and on low admin; D and E only use Instagram today | Requirement known, not tested |
 | 3.1 Separates genuine goers from gamers | Nothing | Untested |
-| 3.2 No cannibalisation | Nothing | Untested |
-| 3.3 Unit economics positive | Fermi estimate of empty seats only (`Fermi_estimate`) | Untested |
+| 3.2 No cannibalisation | Owners' condition that regulars never see the offer (B, C, D, E) | Requirement known, untested |
+| 3.3 Unit economics positive | Fermi estimate of empty seats only (`Fermi_estimate.md`) | Untested |
 
-AI-simulated owner responses in `gym_owners.md` are excluded from this table because they are not evidence.
+AI-simulated owner responses in `gym_owners.md` and the illustrative card trials in `oz-trials.md` are excluded because they are not evidence.
+
+## What changed, and what caused it (sprint feedback, 12 Oct)
+The feedback asked us to keep examples as examples and only update grounding with what real people told us. This table separates the two.
+
+| Change | Caused by real people? | Source |
+|---|---|---|
+| 1.1 status: "weak" → **supported at reservation level** | **Yes**: 50 real class-goers' reservations | A/B test |
+| Riskiest assumption moved to 1.2 (return at full price) | **Yes** | A/B test; Owner D on one-off visitors |
+| Booking certainty logged as a rival barrier; confirmation held constant in the test | **Yes** | G2, G4 |
+| Trust-type barriers (not knowing the class, beginner nerves) added as a candidate | **Yes** | G5 |
+| 2.1 and 2.2 extended from n=3 to n=5 | **Yes** | Owners D, E |
+| "Price, not trust, is the main blocker" (earlier persona file) | **No, it came from an example card trial** | **Withdrawn** |
+| "Instant confirmation beat a refund guarantee, 4 of 5 vs. 2 of 5" | **No, example card trial** | **Withdrawn**; certainty now rests on G2 and G4 |
+| "Quality uncertainty: one declined WoZ respondent cited the instructor" | **No, example card trial** | **Withdrawn**; replaced by G5's real answer (below) |
+| Persona 3 "grounded in Example-G3" | **No, example interview** | **Reverted to hypothesis** (`gym_goers.md`) |
 
 ## Candidate assumptions to discuss before the next iteration
-- **Quality uncertainty:** one declined WoZ respondent cited not knowing the instructor. Is this a separate Area 1 assumption, or a rival to 1.1?
-- **Owner control over seats:** Owner B made control a condition of saying yes. This could become an explicit Area 2 assumption rather than sitting inside 2.3.
-- **Team credibility (new, from the NOVA founder interview):** owners trust a new platform only when its team has visible credibility in the fitness world and long-term commitment. Evidence needed: owners agree to a pilot more often when an instructor or studio insider joins the outreach (`interview-nova-founder.md`).
-- **Recurring vs. one-off commitment (new, same source):** NOVA's subscription failed but credit packages sold. The barrier may be *recurring* commitment rather than any prepayment, which our Arm B (3-class pack) result will help separate.
+- **Not knowing the class (new, real source):** G5 hesitates because Instagram doesn't show what a class is like and she's nervous about being the only beginner; 2 of 27 A/B decliners cited not knowing the coach. Is this a separate Area 1 assumption, or a rival to 1.1?
+- **Price on the second visit:** price and "prefer my gym" were 10 of 27 A/B declines. Must be true: newcomers who try one class accept the studio's full price for the next one. This sits inside 1.2 but may need its own test.
+- **Owner control over seats:** now a condition for 4 of 5 owners (B, C, D, E). This could become an explicit Area 2 assumption rather than sitting inside 2.3.
+- **Team credibility (from the NOVA founder interview):** owners trust a new platform only when its team has visible credibility in the fitness world and long-term commitment. Evidence needed: owners agree to a pilot more often when an instructor or studio insider joins the outreach (`interview-nova-founder.md`).
+- **Recurring vs. one-off commitment (same source):** NOVA's subscription failed but credit packages sold, which suggested only *recurring* commitment was the barrier. **Our test points the other way for first visits:** even a one-off 3-class pack cut reservations from 64% to 28%. A likely reason is that NOVA's credits work across many studios, while our pack locks the newcomer into one studio they don't know yet. Worth asking Aly in the follow-up.
