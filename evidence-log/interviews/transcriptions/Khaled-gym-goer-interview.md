@@ -1,3 +1,8 @@
+# Interview Report — gym-goer (G5)
+
+**Interviewer:** Khaled · **Format:** audio recording (3 min 54 s) · **Date:** [to add] · **Location:** [to confirm: Casablanca / Rabat / other]
+**Evidence status:** Real interview. Logged in `user-feedback.md` as G5.
+
 ## Answers (paraphrased)
 
 | # | Question | Answer | Type |
@@ -27,3 +32,5 @@
 - Friends' unused packs are hearsay, not her own experience.
 - Location still to be confirmed (target market or proxy).
 - Gym member, so same profile as G1. Doesn't add a non-gym-holder.
+
+**Code in the evidence log:** G5 (`user-feedback.md`). Recording: `../audio-video/khaledGym goer interview.m4a`.
