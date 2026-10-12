@@ -57,3 +57,5 @@ AI-simulated owner responses in `gym_owners.md` are excluded from this table bec
 ## Candidate assumptions to discuss before the next iteration
 - **Quality uncertainty:** one declined WoZ respondent cited not knowing the instructor. Is this a separate Area 1 assumption, or a rival to 1.1?
 - **Owner control over seats:** Owner B made control a condition of saying yes. This could become an explicit Area 2 assumption rather than sitting inside 2.3.
+- **Team credibility (new, from the NOVA founder interview):** owners trust a new platform only when its team has visible credibility in the fitness world and long-term commitment. Evidence needed: owners agree to a pilot more often when an instructor or studio insider joins the outreach (`interview-nova-founder.md`).
+- **Recurring vs. one-off commitment (new, same source):** NOVA's subscription failed but credit packages sold. The barrier may be *recurring* commitment rather than any prepayment, which our Arm B (3-class pack) result will help separate.
