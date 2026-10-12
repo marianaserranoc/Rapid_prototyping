@@ -1,3 +1,8 @@
+# Interview Report — studio owner (Owner D)
+
+**Interviewer:** Khaled · **Format:** audio recording (3 min 02 s) · **Date:** [to add] · **Studio type and city:** [to confirm]
+**Evidence status:** Real interview. Logged in `user-feedback.md` as Owner D.
+
 ## Answers (paraphrased)
 
 | # | Question | Answer | Type |
@@ -24,3 +29,5 @@
 - Stated intent for Q3; nothing committed yet.
 - Role, studio type and city not stated in the recording — must be confirmed before counting him toward the owner sample.
 - Part of Q3 is unclear in the audio; the paraphrase follows the clearest reading.
+
+**Code in the evidence log:** Owner D (`user-feedback.md`). Recording: `../audio-video/khaled Gym owner interview.m4a`.
