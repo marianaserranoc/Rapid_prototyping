@@ -44,7 +44,9 @@ Karim owns an independent yoga and mobility studio in Rabat running about 16 cla
 | Owners want to see new vs. regular attendees | Supported; matches the core flow in `specs/mission.md` |
 | Owners would actually release seats | Conditional "maybe", not yet a commitment |
 
-This interview matches Owner B and Owner C on seat control and keeping the offer away from regulars. It brings the real owner sample to n = 4, still directional only.
+This interview matches Owner B and Owner C on seat control and keeping the offer away from regulars. With Owner D (interviewed by Khaled the same day), the real owner sample is n = 5, still directional only.
+
+**Code in the evidence log:** Owner E (`user-feedback.md`).
 
 ## 6. Process notes
 
