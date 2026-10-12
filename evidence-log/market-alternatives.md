@@ -69,14 +69,14 @@ Scores 1 (low) to 5 (high) are **team judgement** from the sources in `market-al
 
 ---
 
-## Opportunity stress test (four lenses, three findings kept)
+## Opportunity stress test (four lenses)
 
 | Lens | Finding | Implication for the prototype |
 |---|---|---|
 | **Entry** | Low barrier: studios already sell discovery packs and could add a "single off-peak class" button themselves | Our value can't be the offer alone; it must be **reach to new goers + instant confirmation + new-vs-regular tracking**, which a solo owner won't build (Owner C) |
 | **Substitution** | For goers, one class ≈ a month of gym, so the gym wins on price | Test whether goers accept full studio price for one off-peak class, or whether the price itself, not commitment, is the barrier (Persona 1: "price is the fixable part") |
 | **Dependencies** | Depends on owners releasing seats and on WhatsApp/Instagram as the booking channel | Manual WhatsApp flow first; keep owners in control of which seats go out |
-| Major shifts | ClassPass or a regional aggregator entering Morocco would change the field | Not kept: no sign of entry; revisit at the Phase 2 gate |
+| **Major shifts** | **A boutique-fitness boom is a tailwind.** NOVA's founder says Egypt's pilates and Hyrox boom made it the right moment to launch (`interview-nova-founder.md`); Le360 reports reformer studios spreading fast in Morocco. A regional aggregator entering Morocco would change the field, but there is no sign of it yet | Start where demand is growing (reformer pilates); track new studio openings in Casablanca and Rabat as a timing signal |
 
 ---
 
