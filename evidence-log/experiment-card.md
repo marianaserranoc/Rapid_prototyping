@@ -106,10 +106,11 @@ LOW-MEDIUM — real target users, but stated willingness rather than observed ad
 | Owner A | In person | Yes | Yes |
 | Owner B | Phone | Yes | Yes, if they control which seats open |
 | Owner C | In person | Yes | Yes |
-| Owner D (interviewed by Khaled, 12 Oct; `Khaled-gym-owner-interview.md`) | Recorded call | Yes: "sounds better than a discount" | Yes, conditionally: he picks the classes and seats, regulars don't see a deal, he learns whether newcomers return. Willing to test on "a couple of classes" |
-| Owner E, Karim (Rabat, yoga and mobility, interviewed by Yassin, 12 Oct; `gym-owner-rabat-yassin-interview.md`) | Zoom | Yes: refuses to lower prices because regulars would expect it | **"Maybe"**, only if he chooses the class and number of spots and regulars never see it |
+| Owner D (interviewed by Khaled, 12 Oct; `interviews/transcriptions/Khaled-gym-owner-interview.md`) | Recorded call | Yes: "sounds better than a discount" | Yes, conditionally: he picks the classes and seats, regulars don't see a deal, he learns whether newcomers return. Willing to test on "a couple of classes" |
+| Owner E, Karim (Rabat, yoga and mobility, interviewed by Yassin, 12 Oct; `interviews/transcriptions/gym-owner-rabat-yassin-interview.md`) | Zoom | Yes: refuses to lower prices because regulars would expect it | **"Maybe"**, only if he chooses the class and number of spots and regulars never see it |
+| Owner F (**proxy, outside Morocco**; reformer studio; interviewed by Mariana; `interviews/transcriptions/mariana-interviews.md`) | Recorded | **Not asked directly**; the studio has itself made early classes cheaper | Yes: "nothing would get in the way"; the manager "would be very, very happy" (second-hand: a manager sets prices) |
 
-**4 of 5 real owners (80%) distinguish the offer from discounting and say they would offer it; the fifth says "maybe".** This clears the ≥60% bar on the minimum sample of 5, but it is **stated willingness only**: no owner has yet committed a specific class on a specific date, which is our bar for adoption (`test-brief.md` §4). The same three conditions came up in 4 of 5 interviews: the owner chooses the seats, regulars never see the offer, and the owner can see who is new.
+**4 of 6 real owners (67%) both distinguish the offer from discounting and say they would offer it; 4 of 5 (80%) excluding Owner F, who is a proxy outside Morocco.** E says "maybe"; F would offer it but wasn't asked to compare it with a discount. This clears the ≥60% bar, but it is **stated willingness only**: no owner has yet committed a specific class on a specific date, which is our bar for adoption (`test-brief.md` §4). The same three conditions came up in 4 of 5 interviews: the owner chooses the seats, regulars never see the offer, and the owner can see who is new.
 **Next:** ask Owners D and E (both open to a trial, and E agreed to a WhatsApp follow-up) to commit one real off-peak class for the Phase 2 pilot. Owner D's city and studio type are still to be confirmed. The AI-simulated owner responses in `gym_owners.md` are excluded because they are not evidence.
 
 ## Layer 2: Goer-side Interviews (sample sanity check)
@@ -134,8 +135,10 @@ MEDIUM — real target users, but recollection rather than observed behaviour.
 - **Missed (2+ new barriers):** CHANGE the primary test's hypothesis, method, or both first.
 
 ### Results so far
-Four real goer interviews (G1, G2, Youssef, and the goer interviewed by Khaled). Barriers outside our original three hypotheses:
+Seven real goer interviews: G1, G2, G4 (Youssef), G5 (Khaled's), G6 (Mariana's, proxy outside Morocco), G7 (Sofía's) and G8 (Leen's, Casablanca). Barriers outside our original three hypotheses:
 - **Booking certainty** (G2, Youssef): two interviews. This met the "2 or more" trigger, so the primary test was redesigned and instant confirmation is now held constant in both arms.
+- **A specific training need the gym can't meet** (G8: Hyrox prep needs sleds; the box required a monthly membership): fits the commitment barrier the test isolates, so no redesign.
+- **Price at full rate** (G6, a proxy: one class is "very expensive"; she'd only try it if cheaper as a trial). Price was already a named rival, and the test holds price per class equal in both arms, so it doesn't change the design, but it is logged in `open-gaps.md` Gap 13.
 - **Beginner nerves and not knowing what the class is like** (Khaled's goer: "uncomfortable if everyone already knows what they're doing"; "Instagram doesn't show the experience"): one interview. Not controlled in the test; logged in `open-gaps.md` Gap 5.
 
 *An earlier version listed "not knowing the instructor" from a card trial. That trial was illustrative, not real, so it has been removed as evidence.*
@@ -193,7 +196,7 @@ Partly done (`Fermi_estimate.md`, `market-alternatives.md`):
 | Not sure I'd get a spot | 0 | 1 | 1 | Certainty rival (held constant by design) |
 | **Total** | **9** | **18** | **27** | |
 
-All 10 commitment declines came from Arm B, the only arm with a pack. Price and gym declines appear in both arms at similar levels (A 6, B 4). Voice notes: 29 of 50. Quotes: [team to add 2–3 short lines, word for word, from real voice notes].
+All 10 commitment declines came from Arm B, the only arm with a pack. Price and gym declines appear in both arms at similar levels (A 6, B 4). Voice notes: 29 of 50.
 
 **Outcome against threshold:** **Supports.** The gap (+36 pp) is above the 30 pp bar and p = 0.011 is below 0.05, both set before the test.
 
