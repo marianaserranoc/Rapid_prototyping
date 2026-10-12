@@ -1,4 +1,6 @@
-# Opportunity
+# Opportunity — version 0.1 (historical)
+
+> *Kept as the first version so the evolution is visible. Superseded by `opportunity-v02.md`. Note added 12 Oct 2026: the "Wizard of Oz card test, 5 of 8" row and the "one declined WoZ respondent" below came from an illustrative example (`oz-trials.md`), not real people. They are no longer evidence; see `opportunity-v02.md` for the current evidence table.*
 
 ## Business idea
 We help independent boutique fitness studios in Casablanca and Rabat fill their recurring underfilled off-peak classes by letting new studio-goers book a single class with no package or membership commitment, at the price and seat limit the studio sets, so owners gain new full-price attendees without discounting and goers can find out whether a studio is worth it before committing.
