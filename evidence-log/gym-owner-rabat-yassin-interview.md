@@ -1,7 +1,6 @@
 # Interview Report
 
 **Date:** 12 October 2026 · **Format:** Zoom call, audio recording (2 min 01 s) · **Interviewer:** Yassin
-**Script used:** Owner Script B (phone)
 **Participant:** Karim, real studio owner in Rabat (yoga and mobility, ~16 classes a week) · matches Owner Persona 2, the Capacity-Protective Studio Owner
 **Evidence status:** Real interview. Log in `user-feedback.md` with REPORTED tags.
 
