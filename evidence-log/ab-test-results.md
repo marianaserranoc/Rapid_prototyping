@@ -33,17 +33,12 @@
 
 **Voice notes received:** 29 of 50 (Arm A 15, Arm B 14). Audio stays in Teams.
 
-## 2. Voice-note quotes (word for word, anonymised)
-Only lines a participant actually said. No AI paraphrases.
-- [code, arm, reserved Y/N]: "…"
-- [code, arm, reserved Y/N]: "…"
-- [code, arm, reserved Y/N]: "…"
 
-## 3. How the numbers were checked
+## 2. How the numbers were checked
 - p-value computed with `scipy.stats.fisher_exact([[16, 9], [7, 18]], alternative="greater")` → 0.0111. Two-sided p = 0.022.
 - The team's results summary was formatted with ChatGPT; the counts above come from the team's WhatsApp log. Quotes are not taken from the AI summary (`ai-usage-log.md`).
 
-## 4. Per-participant log
+## 3. Per-participant log
 One row per person, from the WhatsApp log (codes only; order as logged). Totals match section 1: Arm A 16 reserved of 25, Arm B 7 of 25.
 
 | Code | Arm | Reserved (Y/N) | Main reason if not |
