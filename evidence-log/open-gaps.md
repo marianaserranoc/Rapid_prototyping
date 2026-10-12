@@ -19,13 +19,13 @@ This document gathers the business-model contradictions, experimental limitation
 | 5 | Commitment vs. trust in the class (coach, beginner comfort, "what is it like?") | High | Open, **re-grounded in real evidence** | Test a short class video and coach profile on the pilot booking page; ask pilot bookers whether it mattered | G5; 2 of 27 A/B declines |
 | 6 | Undifferentiated goer segment | Medium | Open | Record segment (new, lapsed, current) and gym membership for every pilot participant | `opportunity.md` |
 | 7 | Modality and geography baseline | Medium | Open | Count real studios on Google Maps; record modality and capacity of each pilot studio | `Fermi_estimate.md` |
-| 8 | Acute push vs. learned resignation (owners) | Medium | Partly addressed | 5 of 5 owners reject discounting; 4 of 5 open to the offer. Test whether any commits a real class | `JTBD.md`, `gym_owners.md` |
+| 8 | Acute push vs. learned resignation (owners) | Medium | Partly addressed | 5 of 6 owners reject discounting; 5 of 6 open to the offer. Test whether any commits a real class | `JTBD.md`, `gym_owners.md` |
 | 9 | Owner operational bandwidth and control | High | Open | Seat-release walk-through with Owner D or E using their current tools | `assumptions.md` 2.3 |
 | 10 | Owner sample below threshold | Medium | **Partly closed**: 5 of the 5–8 owners | 1–3 more interviews; first commitments to a date | `experiment-card.md` Layer 1 |
 | 11 | AI-simulated responses in evidence files | Medium | Addressed | Kept labelled and excluded from all counts | `gym_owners.md`, `ai-usage-log.md` |
 | 12 | **Examples counted as evidence** | High | **New, addressed 12 Oct** | Card trials and Example-G3 relabelled; every dependent claim withdrawn or re-grounded (`assumptions.md`, "What changed") | `oz-trials.md`, `gym_goers.md` |
-| 13 | **Price vs. commitment not fully separated** | High | **New, partly addressed** | Split by arm: all 10 commitment declines in Arm B; price/gym in both arms (A 6, B 4). Still, Arm B asked for 900 MAD up front, so "won't commit" and "won't pay 900 at once" move together. Watch second-visit price in the pilot | `ab-test-results.md` |
-| 14 | **Verify interview reports against recordings** | Medium | **New** | G4's episode closely mirrors G2's, and Owner E's quiet slot matches Owner C's (Fri 12:30, 2–3 of 8). Check both reports against the audio and log word-for-word quotes | `gym_goer_yassin_interview.md`, `gym-owner-rabat-yassin-interview.md` |
+| 13 | **Price vs. commitment not fully separated** | High | **New, partly addressed**; G6 (13 Oct) names price as her main barrier | Split by arm: all 10 commitment declines in Arm B; price/gym in both arms (A 6, B 4). Still, Arm B asked for 900 MAD up front, so "won't commit" and "won't pay 900 at once" move together. Watch second-visit price in the pilot | `ab-test-results.md` |
+| 14 | **Verify interview reports against recordings** | Medium | **Closed 13 Oct**: all recorded reports match their audio (`interviews/README.md`) | G4's episode closely mirrors G2's, and Owner E's quiet slot matches Owner C's (Fri 12:30, 2–3 of 8). Check both reports against the audio and log word-for-word quotes | `interviews/transcriptions/gym_goer_yassin_interview.md`, `interviews/transcriptions/gym-owner-rabat-yassin-interview.md` |
 
 ---
 
@@ -108,10 +108,11 @@ There is an unresolved tension between what motivates the goer and what the owne
 
 ### Gap 13 (new): price vs. commitment not fully separated
 - **Context:** both arms charged 300 MAD per class, but Arm B asked for 900 MAD up front. "Having to commit" (10) and "price / prefer my gym" (10) were equally common reasons for not reserving.
+- **Real interview (13 Oct):** G6 says one Pilates class at full price is "very expensive" and she'd only try it if cheaper as a trial ([mariana-interviews.md](interviews/transcriptions/mariana-interviews.md)). This is the clearest real case for the price rival.
 - **Split by arm (done):** all 10 commitment declines are in Arm B; price and gym declines appear in both arms (A 6, B 4), so price is a steady barrier that doesn't explain the gap ([ab-test-results.md](ab-test-results.md)).
 - **Next action:** in the pilot, check whether newcomers accept full price on their **second** visit, and offer a 3-class pack at 300 MAD paid per visit to separate commitment from upfront cash.
 
 ### Gap 14 (new): verify interview reports against recordings
 - **Context:** the reports for G4 and Owner E were written from audio. G4's episode is almost identical to G2's (cancelled meeting → Instagram story → DM → no reply → gave up), and Owner E's quiet slot matches Owner C's (Fri 12:30, 2–3 of 8).
 - **Why it matters:** similar stories are possible, but evaluators will check. A report that drifts towards earlier notes would weaken the evidence.
-- **Next action:** the interviewer re-listens and adds 2–3 word-for-word quotes to each report, with timestamps.
+- **Resolved (13 Oct):** every recorded interview was transcribed automatically and compared with its report. G4's and Owner E's reports match their recordings almost word for word, so the similarity to G2 and Owner C is a real coincidence, not drift. Next step: add 2–3 timestamped quotes to each report.
