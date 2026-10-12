@@ -25,8 +25,8 @@ How might we help boutique studio owners convert underfilled off-peak seats into
 
 | Claim | Source | Strength |
 |---|---|---|
-| Owners refuse to discount because it damages brand and regulars | 5 real owner interviews, A–E (`personas/selected_personas/gym_owners.md`) | Real target users, n=5, directional only |
-| Owners want full control over which seats and slots open | Owners B, C, D, E (explicit condition) | Real target users, 4 of 5, stated |
+| Owners refuse to discount because it damages brand and regulars | 6 real owner interviews, A–F (`personas/selected_personas/gym_owners.md`); 5 of 6 reject it, F's studio lowers early-class prices | Real target users, n=6, directional only |
+| Owners want full control over which seats and slots open | Owners B, C, D, E (explicit condition) | Real target users, 4 of 6, stated |
 | Goers avoid packages after unused past packages | Goer interviews G1, G4, G5 (`user-feedback.md`) | Real goers, n=3 |
 | Removing the pack raises reservations (regret-aversion) | Two-arm reservation test, 25 per arm: 16/25 no-pack vs. 7/25 3-class pack, +36 pp, p = 0.011 (`ab-test-results.md`) | **Supported at reservation level**: real class-goers, real action, pre-set threshold met. Not attendance; fictional studio; no payment |
 | Newcomers return at full price | Not yet tested | **Unvalidated: now the riskiest assumption** (Phase 2 pilot) |
