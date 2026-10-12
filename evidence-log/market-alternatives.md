@@ -30,7 +30,7 @@
 
 | Alternative | Category | Simple test | Target-user behaviour | Compare on | Evidence so far and gaps | So what? |
 |---|---|---|---|---|---|---|
-| Discount codes or cheaper off-peak prices | **Direct competitor** (own lever) | Same job: fill the slot | REPORTED: Owners A and C tried discounts and stopped; regulars objected or asked why. Owners B, D and E avoid discounting so regulars don't expect it | Fill rate, price integrity, regular reaction | REPORTED (5 owners) | Owners have rejected it. Anything that looks like a discount fails at the gate |
+| Discount codes or cheaper off-peak prices | **Direct competitor** (own lever) | Same job: fill the slot | REPORTED: Owner F's studio makes early-morning classes cheaper to break even. Owners A and C tried discounts and stopped; regulars objected or asked why. Owners B, D and E avoid discounting so regulars don't expect it | Fill rate, price integrity, regular reaction | REPORTED (5 owners) | Owners have rejected it. Anything that looks like a discount fails at the gate |
 | Studio booking software (e.g. studio apps, Setmore) and directories (fitness.ma: 790 clubs listed in Casablanca, 219 in Rabat; free trial sessions at partner clubs) | **Indirect substitute** | Same progress (bookings), different route | HYPOTHESIS — owners did not mention them as a fix for off-peak | Reach to new goers, cost, control | DESK: fitness.ma, Core Studio app, Rise Studio on Setmore. GAP: do they bring net-new goers to specific off-peak slots? | Don't replace their booking tool. Sit beside it and send them new people for chosen seats |
 | Asking regulars, social posts, WhatsApp blasts | **Manual workaround** | Owner assembles it | REPORTED: Owners D and E post on Instagram (D also stories and schedule reminders): a few bookings, not consistent | Effort, reach, consistency | REPORTED (Owners D, E) | Confirms the workaround exists and underdelivers; time spent still not asked |
 | Run the class near-empty, or cut it | **Doing nothing** | Accept the pain | REPORTED: Owner B ran a 2-person class rather than disappoint a regular; Owner E keeps a 2-of-8 Friday class for 2 regulars and pays the teacher anyway; Owner A cut a class after months | Lost revenue, regular loyalty | REPORTED (3 owners) | The strongest current alternative: free, familiar, fully controlled. Our offer must be almost as effortless |
@@ -42,7 +42,7 @@
 
 Secondary baseline on the booker side: the already-paid gym membership, plus giving up when a DM booking stalls.
 
-**Evidence basis:** REPORTED and OBSERVED behaviour from 4 goer interviews and 5 owner interviews, plus the A/B reservation test (50 class-goers, real reservation messages). Small samples, directional only. *(Card trials removed: they were illustrative examples.)*
+**Evidence basis:** REPORTED and OBSERVED behaviour from 7 goer interviews and 6 owner interviews (G6 and Owner F are proxies outside Morocco), plus the A/B reservation test (50 class-goers, real reservation messages). Small samples, directional only. *(Card trials removed: they were illustrative examples.)*
 
 ---
 
@@ -51,7 +51,7 @@ Secondary baseline on the booker side: the already-paid gym membership, plus giv
 | Factor | What alternatives assume or provide | Important trade-off, contradiction or gap |
 |---|---|---|
 | Price per class | 250–400 MAD for a boutique class; gym ≈ 314 MAD a month (DESK) | One class ≈ a month of gym, so goers weigh it against what they already pay (G1, G5, REPORTED; 10 of 27 A/B declines cited price or the gym) |
-| Upfront commitment | Studios sell 3–50-class packs and 3–12-month subscriptions; discovery packs still mean 3 classes (DESK) | Newcomers must prepay before knowing the studio; G1 left half a 10-pack unused (REPORTED). In the A/B test, a 3-class pack cut reservations from 64% to 28% (OBSERVED) |
+| Upfront commitment | Studios sell 3–50-class packs and 3–12-month subscriptions; discovery packs still mean 3 classes (DESK) | Newcomers must prepay before knowing the studio; G1 left half a 10-pack unused (REPORTED). In the A/B test, a 3-class pack cut reservations from 64% to 28% (OBSERVED). A CrossFit box in Casablanca allowed no drop-ins, only a 900 MAD monthly membership (G8, REPORTED) |
 | Booking certainty and speed | Booking by Instagram DM or WhatsApp, or inside each studio's own app (DESK, OBSERVED G2, G4) | A slow reply loses the booking (G2, G4) |
 | Price integrity for the owner | Discounts are the usual lever to fill quiet classes | Regulars notice and expect the same deal (Owners A–E, REPORTED) |
 | Owner control over who gets which seat | Discounts and directories apply to everyone; studios' own tools don't separate newcomers from regulars for a given seat | Owners B, C, D and E will only take part if they choose seats and regulars don't see the offer (REPORTED) |
