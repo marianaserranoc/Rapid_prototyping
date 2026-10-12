@@ -1,3 +1,13 @@
+# Card trials — ILLUSTRATIVE EXAMPLE, NOT EVIDENCE
+
+> **Status (12 Oct 2026, after sprint feedback):** the three card trials below are an **illustrative example** of how a card-based Wizard of Oz trial could be run and written up. **No real participants took part, and the numbers (5 of 8, 4 of 5 vs. 2 of 5, 5 of 7) are not data.** They are kept here only as an example of the method, as the feedback asked ("keep examples as examples").
+>
+> They are **not cited as evidence anywhere** in the evidence log. Every place that used them (`experiment-card.md`, `ERRC.md`, `user-feedback.md`, `assumptions.md`, `JTBD.md`, `pivot-log.md`, `open-gaps.md`, opportunity files, `specs/tech-stack.md`) now cites real interviews or the real A/B reservation test (`ab-test-results.md`) instead.
+>
+> **What replaced them with real evidence:** the question each card asked was answered, at least in part, by real people. Persona 1 (price vs. commitment) → A/B test: removing the pack lifted reservations by 36 pp at the same price per class; price still came up in 10 of 27 declines. Persona 2 (certainty vs. risk) → real goers G2 and G4 both dropped out over slow DM replies. Persona 3 (trial appeal and return) → A/B test for appeal; return is still untested and moves to the Phase 2 pilot.
+
+---
+
 ## Persona 1: The Package-Wary Tryer
 
 ### What's being tested
@@ -9,7 +19,7 @@ Off-peak slot, one single-class price set to match what the person already pays 
 ### How it ran
 One team member showed the card to 8 people they knew who already have a gym membership (recruited the same way G1 was — friends of friends), one at a time, over a couple of days. Asked "would you book this?" then "why / why not?"
 
-### Results 
+### Results (illustrative, not real data)
 
 | Shown the card | Said "I'd book it" | Said "I'd skip it" |
 |---|---|---|
@@ -41,7 +51,7 @@ Whether commitment risk or booking friction drives the decision.
 ### How it ran
 One team member showed Card A to 5 people and Card B to a different 5 people (same recruiting pool as G2 — people with unpredictable schedules who sample classes occasionally), asked "would you book this?", noted the answer and why.
 
-### Results 
+### Results (illustrative, not real data)
 
 | Card | Said "I'd book it" | Said "I'd skip it" |
 |---|---|---|
@@ -73,7 +83,7 @@ The off-peak slot, price, plus "full refund if you don't come back within 2 week
 ### How it ran
 Shown to 7 people who fit the profile (no fixed studio, tries different places), one at a time. Asked "would you book this?" and, if yes, "would you actually come back, or is this a one-time thing?"
 
-### Results
+### Results (illustrative, not real data)
 
 | Shown the card | Said "I'd book it" | Of those, said "I'd probably come back" |
 |---|---|---|
@@ -87,11 +97,11 @@ Shown to 7 people who fit the profile (no fixed studio, tries different places),
 - **Does not resolve:** this is all stated intention ("I'd probably come back"), not observed behavior — nobody in this card-based test actually booked or returned for real. That's the honest limit of this method: it tells you what people say they'd do, not what they'd do.
 
 ### Cross-reference
-See `EXAMPLE-interview-goer3.md` (Example-G3), Q4–Q6, on price sensitivity at the booking step.
+Example only: no real interview sits behind Persona 3 (the earlier reference to an "Example-G3" interview was itself an example file).
 
 ---
 
-## Cross-persona summary
+## Cross-persona summary (illustrative)
 
 | Persona | Card tested | Said "I'd book it" | Headline |
 |---|---|---|---|
