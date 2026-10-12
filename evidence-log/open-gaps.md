@@ -84,6 +84,7 @@ There is an unresolved tension between what motivates the goer and what the owne
 ### Gap 8: acute push vs. learned resignation (owners)
 - **Context:** [JTBD.md](JTBD.md) frames the owner's pain as an urgent push.
 - **Open question:** after repeated failures with discounting, have owners accepted empty off-peak classes as normal? If so, adoption means overcoming deep scepticism, not just offering a better tool.
+- **New (expert evidence):** NOVA's founder said Egyptian studios had seen similar ideas before that never came to anything, and only trusted NOVA because a co-founder is an instructor and the team was visibly committed ([interview-nova-founder.md](interview-nova-founder.md)). So owner scepticism is real, but it can be overcome by credibility, not only by a better offer.
 - **Evidence so far:** all 3 real owners ([gym_owners.md](personas/selected_personas/gym_owners.md)) rejected discounting but said they would try the concept. That suggests interest rather than resignation, but n=3 and stated intent only.
 
 ### Gap 9: operational bandwidth and owner control
