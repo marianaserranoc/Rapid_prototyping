@@ -26,7 +26,7 @@ The reservation test uses a fictional studio (Atelier Sable) and measures reserv
 |---|---|---|---|
 | Goers, Arm A | 20 (minimum 15) | 25 | Covers people excluded (e.g. saw both versions) or unreachable. **Reached: 25** |
 | Goers, Arm B | 20 (minimum 15) | 25 | Same. **Reached: 25** |
-| Owners, Layer 1 | 5–8 total | 1–3 more | **5 real owners interviewed** (A–E; D and E on 12 Oct) |
+| Owners, Layer 1 | 5–8 total | 1–3 more | **6 real owners interviewed** (A–F; D and E on 12 Oct, F on 13 Oct) |
 | Host studios (Phase 2) | 2–3 | 2–3 | Owners D and E first: both open to a trial; E agreed to a WhatsApp follow-up |
 
 A person counts once their link is sent: no reply counts as "did not reserve". If fewer than 15 people per arm receive a link, the result is reported as partial with the actual n, not extrapolated.
@@ -65,5 +65,5 @@ No names are kept in the repository. The per-person record for the reservation t
 | Stage | Goers A | Goers B | Owners |
 |---|---|---|---|
 | Link sent / contacted | 25 | 25 | [team to add] |
-| Replied (reserved or "not for me") | 25 | 25 | 5 |
-| Completed | 25 (16 reserved) | 25 (7 reserved) | 5 interviews |
+| Replied (reserved or "not for me") | 25 | 25 | 6 |
+| Completed | 25 (16 reserved) | 25 (7 reserved) | 6 interviews |
