@@ -23,6 +23,7 @@
 | Trial P1 (8 people) | Goer | Card trial, one at a time | [to add] | [to confirm] | Partial: friends-of-friends with gym memberships | `oz-trials.md` |
 | Trial P2 (10 people, 5 per card) | Goer | Card trial, two cards | [to add] | [to confirm] | Partial: convenience sample | `oz-trials.md` |
 | Trial P3 (7 people) | Goer | Card trial | [to add] | [to confirm] | Partial: convenience sample | `oz-trials.md` |
+| Expert: Aly Shourbagui | Founder of NOVA (Egypt), analogous platform | Interview | [to add] | Egypt | Expert, not a target user: evidence on owner adoption and go-to-market | `interview-nova-founder.md` |
 
 **To complete before submission:** dates, and whether each person is in Casablanca or Rabat. The rubric scores participant fit, so any participant outside Morocco should be marked as a proxy.
 
@@ -44,6 +45,16 @@
 | Full-price refund vs. discount: different, worth testing, wants to see it work first | A | STATED INTENT | Supports Create move; owners need proof |
 | Would accept a third party only if she controls the seats and it doesn't look like a discount | B | STATED INTENT | **Changes the design:** owner control is a requirement |
 | Open to it if seats are hers to choose and for new customers only; would want new-vs-existing tracking but won't build it | C | STATED INTENT | **Changes the design:** new clients only; tracking is part of the product |
+
+### Expert: founder of NOVA, Egypt (n=1)
+
+| Feedback | Type | Supports or weakens |
+|---|---|---|
+| Studios had seen similar ideas before that never came to anything | REPORTED (expert) | Supports owner scepticism as a real adoption barrier |
+| Studios trusted NOVA because a co-founder is an instructor and the team was visibly committed | REPORTED (expert) | **New factor:** team credibility drives owner adoption |
+| Owners understood the win-win easily | REPORTED (expert) | Supports the two-sided value hypothesis |
+| A credit subscription failed at first because people were sceptical; credit packages worked | REPORTED (expert) | **Mixed:** recurring commitment puts people off, but prepaid packs were accepted |
+| Influencer marketing and word of mouth drove growth | REPORTED (expert) | Supports trust and social proof as adoption levers |
 
 ### Goers (n=2 interviews + 3 card trials)
 
@@ -69,6 +80,8 @@
 | JTBD trigger | Usual class full or cancelled | Unexpected free window | G1, G2 |
 | Price in the test | Not fixed | Full studio price in both arms, to separate price from commitment | G1, Trial P1 |
 | Riskiest assumption status | Working hypothesis | **Contested**, with booking certainty as a named rival | G2, Trial P2 |
+| Owner outreach | The offer alone would convince owners | Involve a respected instructor or studio insider in outreach; address "why will this one last?" up front | NOVA founder |
+| Phase 2 acquisition | Not defined | Test influencer and referral channels for goers | NOVA founder |
 
 ---
 
