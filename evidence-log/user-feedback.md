@@ -14,25 +14,25 @@
 
 | Code | Side | Method | Date | Location | Fit to target user | Detail file |
 |---|---|---|---|---|---|---|
-| G1 | Goer | Interview | [to add] | [to confirm] | Partial: gym member who occasionally tries boutique classes | `gym_goers.md` Persona 1 |
-| G2 | Goer | Interview | [to add] | [to confirm] | Good: no fixed studio, unpredictable schedule | `gym_goers.md` Persona 2 |
+| G1 | Goer | Interview | Not recorded | Not recorded | Partial: gym member who occasionally tries boutique classes | `gym_goers.md` Persona 1 |
+| G2 | Goer | Interview | Not recorded | Not recorded | Good: no fixed studio, unpredictable schedule | `gym_goers.md` Persona 2 |
 | G4 (Y.) | Goer | Zoom interview, recorded (2 min 09 s), by Yassin | 12 Oct 2026 | Rabat | Good: no studio or pack, schedule changes weekly | `interviews/transcriptions/gym_goer_yassin_interview.md` |
-| G5 | Goer | Recorded interview (3 min 54 s), by Khaled | [to add] | [to confirm] | Partial: gym member, never tried a boutique class | `interviews/transcriptions/Khaled-gym-goer-interview.md` |
-| G6 | Goer | Recorded interview (1 min 28 s), by Mariana | [to add] | Outside Morocco | **Proxy**: tries Pilates/yoga studios, past membership | `interviews/transcriptions/mariana-interviews.md` |
-| G7 | Goer | Interview, Spanish, translated transcript, by Sofía | [to add] | [to confirm] | Partial: satisfied gym member wanting occasional variety | `interviews/transcriptions/evidence.md` (GOER-001) |
+| G5 | Goer | Recorded interview (3 min 54 s), by Khaled | Not recorded | Not recorded | Partial: gym member, never tried a boutique class | `interviews/transcriptions/Khaled-gym-goer-interview.md` |
+| G6 | Goer | Recorded interview (1 min 28 s), by Mariana | Not recorded | Outside Morocco | **Proxy**: tries Pilates/yoga studios, past membership | `interviews/transcriptions/mariana-interviews.md` |
+| G7 | Goer | Interview, Spanish, translated transcript, by Sofía | Not recorded | Not recorded | Partial: satisfied gym member wanting occasional variety | `interviews/transcriptions/evidence.md` (GOER-001) |
 | G8 | Goer | Face-to-face, recorded (1 min 52 s), by Leen | 13 Oct 2026 | Casablanca | **Good**: trains at a gym, preparing for his first Hyrox race, no box or pack | `interviews/transcriptions/Leen-gym-goer-interview.1.md` |
-| Owner A | Owner | In-person visit | [to add] | [to confirm] | Good: sets schedule, watches bookings | `gym_owners.md` |
-| Owner B | Owner | Phone call | [to add] | [to confirm] | Good | `gym_owners.md` |
-| Owner C | Owner | In-person visit | [to add] | [to confirm] | Good | `gym_owners.md` |
-| Owner D | Owner | Recorded interview (3 min 02 s), by Khaled | [to add] | [to confirm] | Good: runs weekday midday classes of 8 | `interviews/transcriptions/Khaled-gym-owner-interview.md` |
+| Owner A | Owner | In-person visit | Not recorded | Not recorded | Good: sets schedule, watches bookings | `gym_owners.md` |
+| Owner B | Owner | Phone call | Not recorded | Not recorded | Good | `gym_owners.md` |
+| Owner C | Owner | In-person visit | Not recorded | Not recorded | Good | `gym_owners.md` |
+| Owner D | Owner | Recorded interview (3 min 02 s), by Khaled | Not recorded | Not recorded | Good: runs weekday midday classes of 8 | `interviews/transcriptions/Khaled-gym-owner-interview.md` |
 | Owner E (K.) | Owner | Zoom interview, recorded (2 min 01 s), by Yassin | 12 Oct 2026 | Rabat | Good: independent yoga and mobility studio, ~16 classes a week, sets the schedule | `interviews/transcriptions/gym-owner-rabat-yassin-interview.md` |
-| Owner F | Instructor/owner side (a manager sets prices) | Recorded interview (3 min 38 s), by Mariana | [to add] | Outside Morocco | **Proxy**: reformer studio, not the decision-maker | `interviews/transcriptions/mariana-interviews.md` |
+| Owner F | Instructor/owner side (a manager sets prices) | Recorded interview (3 min 38 s), by Mariana | Not recorded | Outside Morocco | **Proxy**: reformer studio, not the decision-maker | `interviews/transcriptions/mariana-interviews.md` |
 | A/B test (50 people, 25 per arm) | Goer | Two-version booking page, real WhatsApp reservations | 11–12 Oct 2026 | Casablanca and Rabat networks | Good: regular boutique class-goers | `ab-test-results.md`, `experiment-card.md` |
-| Expert: Aly Shourbagui | Founder of NOVA (Egypt), analogous platform | Interview | [to add] | Egypt | Expert, not a target user: evidence on owner adoption and go-to-market | `interview-nova-founder.md` |
+| Expert: Aly Shourbagui | Founder of NOVA (Egypt), analogous platform | Interview | Not recorded | Egypt | Expert, not a target user: evidence on owner adoption and go-to-market | `interview-nova-founder.md` |
 
 **Removed as evidence (12 Oct, after sprint feedback):** "Example-G3" and the three card trials (P1–P3) in `oz-trials.md`. They were illustrative examples of the method, not conversations with real people, so they are kept only as examples and no longer counted anywhere. The code G3 is retired to avoid confusion.
 
-**To complete before submission:** missing dates, and whether G1, G2, G5, G7 and Owners A–D are in Casablanca or Rabat. G6 and Owner F are outside Morocco and are marked as proxies. The rubric scores participant fit, so anyone outside Morocco is marked as a proxy.
+**Unknowns kept visible:** dates and cities were not recorded for G1, G2, G5, G7 and Owners A–D, so we report them as unconfirmed rather than guess. G6 and Owner F are outside Morocco and are marked as proxies, because the rubric scores participant fit.
 
 ---
 
