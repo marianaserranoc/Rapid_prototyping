@@ -32,7 +32,7 @@
 | **3 Arm A reservers had declined** | **0.074** | **No** |
 | 3 more Arm B people had reserved | 0.078 | No |
 
-**Fragility index = 3.** Three people answering differently would have made the result inconclusive. That's normal for n = 50, but it's why the Phase 2 pilot must replicate the effect with real attendance before we scale anything (`experiment-card-phase2.md`).
+**Fragility index = 3.** Three people answering differently would have made the result inconclusive. That's normal for n = 50, but it's why the Phase 2 pilot must replicate the effect with real attendance before we scale anything (`specs/roadmap.md`, Phase 2; kill criteria in `build-decision.md` §5).
 
 **Power:** if the true rates really are 64% and 28%, a 25-per-arm test would meet our rule about **68%** of the time. The test was big enough to detect a large effect, not a small one, as the experiment card said in advance.
 
