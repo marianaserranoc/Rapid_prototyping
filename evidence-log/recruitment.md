@@ -64,6 +64,6 @@ No names are kept in the repository. The per-person record for the reservation t
 
 | Stage | Goers A | Goers B | Owners |
 |---|---|---|---|
-| Link sent / contacted | 25 | 25 | [team to add] |
+| Link sent / contacted | 25 | 25 | Not recorded |
 | Replied (reserved or "not for me") | 25 | 25 | 6 |
 | Completed | 25 (16 reserved) | 25 (7 reserved) | 6 interviews |
