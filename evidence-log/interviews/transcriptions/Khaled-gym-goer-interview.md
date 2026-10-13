@@ -1,6 +1,6 @@
 # Interview Report — gym-goer (G5)
 
-**Interviewer:** Khaled · **Format:** audio recording (3 min 54 s) · **Date:** [to add] · **Location:** [to confirm: Casablanca / Rabat / other]
+**Interviewer:** Khaled · **Format:** audio recording (3 min 54 s) · **Date:** not recorded · **Location:** not recorded
 **Evidence status:** Real interview. Logged in `user-feedback.md` as G5.
 
 ## Answers (paraphrased)
