@@ -1,6 +1,6 @@
 # Interview Report — studio owner (Owner D)
 
-**Interviewer:** Khaled · **Format:** audio recording (3 min 02 s) · **Date:** [to add] · **Studio type and city:** [to confirm]
+**Interviewer:** Khaled · **Format:** audio recording (3 min 02 s) · **Date:** not recorded · **Studio type and city:** not recorded
 **Evidence status:** Real interview. Logged in `user-feedback.md` as Owner D.
 
 ## Answers (paraphrased)
