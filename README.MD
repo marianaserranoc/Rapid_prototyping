@@ -1,7 +1,7 @@
 # Daba
 
 **Full-price off-peak seats for independent boutique studios in Casablanca and Rabat.**
-Rapid Prototyping with AI · IE University · Team: [names]
+Rapid Prototyping with AI · IE University · Team: [Leen Hussein, Yassin Hamed, Yacine Bakkoury, Karim Shaalan, Sofía Abadía, Khaled Hamawi,  Mariana Serrano]
 
 ---
 
@@ -76,7 +76,6 @@ Rapid Prototyping with AI · IE University · Team: [names]
 │       └── validation.md
 ├── booking-test/              ← two-version booking page used in the reservation test
 ├── test-brief.md              ← one-page brief of the test and interviews
-├── presentation/qa-prep.md    ← 12-minute run sheet and the 12 hardest questions
 ├── downloads/                 ← AI helper prompts used
 ├── evidence-log/              ← what we know, and what supports it
 │   ├── opportunity.md   goals.md   assumptions.md   experiment-card.md
@@ -93,7 +92,6 @@ Rapid Prototyping with AI · IE University · Team: [names]
 │   ├── blue-ocean.md            ← where we stop competing on price; what's hard to copy
 │   ├── build-decision.md        ← go/no-go: what we build first, what we won't, kill criteria
 │   ├── ab-test-analysis.md      ← how sure we are: intervals, fragility, threats to validity
-│   ├── experiment-card-phase2.md ← the next test, with pass marks set before it runs
 │   ├── pre-mortem.md            ← how Daba could fail, early warnings, what we'd do
 │   ├── ai-usage-log.md
 │   └── personas/
